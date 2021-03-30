@@ -13,24 +13,7 @@ from rasa_sdk import Action, Tracker
 from rasa_sdk.events import SlotSet, EventType
 from rasa_sdk.executor import CollectingDispatcher
 from db_con import insert_data
-import webbrowser
 
-
-# class ActionVideo(Action):
-#     def name(self) -> Text:
-#         return "action_video"
-#
-#     async def run(
-#             self,
-#             dispatcher,
-#             tracker: Tracker,
-#             domain: "DomainDict",
-#     ) -> List[Dict[Text, Any]]:
-#         video_url = "https://youtu.be/jj4BL9o3Q7o"
-#         dispatcher.utter_message("wait... Playing your video.")
-#         webbrowser.open(video_url)
-#         return []
-from db_con import insert_data
 
 
 class ValidateRestaurantForm(Action):
