@@ -1,0 +1,687 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - tpo_information
+  - tpo_contact
+  - tpo_meet
+  - any_other_than_tpo
+  - placememt_information
+  - main_recruiters
+  - placement_MNC
+  - placement_non_core_branch
+  - placement_core_branch
+  - maximum_package
+  - upcomimg_campus_details
+  - traning_placement
+  - traning_fees_inquire
+  - time_inquire
+  - registration_traning
+  - certification_of_traning
+  - event_organize_by_MNC
+  - prev_traning_details
+  - more_detail_traning
+  - quries_regarding_placement
+  - computer_science
+  - info_technology
+  - mech_engineering
+  - civil_engineering
+  - electrical_engineering
+  - electronic_engineering
+  - placement_records
+  - placement_record_of_2013_14
+  - placement_record_of_2014_15
+  - placement_record_of_2015_16
+  - placement_record_of_2016_17
+  - placement_record_of_2017_18
+  - end
+  - start
+  - exisitng_user
+  - new_user
+
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+
+
+
+  utter_tpoinfo:
+  - text: "prof. Shailesh Ambekar is TPO of our college."
+
+  utter_tpocontact:
+  - text: "you can contact them on mobile no or drop a mail :
+           contact no:9422712321
+           Telephone No:240-2366357
+           email-id:tpo@geca.ac.in"
+
+  utter_tpomeet:
+  - text: "yes, you can meet them in college time. 10.30am to 5.00pm"
+
+  utter_any_other_than_tpo:
+  - text: "you can contact any of office coordinator:
+            Name:Patel Shoab Email-id:patelshoab77@gmail.com contact.no:7304477897
+            Name:Pradhyumna Jakate Email-id:pradhyumnaj@gmail.com contact.no:8408972460
+            Name:Onkar Navekar Email-id:onkarnavekar3@gmail.com  contact.no:8857990750
+            Name:Sahil Bhalerao Email-id:sahilbhalerao0204@gmail.com contact.no:7719066137"
+
+
+
+  utter_placememt_information:
+  - text: "we provide 100% placement"
+
+  utter_main_recruiters:
+  - text: " we have main recruiters like - Tata Consultancy Services, Larsen and Turbo,TCS Digital ,3DPLM Software,
+           		Lodha Group ,Grind Master ,Reliance Industries,Siemens Ltd.,CG Power and
+           Ind soln Ltd,Bizsense Solutions,Eumentis Cloud, Softlink Solution, ElasticRun etc."
+
+  utter_placement_MNC:
+  - text: "yes we have it"
+
+  utter_placement_non_core_branch:
+  - text: "yes we have good companies with good packages for non-core branches too.."
+
+  utter_placement_core_branch:
+  - text: "yes we have good companies with good packages for core branches too.."
+
+  utter_maximum_package:
+  - text: "according to our records and students performance we provide maximum package between 7 to 10 lack per annum."
+
+  utter_upcomimg_campus_details:
+  - text: "here is that: http://tpo.geca.ac.in/Default.aspx/"
+
+
+
+
+  utter_traning_placement:
+  - text: "Our college provide training and conduct workshop,events for placement preparation"
+
+  utter_traning_fees_inquire:
+  - text: "workshops and training are provides from college so you not need to pay anything."
+
+  utter_time_inquire:
+  - text: "you are allocate separate time for training or workshop"
+
+  utter_registration_traning:
+  - text: "you need to contact to your TPO student coordinator according to your branch"
+
+  utter_certification_of_traning:
+  - text: "you will not get any certificate separately but it get on your score card or added to your acedemic record"
+
+  utter_event_organize_by_MNC:
+  - text: "we organize hackathons and competitions which are conducted by companies"
+
+  utter_prev_traning_details:
+  - text: "from here you can get details of it: http://tpo.geca.ac.in/Default.aspx"
+
+  utter_more_detail_traning:
+  - text: "you can contact TPO students coordinator or visit this one : http://tpo.geca.ac.in/Default.aspx"
+
+  utter_quries_regarding_placement:
+  - text: "Okay, don't worry we are here to help you.choose you branch.."
+    buttons:
+      - title: "Computer science and Engineering"
+        payload: "/computer_science"
+      - title: "Information Technology"
+        payload: "/info_technology"
+      - title: "Mechanical Engineering "
+        payload: "/mech_engineering"
+      - title: "Civil Engineering"
+        payload: "/civil_engineering"
+      - title: "Electrical Engineering"
+        payload: "/electrical_engineering"
+      - title: "Electronics and Telecommunication"
+        payload: "/electronic_engineering"
+
+  utter_info_technology:
+  - text: " you can contact your TPO coordinator ---> Name: Rohit Salve  contact no: xxxxxxxxx"
+
+  utter_computer_science:
+  - text: "you can contact your TPO coordinator ---> Name : Gajanan Dhotre contact no: xxxxxxxxx"
+
+  utter_mech_engineering:
+  - text: "you can contact your TPO coordinator ---> Name: xxxxxxxxx   contact no: xxxxxxxxx"
+
+  utter_civil_engineering:
+  - text: "you can contact your TPO coordinator ---> Name: xxxxxxxxx  contact no: xxxxxxxxx"
+
+  utter_electrical_engineering:
+  - text: "you can contact your TPO coordinator ---> Name: xxxxxxxxx  contact no: xxxxxxxxx"
+
+  utter_electronic_engineering:
+  - text: "you can contact your TPO coordinator ---> Name: xxxxxxxxx  contact no: xxxxxxxxx"
+
+  utter_placement_records:
+  - text: "you can get our placement records from here : choose the year :-> "
+    buttons:
+      - title: "Placement Record of 2013-14"
+        payload: "/placement_record_of_2013_14"
+      - title: "Placement Record of 2014-15"
+        payload: "/placement_record_of_2014_15"
+      - title: "Placement Record of 2015-16"
+        payload: "/placement_record_of_2015_16"
+      - title: "Placement Record of 2016-17"
+        payload: "/placement_record_of_2016_17"
+      - title: "Placement Record of 2017-18"
+        payload: "/placement_record_of_2017_18"
+
+  utter_placement_record_of_2013_14:
+  - text: " here is that:-) http://tpo.geca.ac.in/PlacementRecords2013-14.aspx/"
+
+  utter_placement_record_of_2014_15:
+  - text: "here is that http://tpo.geca.ac.in/PlacementRecords2014-15.aspx/"
+
+  utter_placement_record_of_2015_16:
+  - text: "here is that http://tpo.geca.ac.in/PlacementRecords2015-16.aspx/"
+
+  utter_placement_record_of_2016_17:
+  - text: "here is that http://tpo.geca.ac.in/PlacementRecords2016-17.aspx/"
+
+  utter_placement_record_of_2017_18:
+  - text: "here is that http://tpo.geca.ac.in/PlacementRecords2017-18.aspx/"
+
+  utter_end:
+  - text: "It's my pleasure! Happy to help you :)"
+
+  utter_choice:
+  - text: "New user or existing user ?"
+
+  utter_createnewuser:
+  - text: "enter username and password"
+  - text: "retype password"
+
+  utter_existinguser:
+  - text: "enter username and password to login"
+
+  utter_Lib:
+  - text: " opening time for the library is 10.30 am.
+            Closing time for the library is 5.30 pm."
+
+  utter_Hostel:
+  - text: "Total four Hostel in this College.."
+
+  utter_boysHostel:
+  - text: " total two boys Hostel"
+
+  utter_girlHostel:
+  - text: " total two girls hostel old and new."
+  utter_Hostelf:
+  - text: " Good Mess , Fresh Food , Wi-Fi, Canteen, CC-TV Camera."
+
+  utter_messFood:
+  - text: " Vegetarian , Good quality, hygienic, full of nutrition."
+
+  utter_foodChart:
+  - text: " Yes, it follows the food chart for Breakfast,Lunch, Evening Snacks and Dinner."
+
+  utter_mobile:
+  - text: " Yes , mobile are allow in the hostel for only study purpose"
+
+  utter_parent:
+  - text: " 6.00 am to 8.00 am and evening 6.00 pm to 9.00 pm"
+
+  utter_medical:
+  - text: " We have 24 hours. first Aid Medical facility and our nursing staff every tuesday visit to hostel"
+
+  utter_HosName:
+  - text: " A , B , C, D are the name of Hostels"
+
+  utter_hosFee:
+  - text: " for Category students hostel fee is 1650 rs. per year. and general students it is 2500 rs."
+
+  utter_both:
+  - text: " Yes Hostel is provided for both girls as well as boys."
+
+  utter_skillcourse:
+  - text: " Yes , we are providing a skill courses like yoga, meditation, soft-skills etc."
+
+  utter_covid:
+  - text: " Provision for thermal scanning, hand wash, and sanitizer is done at entry and exit point
+            and common areas. Frequent sanitization of the entire hostel, common facilities, and all points which come into
+            human contact. Wearing of face cover is compulsory for all."
+
+  utter_fitness:
+  - text: " Apart from Gym and Evening sports, we give special focus on Yoga and Meditation. These session are regularly
+            organized by the experts."
+
+  utter_ragging:
+  - text: " Ragging of student in any form is strictly prohibited within and outside the campus.
+            An anti-ragging squad is always in operation under the overall charge of the Dean."
+
+  utter_visitCampus:
+  - text: " During this period of lockdown, you can virtually visit the campus using a 360 degree view option on the college
+            website. AS soon as the lockdown is lifted, you can visit the campus on any day between 8 am to 8 pm."
+
+  utter_RW:
+  - text: " Prof. Swami sir is rector for boys hostel and Prof. Injamuri mam is rector for girls hostel."
+
+  utter_capacity:
+  - text: " The Capacity for girls is 700 and boys is 1000."
+
+  utter_AC:
+  - text: " Only the Non-AC room for Hostelers."
+
+  utter_allotHostel:
+  - text: " allotment is on the basis of the merit list of each Department."
+
+  utter_accHostel:
+  - text: " We have accommodation with common bathrooms. "
+
+  utter_SHCapacity:
+  - text: " We have the two seater, three seater rooms in hostel."
+
+  utter_SepMess:
+  - text: " Yes, Hostel has the separate mess for girls and boys."
+
+  utter_infrastructure:
+  - text: " A basic bed , study table, chairs and cupboard is provided."
+
+  utter_VisitHome:
+  - text: " For Visiting to home Parents Application is sent to the Hostel via a Fax."
+
+  utter_raggingHostel:
+  - text: " Geca is a ragging free zone in hostel as well as in Campus. The different committees have been formulated for this purpose."
+  utter_VecHostel:
+  - text: " Yes, the hosteler can keep vehicle in the hostel with the written permission from the competent authority."
+
+  utter_secHostel:
+  - text: " Security Guard, Visit of hostel, Night Attendance."
+
+  utter_HelplineHostel:
+  - text: " Hostel-HelpLine -- 9999999999"
+
+  utter_hosLoc:
+  - text: " Geca hostel is located at Geca College In-front of Civil Department."
+
+  utter_ResWarden:
+  - text: " Yes, we have experienced full-time residential warden for each hostel."
+
+  utter_timmingMess:
+  - text: " Breakfast time = 8.00 am to 9.30 am.
+            Lunch time = 10.30 am to 1.30 pm.
+            Dinner time is 7.70 pm to 10.00 pm."
+
+  utter_RentMess:
+  - text: " Approximately the mess rent for per month is 2000 rs."
+
+  utter_hosATM:
+  - text: " Yes, In college campus there is a ATM Machine."
+
+  utter_studyRoom:
+  - text: " Hostel has the separate study Room for student"
+
+  utter_wifiHostel:
+  - text: " Hostel has the wifi facility. each student has the separate IP for a wifi."
+
+  utter_HostelHygenic:
+  - text: " Yes, Hostel is very hygienic. Cleaners daily clean the hostel."
+
+  utter_LibrianName:
+  - text: " XYZ"
+
+  utter_BookDatabase:
+  - text: " To find Database from the the  Library home page:
+
+            Click on Databases by Title (A-Z) (near the center of the screen). This will take you to the entire list of the  library's databases, where you will find a link to Books 24x7.
+
+            If you are prompted to login, use the same user name and password you use for your  classes.
+
+            Need more help? Contact us."
+
+
+
+  utter_BookType:
+  - text: " Varieties of publications are available.. such as Teaching and Teacher Education , Review of Educational Research.
+            British Journal of Education Technology, Studies in Higher Education."
+
+  utter_libBarcode:
+  - text: " You can find it the Library card and barcode number."
+
+
+  utter_LibTime:
+  - text: " Library opening time :- 10.30 AM
+            Library closing time. :- 5.30 PM"
+
+  utter_LibLocation:
+  - text: "Library Location :-Near the College Auditorium"
+
+  utter_LibFacility:
+  - text: " Geca library aims at providing access to its printed resources such as books and journals as well
+            as electronic journals and online database."
+
+  utter_LibDownload:
+  - text: " Yes, You can download the Books/ Pdf from the Database any time as yow want."
+
+  utter_OnlineAccess:
+  - text: " Visit to the Student Learning Resources in College website and access or download the book/pdf."
+
+  utter_BookIssue:
+  - text: " Each student can issue only Five Books on his/her account."
+
+  utter_classReading:
+  - text: " You can access your class reading books online from student learning resources.
+             or offline from college library."
+
+  utter_UploadBook:
+  - text: " Yes , you can upload or download the book online."
+
+
+  utter_LibDepartment:
+  - text: " Please Select Department..."
+    buttons:
+      - title: Mechanical Department
+        payload: "/mech"
+      - title: Civil Department
+        payload: "/civil"
+      - title: Computer Department
+        payload: "/cse"
+      - title: Electrical Department
+        payload: "/electrical"
+      - title: Electronic Department
+        payload: "/entc"
+
+  utter_mech:
+   - text: " Mechanical Department Students can visit the library on Day:- Monday. Between 10.30 am to 5.30 pm."
+
+  utter_civil:
+  - text: " Civil Department Students can visit the library on Day:- Tuesday. Between 10.30 am to 5.30 pm."
+
+  utter_cse:
+  - text: " Computer Department Students can visit the library on Day:- Wednesday. Between 10.30 am to 5.30 pm."
+
+  utter_electrical:
+  - text: " Electrical Department Students can visit the library on Day:- Thursday. Between 10.30 am to 5.30 pm."
+
+  utter_entc:
+  - text: " Electronic and Telecommunication Department Students can visit the library on Day:- Friday. Between 10.30 am to 5.30 pm."
+
+  utter_onlineBook:
+  - text: " Books are available both online or offline. As your comfort you can use it."
+
+
+  utter_studentLib:
+  - text: " student library time between 10.30 am to 1.00 pm
+            2.00 pm to 5.30 pm."
+
+
+  utter_FacultyTime:
+  - text: " Faculty/Teacher can visit to library any time."
+
+
+  utter_findJA:
+  - text: " Please see Journal and Articles from Student Learning resources.
+            You can access the Journal and Article."
+
+  utter_requestBook:
+  - text: " You can request a book from library by using your Library Card Id Number.
+             Book is assign to particular user using barcode."
+
+
+  utter_RCL:
+  - text: " Student, faculty, and staff may schedule an appointment with a librarian for one-on-one
+            assistance in finding relevant information for research papers."
+
+
+  utter_LibNo:
+  - text: " Library Contact No. - 9999999999"
+
+  utter_LibInternet:
+  - text: " All time Internet Facility in library."
+
+
+  utter_NewsPaper:
+  - text: " Yes Various News Papers are available for students.
+            Example:- Times, Century Old Time , Franklin Gothic"
+
+
+
+  utter_dueDate:
+  - text: " Yes, If you do not renew the book within one month then particular charges is applied."
+
+
+  utter_RenewBook:
+  - text: " It is mandatory to renew the book within the one month."
+
+
+  utter_guestLib:
+  - text: " There is no membership for the guest/visitors in the library."
+
+  utter_LibHour:
+  - text: " Library open at morning 10.30 Am.
+            close at evening 5.30 pm."
+
+
+
+  utter_LibEmail:
+  - text: " Library Email:- academics3@geca.ac.in"
+
+
+  utter_LibStudyRoom:
+  - text: "Study Room is available for all student without any reservation."
+
+
+  utter_LibResource:
+  - text: " There is a Librarian who helps in finding the resources."
+
+
+  utter_CheckOutBook:
+  - text: " Take your Library Card and the book(s) you want to check out to the Access & Instruction Desk on the first floor of the library. A staff member there will scan your card, check out the books to your account, and stamp the due dates into the books.
+          "
+
+  utter_LibRegistration:
+  - text:  " For freshers, the following items are required for Library Registration:
+
+             1)Clearance form from the college.
+             2)Payment receipt(s)
+             3)2 recent passport  photographs
+             4)Registration number
+             Registration is done at the beginning of each session for all students.
+
+            To renew your Library Registration, you need to produce:
+
+             1)Your old Library ticket
+             2)School fees payment receipt(s)
+             3)Confirmation of your studentship by your HOD"
+
+
+
+  utter_bookLoc:
+  - text: "To locate a book in the library, use the library's website to search for the title, author, or keyword. Once you find the book online, click on its title to access the location, call number, and status.
+           ....
+
+           If you want the Hard Copy of book you can visit to the Library and find the books in particular Department Rack."
+
+
+
+  utter_LibEntry:
+  - text: " It is compulsory to enter your library (id) number to software  before enter into the library and exit from the library"
+
+  utter_ExtraPay:
+  - text:  " No charge for the books."
+
+  utter_LibCard:
+  - text: " Each students gets maximum Five Library Card.You can Issue only one book from one card."
+
+
+  utter_CardLoss:
+  - text: "You may also report your card loss or stolen in person of the library. Also you can replace your library card by completing a
+            new application and bringing it(with ID and proof of address) to the library for no charge."
+
+
+  utter_VisitLab:
+  - text: " Student can visit the library Daily for study. but he/she can borrow/return books
+            only two times in per week."
+
+
+
+  utter_borrowBook:
+  - text: " Any Geca Institution staff member with a ID can apply for a library borrowers card.
+            Please complete a Borrowing Registration/Authorization form."
+
+
+
+  utter_RequestMaterial:
+  - text: " Visiting to the library in-person is not convenient, please complete an online request form.
+            Fill out as much information as possible about the article or book title you want."
+
+
+  utter_returnBook:
+  - text: " After the End Semester Exam is finish. Kindly return the Books of Library."
+
+
+
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+actions :
+    - utter_tpoinfo
+    - utter_tpocontact
+    - utter_tpomeet
+    - utter_any_other_than_tpo
+    - utter_placememt_information
+    - utter_main_recruiters
+    - utter_placement_MNC
+    - utter_placement_non_core_branch
+    - utter_placement_core_branch
+    - utter_maximum_package
+    - utter_upcomimg_campus_details
+    - utter_traning_placement
+    - utter_traning_fees_inquire
+    - utter_time_inquire
+    - utter_registration_traning
+    - utter_certification_of_traning
+    - utter_event_organize_by_MNC
+    - utter_prev_traning_details
+    - utter_more_detail_traning
+    - utter_quries_regarding_placement
+    - utter_info_technology
+    - utter_computer_science
+    - utter_mech_engineering
+    - utter_civil_engineering
+    - utter_electrical_engineering
+    - utter_electronic_engineering
+    - utter_placement_records
+    - utter_placement_record_of_2013_14
+    - utter_placement_record_of_2014_15
+    - utter_placement_record_of_2015_16
+    - utter_placement_record_of_2016_17
+    - utter_placement_record_of_2017_18
+    - utter_end
+    - utter_choice
+    - utter_createnewuser
+    - utter_existinguser
+    - utter_UserType
+    - utter_Lib
+    - utter_Hostel
+    - utter_medical
+    - utter_HosName
+    - utter_hosFee
+    - utter_both
+    - utter_skillcourse
+    - utter_covid
+    - utter_fitness
+    - utter_ragging
+    - utter_visitCampus
+    - utter_RW
+    - utter_capacity
+    - utter_AC
+    - utter_allotHostel
+    - utter_accHostel
+    - utter_SHCapacity
+    - utter_SepMess
+    - utter_infrastructure
+    - utter_VisitHome
+    - utter_raggingHostel
+    - utter_VecHostel
+    - utter_secHostel
+    - utter_HelplineHostel
+    - utter_hosLoc
+    - utter_ResWarden
+    - utter_timmingMess
+    - utter_RentMess
+    - utter_hosATM
+    - utter_studyRoom
+    - utter_wifiHostel
+    - utter_HostelHygenic
+    - utter_girlHostel
+    - utter_boysHostel
+    - utter_Hostelf
+    - utter_messFood
+    - utter_foodChart
+    - utter_mobile
+    - utter_parent
+    - utter_LibrianName
+    - utter_BookDatabase
+    - utter_BookType
+    - utter_libBarcode
+    - utter_LibTime
+    - utter_LibLocation
+    - utter_LibFacility
+    - utter_LibDownload
+    - utter_OnlineAccess
+    - utter_BookIssue
+    - utter_classReading
+    - utter_UploadBook
+    - utter_LibDepartment
+    - utter_onlineBook
+    - utter_studentLib
+    - utter_FacultyTime
+    - utter_findJA
+    - utter_requestBook
+    - utter_RCL
+    - utter_LibNo
+    - utter_LibInternet
+    - utter_NewsPaper
+    - utter_dueDate
+    - utter_RenewBook
+    - utter_guestLib
+    - utter_LibHour
+    - utter_LibEmail
+    - utter_LibStudyRoom
+    - utter_LibResource
+    - utter_CheckOutBook
+    - utter_LibRegistration
+    - utter_bookLoc
+    - utter_LibEntry
+    - utter_ExtraPay
+    - utter_LibCard
+    - utter_CardLoss
+    - utter_VisitLab
+    - utter_borrowBook
+    - utter_RequestMaterial
+    - utter_returnBook
+    - utter_mech
+    - utter_civil
+    - utter_electrical
+    - utter_cse
+    - utter_entc
+
+
+
+
