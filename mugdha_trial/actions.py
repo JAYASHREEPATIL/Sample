@@ -1,4 +1,5 @@
 
+from data.db_con import insert_data
 
 
 # This files contains your custom actions which can be used to run
@@ -15,8 +16,7 @@ from typing import Any, Text, Dict, List
 from rasa_sdk import Action, Tracker
 from rasa_sdk.events import SlotSet, EventType
 from rasa_sdk.executor import CollectingDispatcher
-from db_con import insert_data
-
+# from db_con import insert_data
 
 
 class ValidateRestaurantForm(Action):
@@ -26,7 +26,7 @@ class ValidateRestaurantForm(Action):
     def run(
             self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict
     ) -> List[EventType]:
-        required_slots = ["uname", "pswd"]
+        required_slots = ["uname", "passwd"]
 
         for slot_name in required_slots:
             if tracker.slots.get(slot_name) is None:
@@ -49,9 +49,10 @@ class ActionSubmit(Action):
     ) -> List[Dict[Text, Any]]:
         dispatcher.utter_message(template="utter_details_thanks",
                                  UserName=tracker.get_slot("uname"),
-                                 Password=tracker.get_slot("pswd"))
-        insert_data(tracker.get_slot("uname"), tracker.get_slot("pswd"))
+                                 Password=tracker.get_slot("passwd"))
+        insert_data(tracker.get_slot("uname"), tracker.get_slot("passwd"))
         dispatcher.utter_message("Thanks for valuable feedback")
 
         return []
+
 
