@@ -1,0 +1,1882 @@
+<!DOCTYPE html>
+<!-- saved from url=(0121)https://mis.geca.ac.in/iitmsBc7v/5ATpfgP+mw7tYwMKyDFX8z+ybDDZNC4zuw+WZs=?enc=fldsFvHoSrZjoX/iOyB6YfwxTQn+AjMGk7UzoVAmN3c= -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7"><meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport"><title>
+	Government College of Engineering Aurangabad
+</title><link rel="shortcut icon" href="https://mis.geca.ac.in/IMAGES/geca_fevicon.jpg" type="image/x-icon">
+    <meta name="google-signin-client_id" content="756005764126-6b0tt497vp345vfn0nso5reuonq5o11l.apps.googleusercontent.com">
+        <!-- Bootstrap 3.3.6 -->
+        <link href="./geca-after-login_files/bootstrap.min.css" rel="stylesheet">
+        
+        <link href="./geca-after-login_files/feedback.css" rel="stylesheet">
+        <link href="./geca-after-login_files/font-awesome.min.css" rel="stylesheet">
+        <link href="./geca-after-login_files/AdminLTE.min.css" rel="stylesheet">
+        <link href="./geca-after-login_files/_all-skins.min.css" rel="stylesheet">
+        <link href="./geca-after-login_files/animate.min.css" rel="stylesheet">
+        <link href="./geca-after-login_files/dataTables.bootstrap.css" rel="stylesheet">
+        
+        <link href="./geca-after-login_files/customcss.css" rel="stylesheet">
+    
+        <!-- jQuery 2.2.0 -->
+        <script src="./geca-after-login_files/cb=gapi.loaded_0" async=""></script><script src="./geca-after-login_files/jQuery-2.2.0.min.js.download"></script>
+        <!-- Bootstrap 3.3.6 -->
+        <script src="./geca-after-login_files/bootstrap.min.js.download"></script>
+        <script src="./geca-after-login_files/jquery.dataTables.min.js.download"></script>
+         
+        <!-- DataTables -->
+        <script src="./geca-after-login_files/jquery.slimscroll.min.js.download"></script>
+        <!-- FastClick -->
+        <script src="./geca-after-login_files/fastclick.js.download"></script>
+        <script src="./geca-after-login_files/dataTables.bootstrap.min.js.download"></script>
+    
+    
+    <style type="text/css">
+        /*#ctl00_lblShow {
+              -webkit-animation: blink 5s 0s;
+               animation: blink 5s 0s;
+        }*/
+
+        #ctl00_lblShow {
+            -webkit-animation-name: blink;
+            -moz-animation-name: blink;
+            -o-animation-name: blink;
+            animation-name: blink;
+            -webktit-animation-timing-function: linear;
+            -moz-animation-timing-function: linear;
+            -o-animation-timing-function: linear;
+            animation-timing-function: linear;
+            -webkit-animation-duration: 1s;
+            -moz-animation-duration: 1s;
+            -o-animation-duration: 1s;
+            animation-duration: 1s;
+            color: red;
+        }
+
+        #ctl00_lblShow {
+            -webkit-animation-iteration-count: infinite;
+            -moz-animation-iteration-count: infinite;
+            -o-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+            color: Red;
+        }
+
+
+        @-webkit-keyframes blink {
+            50% {
+                opacity: 0;
+            }
+        }
+
+        @-moz-keyframes blink {
+            50% {
+                opacity: 0;
+            }
+        }
+
+        @keyframes blink {
+            100% {
+                opacity: 0;
+            }
+        }
+    </style>
+
+    
+    <style type="text/css">
+        .freshwidget-dialog {
+            position: fixed;
+            margin: auto;
+            right: 0;
+            left: initial;
+            transition: .2s ease;
+        }
+
+        div#minimize-div {
+            right: 20px;
+            position: absolute;
+            left: 452px;
+            top: 10px;
+            z-index: 9999;
+            padding: 2px 10px;
+            cursor: pointer;
+        }
+
+        .modal-widget .modal-header .fa {
+            float: right;
+        }
+
+        #minimized-div {
+            padding: 5px 10px;
+            background-color: #dbdbdb;
+            font-size: 14px;
+            position: fixed;
+            bottom: 30px;
+            right: 5%;
+            display: none;
+            cursor: pointer;
+            border-top-left-radius: 6px;
+            border-top-right-radius: 6px;
+            z-index: 9999;
+        }
+
+        .inactive {
+            pointer-events: none;
+            opacity: .5;
+        }
+
+        a.freshwidget-theme {
+            background-color: #4080bf !important;
+            border-color: #4080bf !important;
+            top: 50%;
+            transform: translateY(-50%);
+            -webkit-transform: translateY(-50%);
+            -moz-transform: translateY(-50%);
+        }
+
+        .frame-container::after {
+            content: '';
+            display: block;
+            position: absolute;
+            height: 46px;
+            width: 200px;
+            background-color: #fff;
+            top: 1px;
+            right: 22px;
+        }
+    </style>
+    
+    
+    <style type="text/css">
+        .UpperCaseFirstLetter {
+            text-transform: capitalize;
+        }
+    </style>
+    
+
+    
+    <script src="./geca-after-login_files/freshwidget.js.download"></script>
+    <script>
+        $(document).ready(function () {
+            $('.freshwidget-container').css({ 'display': 'block' });
+            $('body').on('click', '#minimize-div', function () {
+                $('.freshwidget-container').hide();
+                $('#minimized-div').show();
+                $('#freshwidget-button').addClass('inactive');
+            });
+            $('body').on('click', '#minimized-div', function () {
+                $('.freshwidget-container').show();
+            });
+            $('body').on('click', '.widget-close', function () {
+                $('#minimized-div').hide();
+                $('#freshwidget-button').removeClass('inactive');
+            });
+
+        });
+    </script>
+    
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+
+    
+    <script type="text/javascript" language="javascript">
+        function CheckAlphabet(event, obj) {
+
+            var k = (window.event) ? event.keyCode : event.which;
+            if (k == 8 || k == 9 || k == 43 || k == 95 || k == 0 || k == 32 || k == 46) {
+                obj.style.backgroundColor = "White";
+                return true;
+
+            }
+            if (k >= 65 && k <= 90 || k >= 97 && k <= 122) {
+                obj.style.backgroundColor = "White";
+                return true;
+
+            }
+            else {
+                alert('Please Enter Alphabets Only!');
+                obj.focus();
+            }
+            return false;
+        }
+
+
+        function CheckNumeric(event, obj) {
+            var k = (window.event) ? event.keyCode : event.which;
+            //alert(k);
+            if (k == 8 || k == 9 || k == 43 || k == 95 || k == 0) {
+                obj.style.backgroundColor = "White";
+                return true;
+            }
+            if (k > 45 && k < 58) {
+                obj.style.backgroundColor = "White";
+                return true;
+
+            }
+            else {
+                alert('Please Enter numeric Value');
+                obj.focus();
+            }
+            return false;
+        }
+
+        function CheckAlphaNumeric(event, obj) {
+
+            var k = (window.event) ? event.keyCode : event.which;
+
+            // alert(k);
+
+            if (k == 8 || k == 9 || k == 16 || k == 0 || k == 32 || k == 45) {
+                obj.style.backgroundColor = "White";
+                return true;
+
+            }
+            if (k > 45 && k < 58 || k > 95 && k < 106 || k > 64 && k < 91 || k > 96 && k < 123) {
+                obj.style.backgroundColor = "White";
+                return true;
+
+            }
+            else {
+                alert('Please Enter Alphabets & Numbers Only!');
+                obj.focus();
+            }
+            return false;
+        }
+    </script>
+
+
+
+   
+<style type="text/css">
+	/* <![CDATA[ */
+	#ctl00_mainMenu img.icon { border-style:none;vertical-align:middle; }
+	#ctl00_mainMenu img.separator { border-style:none;display:block; }
+	#ctl00_mainMenu img.horizontal-separator { border-style:none;vertical-align:middle; }
+	#ctl00_mainMenu ul { list-style:none;margin:0;padding:0;width:auto; }
+	#ctl00_mainMenu ul.dynamic { z-index:1; }
+	#ctl00_mainMenu a { text-decoration:none;white-space:nowrap;display:block; }
+	#ctl00_mainMenu a.static { padding-left:0.15em;padding-right:0.15em; }
+	#ctl00_mainMenu a.popout { background-image:url("/WebResource.axd?d=Ex-J_UKFJ0e4LygcmAYmEVf_TIZMn4fCRawA50X8yeYTCwijY0V3s5jLGXX1HR0PayGjKHwipwyuvhhjNv109rmUcZF7g-Qon1jHFanK8fs1&t=637454267640000000");background-repeat:no-repeat;background-position:right center;padding-right:14px; }
+	/* ]]> */
+</style><style>.abcRioButton{border-radius:1px;box-shadow:0 2px 4px 0 rgba(0,0,0,.25);-moz-box-sizing:border-box;box-sizing:border-box;-webkit-transition:background-color .218s,border-color .218s,box-shadow .218s;transition:background-color .218s,border-color .218s,box-shadow .218s;-webkit-user-select:none;-webkit-appearance:none;background-color:#fff;background-image:none;color:#262626;cursor:pointer;outline:none;overflow:hidden;position:relative;text-align:center;vertical-align:middle;white-space:nowrap;width:auto}.abcRioButton:hover{box-shadow:0 0 3px 3px rgba(66,133,244,.3)}.abcRioButtonBlue{border:none;color:#fff}.abcRioButtonBlue,.abcRioButtonBlue:hover{background-color:#4285f4}.abcRioButtonBlue:active{background-color:#3367d6}.abcRioButtonLightBlue{background-color:#fff;color:#757575}.abcRioButtonLightBlue:active{background-color:#eee;color:#6d6d6d}.abcRioButtonIcon{float:left}.abcRioButtonBlue .abcRioButtonIcon{background-color:#fff;border-radius:1px}.abcRioButtonSvg{display:block}.abcRioButtonContents{font-family:Roboto,arial,sans-serif;font-size:14px;font-weight:500;letter-spacing:.21px;margin-left:6px;margin-right:6px;vertical-align:top}.abcRioButtonContentWrapper{height:100%;width:100%}.abcRioButtonBlue .abcRioButtonContentWrapper{border:1px solid transparent}.abcRioButtonErrorWrapper,.abcRioButtonWorkingWrapper{display:none;height:100%;width:100%}.abcRioButtonErrorIcon,.abcRioButtonWorkingIcon{margin-left:auto;margin-right:auto}.abcRioButtonErrorState,.abcRioButtonWorkingState{border:1px solid #d5d5d5;border:1px solid rgba(0,0,0,.17);box-shadow:0 1px 0 rgba(0,0,0,.05);color:#262626}.abcRioButtonErrorState:hover,.abcRioButtonWorkingState:hover{border:1px solid #aaa;border:1px solid rgba(0,0,0,.25);box-shadow:0 1px 0 rgba(0,0,0,.1)}.abcRioButtonErrorState:active,.abcRioButtonWorkingState:active{border:1px solid #aaa;border:1px solid rgba(0,0,0,.25);box-shadow:inset 0 1px 0 #ddd;color:#262626}.abcRioButtonWorkingState,.abcRioButtonWorkingState:hover{background-color:#f5f5f5}.abcRioButtonWorkingState:active{background-color:#e5e5e5}.abcRioButtonErrorState,.abcRioButtonErrorState:hover{background-color:#fff}.abcRioButtonErrorState:active{background-color:#e5e5e5}.abcRioButtonErrorState .abcRioButtonErrorWrapper,.abcRioButtonWorkingState .abcRioButtonWorkingWrapper{display:block}.abcRioButtonErrorState .abcRioButtonContentWrapper,.abcRioButtonErrorState .abcRioButtonWorkingWrapper,.abcRioButtonWorkingState .abcRioButtonContentWrapper{display:none} .-webkit-keyframes abcRioButtonWorkingIconPathSpinKeyframes {0% {-webkit-transform: rotate(0deg)}}</style></head>
+<body class="hold-transition skin-blue layout-top-nav">
+
+    
+    <script src="./geca-after-login_files/platform.js.download" async="" defer="" gapi_processed="true"></script>
+    <script type="text/javascript">
+
+        function onSocialSignInForAssociatingUser(googleUser) {
+            // Useful data for your client-side scripts:
+            var profile = googleUser.getBasicProfile();
+            console.log("ID: " + profile.getId()); // Don't send this directly to your
+            console.log('Email: ' + profile.getEmail());
+            // server!
+            var id_token = googleUser.getAuthResponse().id_token;
+            // The ID token you need to pass to your backend:
+            var sLoginData = {
+                "id": profile.getId(),
+                "idToken": id_token
+            };
+            var sloginid = profile.getId();
+            var gmail_id = profile.getEmail();
+
+            $(document).ready(function () {
+                var Ua_no = '3212';
+                $.ajax({
+                    url: '/WEB_API/Stud_Info.asmx/Add_UserGoogleInfo',
+                    //  data: { UA_NO: Ua_no, PROFILE: profile, IDTOKEN: id_token, SLOGINDATA: sLoginData},
+                    data: { UA_NO: Ua_no, IDTOKEN: gmail_id, SLOGINDATA: sloginid },//, SLOGINDATA: sloginid },
+                    type: 'POST',
+                    dataType: 'text',
+
+                    success: function (r) {
+                        alert('You have successfully registered Google Sign In...!!');
+                    },
+                    error: function (e) {
+                        alert('Try Again..!!');
+                    }
+
+                })
+            })
+            var auth2 = gapi.auth2.getAuthInstance();
+            auth2.signOut().then(function () {
+                console.log('User signed out.');
+            });
+
+        }
+    </script>
+    
+
+    <form method="post" action="https://mis.geca.ac.in/iitmsBc7v/5ATpfgP+mw7tYwMKyDFX8z+ybDDZNC4zuw+WZs=?%2fstudeHome.aspx" id="aspnetForm">
+<div class="aspNetHidden">
+<input type="hidden" name="ctl00_ToolkitScriptManager1_HiddenField" id="ctl00_ToolkitScriptManager1_HiddenField" value=";;AjaxControlToolkit, Version=3.0.20229.20843, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e:en-US:3b7d1b28-161f-426a-ab77-b345f2c428f5:e2e86ef9:1df13a87:3858419b:9ea3f0e2:96741c43:c4c00916:c7c04611:cd120801:38ec41c0">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMjEyMDMwODY3Mg8WAh4JaXBBZGRyZXNzBQ0xNTIuNTcuMzguMTAzFgJmD2QWBGYPZBYEAggPZBYCZg8VASQuLi9wbHVnaW5zL2ZlZWRiYWNrL2Nzcy9mZWVkYmFjay5jc3NkAgoPFQElLi4vcGx1Z2lucy9mZWVkYmFjay9qcy9mcmVzaHdpZGdldC5qc2QCAQ9kFiACAg88KwANAQwUKwAFBQ8wOjAsMDoxLDA6MiwwOjMUKwACFgQeBFRleHQFCEFDQURFTUlDHgtOYXZpZ2F0ZVVybGUUKwADBQcwOjAsMDoxFCsAAhYEHwEFHVN0dWRlbnQgU2VjdGlvbiAtIFRyYW5zYWN0aW9uHwJlFCsABAULMDowLDA6MSwwOjIUKwACFgQfAQUTQ291cnNlIFJlZ2lzdHJhdGlvbh8CBSpBQ0FERU1JQy9Db3Vyc2VSZWdpc3RyYXRpb24uYXNweD9wYWdlbm89ODRkFCsAAhYEHwEFGFN0dWRlbnQgRmVlZGJhY2sgQW5zd2Vycx8CBSxBQ0FERU1JQy9TdHVkZW50RmVlZEJhY2tBbnMuYXNweD9wYWdlbm89MTQxMmQUKwACFgQfAQUeQWRtaXNzaW9uIFBheW1lbnQvQ29uZmlybWF0aW9uHwIFLUFDQURFTUlDL09ubGluZUFkbWlzc2lvbkZvcm0uYXNweD9wYWdlbm89MTc4MWQUKwACFgQfAQUJQWRtaXNzaW9uHwJlFCsAAwUHMDowLDA6MRQrAAIWBB8BBRNTdHVkZW50IEluZm9ybWF0aW9uHwIFKGFjYWRlbWljL1N0dWRlbnRJbmZvRW50cnkuYXNweD9wYWdlbm89NzRkFCsAAhYEHwEFFVN0dWRlbnQgRGV0YWlsIHNlYXJjaB8CBTFBY2FkZW1pYy9Db21wcmVoZW5zaXZlX1N0dWRfUmVwb3J0LmFzcHg/cGFnZW5vPTc2ZBQrAAIWBB8BBQtFWEFNSU5BVElPTh8CZRQrAAMFBzA6MCwwOjEUKwACFgQfAQUNRXhhbSBBY3Rpdml0eR8CZRQrAAMFBzA6MCwwOjEUKwACFgQfAQURRXhhbSBSZWdpc3RyYXRpb24fAgUyQUNBREVNSUMvU3R1ZGVudF9FeGFtUmVnaXN0cmF0aW9uLmFzcHg/cGFnZW5vPTE3NDZkFCsAAhYEHwEFFFJlLUV4YW0gUmVnaXN0cmF0aW9uHwIFOkFDQURFTUlDL1N0dWRlbnRfQmFja2xvZ19FeGFtUmVnaXN0cmF0aW9uLmFzcHg/cGFnZW5vPTE3NzNkFCsAAhYEHwEFD0V4YW0gVGltZSBUYWJsZR8CZRQrAAIFAzA6MBQrAAIWBB8BBRtFeGFtIEhhbGwgVGlja2V0IEdlbmVyYXRpb24fAgVAQUNBREVNSUMvRVhBTUlOQVRJT04vU3R1ZGVudEV4YW1BZG1pdENhcmRSZXBvcnQuYXNweD9wYWdlbm89MTY1NWQUKwACFgQfAQUKRS1MRUFSTklORx8CZRQrAAMFBzA6MCwwOjEUKwACFgQfAQUMVHJhbnNhY3Rpb25zHwJlFCsAAgUDMDowFCsAAhYEHwEFDVNlbGVjdCBDb3Vyc2UfAgUiSXRsZS9TZWxlY3Rjb3Vyc2UuYXNweD9wYWdlbm89MTQ0NWQUKwACFgQfAQUEVmlldx8CZRQrAAIFAzA6MBQrAAIWBB8BBQlWaWV3IEV4YW0fAgUeSXRsZS9TdHVkVGVzdC5hc3B4P3BhZ2Vubz0xNDc2ZBQrAAIWBB8BBQZIT1NURUwfAmUUKwACBQMwOjAUKwACFgQfAQULVHJhbnNhY3Rpb24fAmUUKwACBQMwOjAUKwACFgQfAQUTT25saW5lIEFwcGx5IEhvc3RlbB8CBRJIT1NURUw/cGFnZW5vPTEwNzRkFixmD2QWAmYPFQEIQUNBREVNSUNkAgEPZBYCZg8VAR1TdHVkZW50IFNlY3Rpb24gLSBUcmFuc2FjdGlvbmQCAg9kFgJmDxUBE0NvdXJzZSBSZWdpc3RyYXRpb25kAgMPZBYCZg8VARhTdHVkZW50IEZlZWRiYWNrIEFuc3dlcnNkAgQPZBYCZg8VAR5BZG1pc3Npb24gUGF5bWVudC9Db25maXJtYXRpb25kAgUPZBYCZg8VAQlBZG1pc3Npb25kAgYPZBYCZg8VARNTdHVkZW50IEluZm9ybWF0aW9uZAIHD2QWAmYPFQEVU3R1ZGVudCBEZXRhaWwgc2VhcmNoZAIID2QWAmYPFQELRVhBTUlOQVRJT05kAgkPZBYCZg8VAQ1FeGFtIEFjdGl2aXR5ZAIKD2QWAmYPFQERRXhhbSBSZWdpc3RyYXRpb25kAgsPZBYCZg8VARRSZS1FeGFtIFJlZ2lzdHJhdGlvbmQCDA9kFgJmDxUBD0V4YW0gVGltZSBUYWJsZWQCDQ9kFgJmDxUBG0V4YW0gSGFsbCBUaWNrZXQgR2VuZXJhdGlvbmQCDg9kFgJmDxUBCkUtTEVBUk5JTkdkAg8PZBYCZg8VAQxUcmFuc2FjdGlvbnNkAhAPZBYCZg8VAQ1TZWxlY3QgQ291cnNlZAIRD2QWAmYPFQEEVmlld2QCEg9kFgJmDxUBCVZpZXcgRXhhbWQCEw9kFgJmDxUBBkhPU1RFTGQCFA9kFgJmDxUBC1RyYW5zYWN0aW9uZAIVD2QWAmYPFQETT25saW5lIEFwcGx5IEhvc3RlbGQCAw8PFgIeCEltYWdlVXJsBSV+L3Nob3dpbWFnZS5hc3B4P2lkPTI2OTMmdHlwZT1TVFVERU5UZGQCBA8PFgIfAwUlfi9zaG93aW1hZ2UuYXNweD9pZD0yNjkzJnR5cGU9U1RVREVOVGRkAgUPDxYCHwEFH1dlbGNvbWUgSkFZQVNIUkVFIEJIQUdXQVQgUEFUSUxkZAIGDxYCHgdWaXNpYmxlaGQCDA9kFgQCAw8PFgIfAQUFMDk6MzVkZAIEDw8WAh8BBQJQTWRkAg4PFgIfBGcWAgIBDxYCHgRocmVmBURodHRwczovL21pcy5nZWNhLmFjLmluL0FDQURFTUlDL09ubGluZUFkbWlzc2lvbkZvcm0uYXNweD9wYWdlbm89MTc4MRYCZg8WAh4JaW5uZXJodG1sBR5BZG1pc3Npb24gUGF5bWVudC9Db25maXJtYXRpb25kAg8PFgIfBGcWAgIBDxYCHwUFP2h0dHBzOi8vbWlzLmdlY2EuYWMuaW4vYWNhZGVtaWMvU3R1ZGVudEluZm9FbnRyeS5hc3B4P3BhZ2Vubz03NBYCZg8WAh8GBRNTdHVkZW50IEluZm9ybWF0aW9uZAIQDxYCHwRnFgICAQ8WAh8FBTlodHRwczovL21pcy5nZWNhLmFjLmluL0l0bGUvU2VsZWN0Y291cnNlLmFzcHg/cGFnZW5vPTE0NDUWAmYPFgIfBgUNU2VsZWN0IENvdXJzZWQCEQ8WAh8EZxYCAgEPFgIfBQVDaHR0cHM6Ly9taXMuZ2VjYS5hYy5pbi9BQ0FERU1JQy9TdHVkZW50RmVlZEJhY2tBbnMuYXNweD9wYWdlbm89MTQxMhYCZg8WAh8GBRhTdHVkZW50IEZlZWRiYWNrIEFuc3dlcnNkAhIPFgIfBGcWAgIBDxYCHwUFQWh0dHBzOi8vbWlzLmdlY2EuYWMuaW4vQUNBREVNSUMvQ291cnNlUmVnaXN0cmF0aW9uLmFzcHg/cGFnZW5vPTg0FgJmDxYCHwYFE0NvdXJzZSBSZWdpc3RyYXRpb25kAhMPFgIfBGcWAgIBDxYCHwUFSGh0dHBzOi8vbWlzLmdlY2EuYWMuaW4vQWNhZGVtaWMvQ29tcHJlaGVuc2l2ZV9TdHVkX1JlcG9ydC5hc3B4P3BhZ2Vubz03NhYCZg8WAh8GBRVTdHVkZW50IERldGFpbCBzZWFyY2hkAhQPFgIfBGcWAgIBDxYCHwUFSWh0dHBzOi8vbWlzLmdlY2EuYWMuaW4vQUNBREVNSUMvU3R1ZGVudF9FeGFtUmVnaXN0cmF0aW9uLmFzcHg/cGFnZW5vPTE3NDYWAmYPFgIfBgURRXhhbSBSZWdpc3RyYXRpb25kAhUPFgIfBGcWAgIBDxYCHwUFNWh0dHBzOi8vbWlzLmdlY2EuYWMuaW4vSXRsZS9TdHVkVGVzdC5hc3B4P3BhZ2Vubz0xNDc2FgJmDxYCHwYFCVZpZXcgRXhhbWQCFg8WAh8EZxYCAgEPFgIfBQUpaHR0cHM6Ly9taXMuZ2VjYS5hYy5pbi9IT1NURUw/cGFnZW5vPTEwNzQWAmYPFgIfBgUTT25saW5lIEFwcGx5IEhvc3RlbGQCFw8WAh8EZxYCAgEPFgIfBQVXaHR0cHM6Ly9taXMuZ2VjYS5hYy5pbi9BQ0FERU1JQy9FWEFNSU5BVElPTi9TdHVkZW50RXhhbUFkbWl0Q2FyZFJlcG9ydC5hc3B4P3BhZ2Vubz0xNjU1FgJmDxYCHwYFG0V4YW0gSGFsbCBUaWNrZXQgR2VuZXJhdGlvbmRkQZ4A3X5teSpEQPma0PNwzldaes7a5el3yurXUA3w1nY=">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="./geca-after-login_files/WebResource.axd" type="text/javascript"></script>
+
+
+<script src="./geca-after-login_files/ScriptResource.axd" type="text/javascript"></script>
+<script src="./geca-after-login_files/ScriptResource(1).axd" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="./geca-after-login_files/ScriptResource(2).axd" type="text/javascript"></script>
+<script src="./geca-after-login_files/studeHome.aspx" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="B1BB5B1C">
+</div>
+        <div class="wrapper">
+            <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ToolkitScriptManager1', 'aspnetForm', ['tctl00$updPopUp_Link','','tctl00$uplInterNetConnectionCheck',''], [], [], 90, 'ctl00');
+//]]>
+</script>
+
+           
+            <header class="main-header">
+                <!-- Googl Sign in! Deepali-->
+                <div class="fixed-google" hidden="">
+                    <div class="g-signin2" data-onsuccess="onSocialSignInForAssociatingUser" data-theme="dark" title="click here for create google Sign In" data-gapiscan="true" data-onload="true"><div style="height:36px;width:120px;" class="abcRioButton abcRioButtonBlue"><div class="abcRioButtonContentWrapper"><div class="abcRioButtonIcon" style="padding:8px"><div style="width:18px;height:18px;" class="abcRioButtonSvgImageWithFallback abcRioButtonIconImage abcRioButtonIconImage18"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 48 48" class="abcRioButtonSvg"><g><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"></path><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"></path><path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"></path><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"></path><path fill="none" d="M0 0h48v48H0z"></path></g></svg></div></div><span style="font-size:13px;line-height:34px;" class="abcRioButtonContents"><span id="not_signed_in209inbktj2h1">Sign in</span><span id="connected209inbktj2h1" style="display:none">Signed in</span></span></div></div></div>
+                </div>
+                <!--X!-->
+                <div class="row row1" style="padding: 0">
+                    <div class="col-md-12 text-center">
+
+                        <img class="clg-logo" src="./geca-after-login_files/nitS_logo.png">
+                        <h2 class="text-center title-mainhead" style="display: inline-grid;">Government College of Engineering, Aurangabad<span class="title-head">(An Autonomous Institute Of Government Of Maharashtra)</span>
+                            <span class="title-subhead">Railway Station Road, Aurangabad, Maharashtra</span>
+                        </h2>
+
+                    </div>
+                </div>
+                <nav class="navbar">
+
+
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse pull-left" id="navbar-collapse">
+                        <div class="live-search-list">
+                            <a href="https://mis.geca.ac.in/iitmsBc7v/5ATpfgP+mw7tYwMKyDFX8z+ybDDZNC4zuw+WZs=?enc=fldsFvHoSrZjoX/iOyB6YfwxTQn+AjMGk7UzoVAmN3c=#ctl00_mainMenu_SkipLink"><img alt="Skip Navigation Links" src="./geca-after-login_files/WebResource(1).axd" width="0" height="0" style="border-width:0px;"></a><div id="ctl00_mainMenu" style="float: left;">
+	<ul class="level1 nav navbar-nav static" tabindex="0" role="menubar" style="position: relative; width: auto; float: left;">
+		<li class="has-popup static" aria-haspopup="ctl00_mainMenu:submenu:2" role="menuitem" style="position: relative; float: left;"><a class="popout level1 static" href="https://mis.geca.ac.in/iitmsBc7v/5ATpfgP+mw7tYwMKyDFX8z+ybDDZNC4zuw+WZs=?enc=fldsFvHoSrZjoX/iOyB6YfwxTQn+AjMGk7UzoVAmN3c=#" onclick="__doPostBack(&#39;ctl00$mainMenu&#39;,&#39;ACADEMIC&#39;)" tabindex="-1">
+                                    ACADEMIC
+                                <span class="caret"></span></a><ul class="level2 dropdown-menu dynamic" id="ctl00_mainMenu:submenu:2" style="display: none; position: absolute; top: 100%; left: 0px;">
+			<li class="has-popup dynamic" aria-haspopup="ctl00_mainMenu:submenu:3" role="menuitem" style="position: relative;"><a class="popout level2 dynamic" href="https://mis.geca.ac.in/iitmsBc7v/5ATpfgP+mw7tYwMKyDFX8z+ybDDZNC4zuw+WZs=?enc=fldsFvHoSrZjoX/iOyB6YfwxTQn+AjMGk7UzoVAmN3c=#" onclick="__doPostBack(&#39;ctl00$mainMenu&#39;,&#39;ACADEMIC\\Student Section - Transaction&#39;)" tabindex="-1">
+                                    Student Section - Transaction
+                                <span class="caret arrow-right"></span><span class="caret" style="display: none;"></span></a><ul class="level3 dropdown-menu dynamic" id="ctl00_mainMenu:submenu:3" style="display: none; position: absolute; top: 0px; left: 100%;">
+				<li role="menuitem" class="dynamic" style="position: relative; display: flex;"><a class="level3 dynamic" href="https://mis.geca.ac.in/ACADEMIC/CourseRegistration.aspx?pageno=84" tabindex="-1">
+                                    Course Registration
+                                </a><i class="fa fa-star"></i></li><li role="menuitem" class="dynamic" style="position: relative; display: flex;"><a class="level3 dynamic" href="https://mis.geca.ac.in/ACADEMIC/StudentFeedBackAns.aspx?pageno=1412" tabindex="-1">
+                                    Student Feedback Answers
+                                </a><i class="fa fa-star"></i></li><li role="menuitem" class="dynamic" style="position: relative; display: flex;"><a class="level3 dynamic" href="https://mis.geca.ac.in/ACADEMIC/OnlineAdmissionForm.aspx?pageno=1781" tabindex="-1">
+                                    Admission Payment/Confirmation
+                                </a><i class="fa fa-star"></i></li>
+			</ul></li><li class="has-popup dynamic" aria-haspopup="ctl00_mainMenu:submenu:8" role="menuitem" style="position: relative;"><a class="popout level2 dynamic" href="https://mis.geca.ac.in/iitmsBc7v/5ATpfgP+mw7tYwMKyDFX8z+ybDDZNC4zuw+WZs=?enc=fldsFvHoSrZjoX/iOyB6YfwxTQn+AjMGk7UzoVAmN3c=#" onclick="__doPostBack(&#39;ctl00$mainMenu&#39;,&#39;ACADEMIC\\Admission&#39;)" tabindex="-1">
+                                    Admission
+                                <span class="caret arrow-right"></span><span class="caret" style="display: none;"></span></a><ul class="level3 dropdown-menu dynamic" id="ctl00_mainMenu:submenu:8" style="display: none; position: absolute; top: 0px; left: 100%;">
+				<li role="menuitem" class="dynamic" style="position: relative; display: flex;"><a class="level3 dynamic" href="https://mis.geca.ac.in/academic/StudentInfoEntry.aspx?pageno=74" tabindex="-1">
+                                    Student Information
+                                </a><i class="fa fa-star"></i></li><li role="menuitem" class="dynamic" style="position: relative; display: flex;"><a class="level3 dynamic" href="https://mis.geca.ac.in/Academic/Comprehensive_Stud_Report.aspx?pageno=76" tabindex="-1">
+                                    Student Detail search
+                                </a><i class="fa fa-star"></i></li>
+			</ul></li>
+		</ul></li><li class="has-popup static" aria-haspopup="ctl00_mainMenu:submenu:13" role="menuitem" style="position: relative; float: left;"><a class="popout level1 static" href="https://mis.geca.ac.in/iitmsBc7v/5ATpfgP+mw7tYwMKyDFX8z+ybDDZNC4zuw+WZs=?enc=fldsFvHoSrZjoX/iOyB6YfwxTQn+AjMGk7UzoVAmN3c=#" onclick="__doPostBack(&#39;ctl00$mainMenu&#39;,&#39;EXAMINATION&#39;)" tabindex="-1">
+                                    EXAMINATION
+                                <span class="caret"></span></a><ul class="level2 dropdown-menu dynamic" id="ctl00_mainMenu:submenu:13" style="display: none; position: absolute; top: 100%; left: 0px;">
+			<li class="has-popup dynamic" aria-haspopup="ctl00_mainMenu:submenu:14" role="menuitem" style="position: relative;"><a class="popout level2 dynamic" href="https://mis.geca.ac.in/iitmsBc7v/5ATpfgP+mw7tYwMKyDFX8z+ybDDZNC4zuw+WZs=?enc=fldsFvHoSrZjoX/iOyB6YfwxTQn+AjMGk7UzoVAmN3c=#" onclick="__doPostBack(&#39;ctl00$mainMenu&#39;,&#39;EXAMINATION\\Exam Activity&#39;)" tabindex="-1">
+                                    Exam Activity
+                                <span class="caret arrow-right"></span><span class="caret" style="display: none;"></span></a><ul class="level3 dropdown-menu dynamic" id="ctl00_mainMenu:submenu:14" style="display: none; position: absolute; top: 0px; left: 100%;">
+				<li role="menuitem" class="dynamic" style="position: relative; display: flex;"><a class="level3 dynamic" href="https://mis.geca.ac.in/ACADEMIC/Student_ExamRegistration.aspx?pageno=1746" tabindex="-1">
+                                    Exam Registration
+                                </a><i class="fa fa-star"></i></li><li role="menuitem" class="dynamic" style="position: relative; display: flex;"><a class="level3 dynamic" href="https://mis.geca.ac.in/ACADEMIC/Student_Backlog_ExamRegistration.aspx?pageno=1773" tabindex="-1">
+                                    Re-Exam Registration
+                                </a><i class="fa fa-star"></i></li>
+			</ul></li><li class="has-popup dynamic" aria-haspopup="ctl00_mainMenu:submenu:18" role="menuitem" style="position: relative;"><a class="popout level2 dynamic" href="https://mis.geca.ac.in/iitmsBc7v/5ATpfgP+mw7tYwMKyDFX8z+ybDDZNC4zuw+WZs=?enc=fldsFvHoSrZjoX/iOyB6YfwxTQn+AjMGk7UzoVAmN3c=#" onclick="__doPostBack(&#39;ctl00$mainMenu&#39;,&#39;EXAMINATION\\Exam Time Table&#39;)" tabindex="-1">
+                                    Exam Time Table
+                                <span class="caret arrow-right"></span><span class="caret" style="display: none;"></span></a><ul class="level3 dropdown-menu dynamic" id="ctl00_mainMenu:submenu:18" style="display: none; position: absolute; top: 0px; left: 100%;">
+				<li role="menuitem" class="dynamic" style="position: relative; display: flex;"><a class="level3 dynamic" href="https://mis.geca.ac.in/ACADEMIC/EXAMINATION/StudentExamAdmitCardReport.aspx?pageno=1655" tabindex="-1">
+                                    Exam Hall Ticket Generation
+                                </a><i class="fa fa-star"></i></li>
+			</ul></li>
+		</ul></li><li class="has-popup static" aria-haspopup="ctl00_mainMenu:submenu:22" role="menuitem" style="position: relative; float: left;"><a class="popout level1 static" href="https://mis.geca.ac.in/iitmsBc7v/5ATpfgP+mw7tYwMKyDFX8z+ybDDZNC4zuw+WZs=?enc=fldsFvHoSrZjoX/iOyB6YfwxTQn+AjMGk7UzoVAmN3c=#" onclick="__doPostBack(&#39;ctl00$mainMenu&#39;,&#39;E-LEARNING&#39;)" tabindex="-1">
+                                    E-LEARNING
+                                <span class="caret"></span></a><ul class="level2 dropdown-menu dynamic" id="ctl00_mainMenu:submenu:22" style="display: none; position: absolute; top: 100%; left: 0px;">
+			<li class="has-popup dynamic" aria-haspopup="ctl00_mainMenu:submenu:23" role="menuitem" style="position: relative;"><a class="popout level2 dynamic" href="https://mis.geca.ac.in/iitmsBc7v/5ATpfgP+mw7tYwMKyDFX8z+ybDDZNC4zuw+WZs=?enc=fldsFvHoSrZjoX/iOyB6YfwxTQn+AjMGk7UzoVAmN3c=#" onclick="__doPostBack(&#39;ctl00$mainMenu&#39;,&#39;E-LEARNING\\Transactions&#39;)" tabindex="-1">
+                                    Transactions
+                                <span class="caret arrow-right"></span><span class="caret" style="display: none;"></span></a><ul class="level3 dropdown-menu dynamic" id="ctl00_mainMenu:submenu:23" style="display: none; position: absolute; top: 0px; left: 100%;">
+				<li role="menuitem" class="dynamic" style="position: relative; display: flex;"><a class="level3 dynamic" href="https://mis.geca.ac.in/Itle/Selectcourse.aspx?pageno=1445" tabindex="-1">
+                                    Select Course
+                                </a><i class="fa fa-star"></i></li>
+			</ul></li><li class="has-popup dynamic" aria-haspopup="ctl00_mainMenu:submenu:26" role="menuitem" style="position: relative;"><a class="popout level2 dynamic" href="https://mis.geca.ac.in/iitmsBc7v/5ATpfgP+mw7tYwMKyDFX8z+ybDDZNC4zuw+WZs=?enc=fldsFvHoSrZjoX/iOyB6YfwxTQn+AjMGk7UzoVAmN3c=#" onclick="__doPostBack(&#39;ctl00$mainMenu&#39;,&#39;E-LEARNING\\View&#39;)" tabindex="-1">
+                                    View
+                                <span class="caret arrow-right"></span><span class="caret" style="display: none;"></span></a><ul class="level3 dropdown-menu dynamic" id="ctl00_mainMenu:submenu:26" style="display: none; position: absolute; top: 0px; left: 100%;">
+				<li role="menuitem" class="dynamic" style="position: relative; display: flex;"><a class="level3 dynamic" href="https://mis.geca.ac.in/Itle/StudTest.aspx?pageno=1476" tabindex="-1">
+                                    View Exam
+                                </a><i class="fa fa-star"></i></li>
+			</ul></li>
+		</ul></li><li class="has-popup static" aria-haspopup="ctl00_mainMenu:submenu:30" role="menuitem" style="position: relative; float: left;"><a class="popout level1 static" href="https://mis.geca.ac.in/iitmsBc7v/5ATpfgP+mw7tYwMKyDFX8z+ybDDZNC4zuw+WZs=?enc=fldsFvHoSrZjoX/iOyB6YfwxTQn+AjMGk7UzoVAmN3c=#" onclick="__doPostBack(&#39;ctl00$mainMenu&#39;,&#39;HOSTEL&#39;)" tabindex="-1">
+                                    HOSTEL
+                                <span class="caret"></span></a><ul class="level2 dropdown-menu dynamic" id="ctl00_mainMenu:submenu:30" style="display: none; position: absolute; top: 100%; left: 0px;">
+			<li class="has-popup dynamic" aria-haspopup="ctl00_mainMenu:submenu:31" role="menuitem" style="position: relative;"><a class="popout level2 dynamic" href="https://mis.geca.ac.in/iitmsBc7v/5ATpfgP+mw7tYwMKyDFX8z+ybDDZNC4zuw+WZs=?enc=fldsFvHoSrZjoX/iOyB6YfwxTQn+AjMGk7UzoVAmN3c=#" onclick="__doPostBack(&#39;ctl00$mainMenu&#39;,&#39;HOSTEL\\Transaction&#39;)" tabindex="-1">
+                                    Transaction
+                                <span class="caret arrow-right"></span><span class="caret" style="display: none;"></span></a><ul class="level3 dropdown-menu dynamic" id="ctl00_mainMenu:submenu:31" style="display: none; position: absolute; top: 0px; left: 100%;">
+				<li role="menuitem" class="dynamic" style="position: relative; display: flex;"><a class="level3 dynamic" href="https://mis.geca.ac.in/HOSTEL?pageno=1074" tabindex="-1">
+                                    Online Apply Hostel
+                                </a><i class="fa fa-star"></i></li>
+			</ul></li>
+		</ul></li>
+	</ul>
+</div><div style="clear: left;"></div><a id="ctl00_mainMenu_SkipLink"></a>
+                        </div>
+                    </div>
+
+                    <div class="navbar-custom-menu">
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <div class="search-box">
+                                    <div class="cross-btn">
+                                        
+                                        <i class="fa fa-times-circle" aria-hidden="true"></i>
+                                    </div>
+                                    <input type="search" class="live-search-box" placeholder="search">
+                                    <div class="live-search-area scrollbar">
+                                        <div class="jj"><div id="ctl00_mainMenu" style="float: left;">
+	<ul class="level1 nav navbar-nav static" tabindex="0" role="menubar" style="position: relative; width: auto; float: left;">
+		<li class="has-popup static" aria-haspopup="ctl00_mainMenu:submenu:2" role="menuitem" style="position: relative; float: left;" data-search-term="
+                                    academic
+                                
+			
+                                    student section - transaction
+                                
+				
+                                    course registration
+                                
+                                    student feedback answers
+                                
+                                    admission payment/confirmation
+                                
+			
+                                    admission
+                                
+				
+                                    student information
+                                
+                                    student detail search
+                                
+			
+		"><a class="popout level1 static" href="https://mis.geca.ac.in/iitmsBc7v/5ATpfgP+mw7tYwMKyDFX8z+ybDDZNC4zuw+WZs=?enc=fldsFvHoSrZjoX/iOyB6YfwxTQn+AjMGk7UzoVAmN3c=#" onclick="__doPostBack(&#39;ctl00$mainMenu&#39;,&#39;ACADEMIC&#39;)" tabindex="-1">
+                                    ACADEMIC
+                                <span class="caret"></span></a><ul class="level2 dropdown-menu dynamic" id="ctl00_mainMenu:submenu:2" style="display: none; position: absolute; top: 100%; left: 0px;">
+			<li class="has-popup dynamic" aria-haspopup="ctl00_mainMenu:submenu:3" role="menuitem" style="position: relative;" data-search-term="
+                                    student section - transaction
+                                
+				
+                                    course registration
+                                
+                                    student feedback answers
+                                
+                                    admission payment/confirmation
+                                
+			"><a class="popout level2 dynamic" href="https://mis.geca.ac.in/iitmsBc7v/5ATpfgP+mw7tYwMKyDFX8z+ybDDZNC4zuw+WZs=?enc=fldsFvHoSrZjoX/iOyB6YfwxTQn+AjMGk7UzoVAmN3c=#" onclick="__doPostBack(&#39;ctl00$mainMenu&#39;,&#39;ACADEMIC\\Student Section - Transaction&#39;)" tabindex="-1">
+                                    Student Section - Transaction
+                                <span class="caret arrow-right"></span><span class="caret" style="display: none;"></span></a><ul class="level3 dropdown-menu dynamic" id="ctl00_mainMenu:submenu:3" style="display: none; position: absolute; top: 0px; left: 100%;">
+				<li role="menuitem" class="dynamic" style="position: relative; display: flex;" data-search-term="
+                                    course registration
+                                "><a class="level3 dynamic" href="https://mis.geca.ac.in/ACADEMIC/CourseRegistration.aspx?pageno=84" tabindex="-1">
+                                    Course Registration
+                                </a><i class="fa fa-star"></i></li><li role="menuitem" class="dynamic" style="position: relative; display: flex;" data-search-term="
+                                    student feedback answers
+                                "><a class="level3 dynamic" href="https://mis.geca.ac.in/ACADEMIC/StudentFeedBackAns.aspx?pageno=1412" tabindex="-1">
+                                    Student Feedback Answers
+                                </a><i class="fa fa-star"></i></li><li role="menuitem" class="dynamic" style="position: relative; display: flex;" data-search-term="
+                                    admission payment/confirmation
+                                "><a class="level3 dynamic" href="https://mis.geca.ac.in/ACADEMIC/OnlineAdmissionForm.aspx?pageno=1781" tabindex="-1">
+                                    Admission Payment/Confirmation
+                                </a><i class="fa fa-star"></i></li>
+			</ul></li><li class="has-popup dynamic" aria-haspopup="ctl00_mainMenu:submenu:8" role="menuitem" style="position: relative;" data-search-term="
+                                    admission
+                                
+				
+                                    student information
+                                
+                                    student detail search
+                                
+			"><a class="popout level2 dynamic" href="https://mis.geca.ac.in/iitmsBc7v/5ATpfgP+mw7tYwMKyDFX8z+ybDDZNC4zuw+WZs=?enc=fldsFvHoSrZjoX/iOyB6YfwxTQn+AjMGk7UzoVAmN3c=#" onclick="__doPostBack(&#39;ctl00$mainMenu&#39;,&#39;ACADEMIC\\Admission&#39;)" tabindex="-1">
+                                    Admission
+                                <span class="caret arrow-right"></span><span class="caret" style="display: none;"></span></a><ul class="level3 dropdown-menu dynamic" id="ctl00_mainMenu:submenu:8" style="display: none; position: absolute; top: 0px; left: 100%;">
+				<li role="menuitem" class="dynamic" style="position: relative; display: flex;" data-search-term="
+                                    student information
+                                "><a class="level3 dynamic" href="https://mis.geca.ac.in/academic/StudentInfoEntry.aspx?pageno=74" tabindex="-1">
+                                    Student Information
+                                </a><i class="fa fa-star"></i></li><li role="menuitem" class="dynamic" style="position: relative; display: flex;" data-search-term="
+                                    student detail search
+                                "><a class="level3 dynamic" href="https://mis.geca.ac.in/Academic/Comprehensive_Stud_Report.aspx?pageno=76" tabindex="-1">
+                                    Student Detail search
+                                </a><i class="fa fa-star"></i></li>
+			</ul></li>
+		</ul></li><li class="has-popup static" aria-haspopup="ctl00_mainMenu:submenu:13" role="menuitem" style="position: relative; float: left;" data-search-term="
+                                    examination
+                                
+			
+                                    exam activity
+                                
+				
+                                    exam registration
+                                
+                                    re-exam registration
+                                
+			
+                                    exam time table
+                                
+				
+                                    exam hall ticket generation
+                                
+			
+		"><a class="popout level1 static" href="https://mis.geca.ac.in/iitmsBc7v/5ATpfgP+mw7tYwMKyDFX8z+ybDDZNC4zuw+WZs=?enc=fldsFvHoSrZjoX/iOyB6YfwxTQn+AjMGk7UzoVAmN3c=#" onclick="__doPostBack(&#39;ctl00$mainMenu&#39;,&#39;EXAMINATION&#39;)" tabindex="-1">
+                                    EXAMINATION
+                                <span class="caret"></span></a><ul class="level2 dropdown-menu dynamic" id="ctl00_mainMenu:submenu:13" style="display: none; position: absolute; top: 100%; left: 0px;">
+			<li class="has-popup dynamic" aria-haspopup="ctl00_mainMenu:submenu:14" role="menuitem" style="position: relative;" data-search-term="
+                                    exam activity
+                                
+				
+                                    exam registration
+                                
+                                    re-exam registration
+                                
+			"><a class="popout level2 dynamic" href="https://mis.geca.ac.in/iitmsBc7v/5ATpfgP+mw7tYwMKyDFX8z+ybDDZNC4zuw+WZs=?enc=fldsFvHoSrZjoX/iOyB6YfwxTQn+AjMGk7UzoVAmN3c=#" onclick="__doPostBack(&#39;ctl00$mainMenu&#39;,&#39;EXAMINATION\\Exam Activity&#39;)" tabindex="-1">
+                                    Exam Activity
+                                <span class="caret arrow-right"></span><span class="caret" style="display: none;"></span></a><ul class="level3 dropdown-menu dynamic" id="ctl00_mainMenu:submenu:14" style="display: none; position: absolute; top: 0px; left: 100%;">
+				<li role="menuitem" class="dynamic" style="position: relative; display: flex;" data-search-term="
+                                    exam registration
+                                "><a class="level3 dynamic" href="https://mis.geca.ac.in/ACADEMIC/Student_ExamRegistration.aspx?pageno=1746" tabindex="-1">
+                                    Exam Registration
+                                </a><i class="fa fa-star"></i></li><li role="menuitem" class="dynamic" style="position: relative; display: flex;" data-search-term="
+                                    re-exam registration
+                                "><a class="level3 dynamic" href="https://mis.geca.ac.in/ACADEMIC/Student_Backlog_ExamRegistration.aspx?pageno=1773" tabindex="-1">
+                                    Re-Exam Registration
+                                </a><i class="fa fa-star"></i></li>
+			</ul></li><li class="has-popup dynamic" aria-haspopup="ctl00_mainMenu:submenu:18" role="menuitem" style="position: relative;" data-search-term="
+                                    exam time table
+                                
+				
+                                    exam hall ticket generation
+                                
+			"><a class="popout level2 dynamic" href="https://mis.geca.ac.in/iitmsBc7v/5ATpfgP+mw7tYwMKyDFX8z+ybDDZNC4zuw+WZs=?enc=fldsFvHoSrZjoX/iOyB6YfwxTQn+AjMGk7UzoVAmN3c=#" onclick="__doPostBack(&#39;ctl00$mainMenu&#39;,&#39;EXAMINATION\\Exam Time Table&#39;)" tabindex="-1">
+                                    Exam Time Table
+                                <span class="caret arrow-right"></span><span class="caret" style="display: none;"></span></a><ul class="level3 dropdown-menu dynamic" id="ctl00_mainMenu:submenu:18" style="display: none; position: absolute; top: 0px; left: 100%;">
+				<li role="menuitem" class="dynamic" style="position: relative; display: flex;" data-search-term="
+                                    exam hall ticket generation
+                                "><a class="level3 dynamic" href="https://mis.geca.ac.in/ACADEMIC/EXAMINATION/StudentExamAdmitCardReport.aspx?pageno=1655" tabindex="-1">
+                                    Exam Hall Ticket Generation
+                                </a><i class="fa fa-star"></i></li>
+			</ul></li>
+		</ul></li><li class="has-popup static" aria-haspopup="ctl00_mainMenu:submenu:22" role="menuitem" style="position: relative; float: left;" data-search-term="
+                                    e-learning
+                                
+			
+                                    transactions
+                                
+				
+                                    select course
+                                
+			
+                                    view
+                                
+				
+                                    view exam
+                                
+			
+		"><a class="popout level1 static" href="https://mis.geca.ac.in/iitmsBc7v/5ATpfgP+mw7tYwMKyDFX8z+ybDDZNC4zuw+WZs=?enc=fldsFvHoSrZjoX/iOyB6YfwxTQn+AjMGk7UzoVAmN3c=#" onclick="__doPostBack(&#39;ctl00$mainMenu&#39;,&#39;E-LEARNING&#39;)" tabindex="-1">
+                                    E-LEARNING
+                                <span class="caret"></span></a><ul class="level2 dropdown-menu dynamic" id="ctl00_mainMenu:submenu:22" style="display: none; position: absolute; top: 100%; left: 0px;">
+			<li class="has-popup dynamic" aria-haspopup="ctl00_mainMenu:submenu:23" role="menuitem" style="position: relative;" data-search-term="
+                                    transactions
+                                
+				
+                                    select course
+                                
+			"><a class="popout level2 dynamic" href="https://mis.geca.ac.in/iitmsBc7v/5ATpfgP+mw7tYwMKyDFX8z+ybDDZNC4zuw+WZs=?enc=fldsFvHoSrZjoX/iOyB6YfwxTQn+AjMGk7UzoVAmN3c=#" onclick="__doPostBack(&#39;ctl00$mainMenu&#39;,&#39;E-LEARNING\\Transactions&#39;)" tabindex="-1">
+                                    Transactions
+                                <span class="caret arrow-right"></span><span class="caret" style="display: none;"></span></a><ul class="level3 dropdown-menu dynamic" id="ctl00_mainMenu:submenu:23" style="display: none; position: absolute; top: 0px; left: 100%;">
+				<li role="menuitem" class="dynamic" style="position: relative; display: flex;" data-search-term="
+                                    select course
+                                "><a class="level3 dynamic" href="https://mis.geca.ac.in/Itle/Selectcourse.aspx?pageno=1445" tabindex="-1">
+                                    Select Course
+                                </a><i class="fa fa-star"></i></li>
+			</ul></li><li class="has-popup dynamic" aria-haspopup="ctl00_mainMenu:submenu:26" role="menuitem" style="position: relative;" data-search-term="
+                                    view
+                                
+				
+                                    view exam
+                                
+			"><a class="popout level2 dynamic" href="https://mis.geca.ac.in/iitmsBc7v/5ATpfgP+mw7tYwMKyDFX8z+ybDDZNC4zuw+WZs=?enc=fldsFvHoSrZjoX/iOyB6YfwxTQn+AjMGk7UzoVAmN3c=#" onclick="__doPostBack(&#39;ctl00$mainMenu&#39;,&#39;E-LEARNING\\View&#39;)" tabindex="-1">
+                                    View
+                                <span class="caret arrow-right"></span><span class="caret" style="display: none;"></span></a><ul class="level3 dropdown-menu dynamic" id="ctl00_mainMenu:submenu:26" style="display: none; position: absolute; top: 0px; left: 100%;">
+				<li role="menuitem" class="dynamic" style="position: relative; display: flex;" data-search-term="
+                                    view exam
+                                "><a class="level3 dynamic" href="https://mis.geca.ac.in/Itle/StudTest.aspx?pageno=1476" tabindex="-1">
+                                    View Exam
+                                </a><i class="fa fa-star"></i></li>
+			</ul></li>
+		</ul></li><li class="has-popup static" aria-haspopup="ctl00_mainMenu:submenu:30" role="menuitem" style="position: relative; float: left;" data-search-term="
+                                    hostel
+                                
+			
+                                    transaction
+                                
+				
+                                    online apply hostel
+                                
+			
+		"><a class="popout level1 static" href="https://mis.geca.ac.in/iitmsBc7v/5ATpfgP+mw7tYwMKyDFX8z+ybDDZNC4zuw+WZs=?enc=fldsFvHoSrZjoX/iOyB6YfwxTQn+AjMGk7UzoVAmN3c=#" onclick="__doPostBack(&#39;ctl00$mainMenu&#39;,&#39;HOSTEL&#39;)" tabindex="-1">
+                                    HOSTEL
+                                <span class="caret"></span></a><ul class="level2 dropdown-menu dynamic" id="ctl00_mainMenu:submenu:30" style="display: none; position: absolute; top: 100%; left: 0px;">
+			<li class="has-popup dynamic" aria-haspopup="ctl00_mainMenu:submenu:31" role="menuitem" style="position: relative;" data-search-term="
+                                    transaction
+                                
+				
+                                    online apply hostel
+                                
+			"><a class="popout level2 dynamic" href="https://mis.geca.ac.in/iitmsBc7v/5ATpfgP+mw7tYwMKyDFX8z+ybDDZNC4zuw+WZs=?enc=fldsFvHoSrZjoX/iOyB6YfwxTQn+AjMGk7UzoVAmN3c=#" onclick="__doPostBack(&#39;ctl00$mainMenu&#39;,&#39;HOSTEL\\Transaction&#39;)" tabindex="-1">
+                                    Transaction
+                                <span class="caret arrow-right"></span><span class="caret" style="display: none;"></span></a><ul class="level3 dropdown-menu dynamic" id="ctl00_mainMenu:submenu:31" style="display: none; position: absolute; top: 0px; left: 100%;">
+				<li role="menuitem" class="dynamic" style="position: relative; display: flex;" data-search-term="
+                                    online apply hostel
+                                "><a class="level3 dynamic" href="https://mis.geca.ac.in/HOSTEL?pageno=1074" tabindex="-1">
+                                    Online Apply Hostel
+                                </a><i class="fa fa-star"></i></li>
+			</ul></li>
+		</ul></li>
+	</ul>
+</div></div>
+                                        
+                                            
+                                          
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="dropdown user user-menu">
+                                <a href="https://mis.geca.ac.in/iitmsBc7v/5ATpfgP+mw7tYwMKyDFX8z+ybDDZNC4zuw+WZs=?enc=fldsFvHoSrZjoX/iOyB6YfwxTQn+AjMGk7UzoVAmN3c=#" class="dropdown-toggle" data-toggle="dropdown">
+                                    
+                                    <img id="ctl00_imgDash" class="user-image" alt="User Image" src="./geca-after-login_files/showimage.aspx">
+                                    <span class="hidden-xs"> <i class="fa fa-chevron-circle-down"></i></span>
+                                </a>
+                                <ul class="dropdown-menu" style="background-color: silver; background: #fff;">
+                                    <li class="user-header" style="background-color: #385495; height: 145px; background: #fff; margin-top: -1px">
+                                        <img id="ctl00_imgPhoto" class="img-circle" alt="User Image" src="./geca-after-login_files/showimage.aspx">
+                                        <p>
+                                            <span style="color: #000">
+                                                <span id="ctl00_lblLink">Welcome JAYASHREE BHAGWAT PATIL</span></span>
+                                        </p>
+                                        
+                                    </li>
+                                    <!-- Menu Body -->
+                                    <li class="user-body" style="background-color: #f9f9f9;">
+                                        <div class="row">
+
+                                            <div class="col-xs-12 text-center">
+                                                <a href="https://mis.geca.ac.in/changePassword.aspx" id="ctl00_A1" class="btn btn-primary" style="font-style: oblique;">Change Password</a>
+                                            </div>
+
+                                        </div>
+                                        <!-- /.row -->
+                                    </li>
+                                    <li class="user-footer" style="margin-top: -1px; border-top: 1px solid #ddd">
+                                        <p class="text-center">
+                                            <a id="ctl00_btnHome" class="btn btn-success btn-flat" href="javascript:__doPostBack(&#39;ctl00$btnHome&#39;,&#39;&#39;)" style="display:inline-block;width:100px;">Home</a>
+                                            <a id="ctl00_btnLogout" class="btn btn-warning btn-flat" href="javascript:__doPostBack(&#39;ctl00$btnLogout&#39;,&#39;&#39;)" style="display:inline-block;width:100px;">Log Out</a>
+                                        </p>
+                                        
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                </nav>
+            </header>
+            <div class="content-wrapper">
+                <div class="container">
+                    
+                    <div class="breadcrumb-menu">
+                        <ul class="breadcrumb" style="padding-right: 0">
+                            <li class="">
+                                <a id="ctl00_LinkButton2" href="javascript:__doPostBack(&#39;ctl00$LinkButton2&#39;,&#39;&#39;)"><i class="fa fa-home text-d-green" style="font-size:15px"></i></a></li>
+                        </ul>
+                        <span id="ctl00_lblpath" style="text-transform: capitalize;"></span>
+                    </div>
+
+                    
+                    
+                    <section class="content" style="margin-bottom: 50px; padding: 0PX;">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12">
+
+                                
+   <script src="./geca-after-login_files/jQuery-2.2.0.min.js.download" type="text/javascript"></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link href="./geca-after-login_files/Dashboard.css" rel="stylesheet">
+    <script src="./geca-after-login_files/jsapi" type="text/javascript"></script>
+    <script>
+        $(document).ready(function () {
+
+            $('.news-jq').find('.media-body p, .media-body font').css({ 'font-size': '12px', 'line-height': '1.1', 'font-family': 'opensans' });
+            $('.news-jq').find('.media-body font').attr('size', '0');
+
+            /******************Student Attendance Percentage*********START**************/
+
+            $.ajax({
+                type: "POST",
+                //url: "StudeHome.aspx/ShowAttPer",
+                url: '/StudeHome.aspx/ShowAttPer',
+                data: '{}',
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: OnSuccessAttPer,
+                failure: function (response) {
+                }
+            });
+            //function OnSuccessAttPer(response) {
+            //    //console.log("Label :",response['d']);
+            //    var AttnPer = response['d'] + ' %';
+            //    $('#lblAttPer').html(AttnPer);
+            //};
+            function OnSuccessAttPer(response) {
+                //console.log("Label :",response['d']);
+                var AttnPer = response['d'] + ' %';
+                if (response['d'] != null) {
+                    $('#lblAttPer').html(AttnPer);
+                }
+            };
+            /******************Student Attendance Percentage*********END**************/
+
+            /******************* Student Attendance *********************/
+            $.ajax({
+                type: "POST",
+                //url: "StudeHome.aspx/ShowAttendance",
+                url: '/StudeHome.aspx/ShowAttendance',
+                data: '{}',
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: OnSuccessStudAtt,
+                failure: function (response) {
+                    var html = '';
+                    html += '<tr style="text-align:center; font-size:15px; font-weigth:bold" class="info"><td colspan="3">No records to display..</td></tr>';
+                    $('#tbodyAtten').html(html);
+                }
+            });
+            function OnSuccessStudAtt(response) {
+                loadStudAtt(response['d']);
+            };
+            function loadStudAtt(data) {
+                var html = '';
+                if (data != null) {
+                    //if (data.AttendancePercent != null) {
+                    //    $('#lblAttPer').text(data.AttendancePercent + '%');
+                    //}
+                    if (data.AttendList != null) {
+                        $.each(data.AttendList, function (i, d) {
+                            html += '<tr>';
+                            html += '<td class="text-center" data-container="body"  data-original-title="' + d.CourseCode + ' - ' + d.CourseName + ' (SEC - ' + d.SectionName + ')" data-toggle="tooltip">' + d.CourseCode + '</td>';
+                            html += '<td class="text-center">' + d.Attendance + '</td>';
+                            html += '<td class="text-center">' + d.AttendancePerc + '</td>';
+                            html += '</tr>';
+                        });
+                    } else {
+                        html += '<tr style="text-align:center; font-size:15px; font-weigth:bold" class="info"><td colspan="3">No records to display..</td></tr>';
+                    }
+                } else {
+                    html += '<tr style="text-align:center; font-size:15px; font-weigth:bold" class="info"><td colspan="3">No records to display..</td></tr>';
+                }
+                $('#tbodyAtten').html(html);
+                $('[data-toggle="tooltip"]').tooltip({
+                    placement: "top"
+                });
+
+            };
+            /******************* Student Attendance *********************/
+
+
+            /************************ Bind Notice ************************/
+            $.ajax({
+                type: "POST",
+                //url: "StudeHome.aspx/ShowNewsData",
+                url: '/StudeHome.aspx/ShowNewsData',
+                data: '{}',
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: OnSuccessNews,
+                failure: function (response) {
+                    var html = '<div style="text-align:center; font-size:15px; font-weigth:bold" class="info">No records to display..</div>';
+                    $('#noticeDiv').html(html);
+                }
+            });
+
+            function OnSuccessNews(response) {
+                loadNewsData(response['d']);
+            };
+            function loadNewsData(data) {
+                var html = '';
+                if (data != null) {
+                    if (data.length > 0) {
+                        $.each(data, function (row, item) {
+                            if (item.Link != '') {
+                                html += '<article class="media event"><a class="pull-left date"><p class="month">' + item.Month + '</p><p class="day">' + item.Day + '</p></a><div class="media-body"><a class="title" target="_blank" href=' + item.Link + '>' + item.Title + '</a><p>' + item.NewsDesc + '</p></div></article>';
+                            }
+                            else {
+                                html += '<article class="media event"><a class="pull-left date"><p class="month">' + item.Month + '</p><p class="day">' + item.Day + '</p></a><div class="media-body"><a class="title" href="#">' + item.Title + '</a><p>' + item.NewsDesc + '</p></div></article>';
+
+                            }
+                        });
+                    } else {
+                        html += '<div style="font-size:15px" class="text-center" class="info" >No records to display..</div>';
+                    }
+                } else {
+                    html += '<div style="font-size:15px" class="text-center" class="info">No records to display..</div>';
+                }
+                $('#noticeDiv').html(html);
+            };
+            //function OnSuccessNoticeAnnoun(response) {
+            //    loadNoticeData(response['d']);
+            //};
+            //function loadNoticeData(data) {
+            //    var html = '';
+            //    if (data != null) {
+            //        $('#lblAnnouncement').text(data.Announcement);
+            //        $('#lblTaskCount').text(data.Assignment);
+            //        if (data.NoticeList != null) {
+            //            if (data.NoticeList.length > 0) {
+            //                $.each(data.NoticeList, function (row, item) {
+            //                    html += '<article class="media event"><div class="media-body"><a class="title" href=' + item.Link + '>' + item.Title + '</a><p>' + item.NewsDescription + '</p></div></article>';
+            //                });
+            //            } else {
+            //                html = '<div style="text-align:center; font-size:15px; font-weigth:bold" class="info">No records to display..</div>';
+            //            }
+            //        } else {
+            //            html = '<div style="text-align:center; font-size:15px; font-weigth:bold" class="info">No records to display..</div>';
+            //        }
+            //        $('#noticeDiv').html(html);
+            //    }
+            //};
+            /************************ Bind Notice ************************/
+            ///************************ Bind Notice ************************/
+            //$.ajax({
+            //    type: "POST",
+            //    url: "StudeHome.aspx/ShowNoticeAnnData",
+            //    data: '{}',
+            //    contentType: "application/json; charset=utf-8",
+            //    dataType: "json",
+            //    success: OnSuccessNoticeAnnoun,
+            //    failure: function (response) {
+            //        var html = '<div style="text-align:center; font-size:15px; font-weigth:bold" class="info">No records to display..</div>';
+            //        //$('#noticeDiv').html(html);
+            //    }
+            //});
+            //function OnSuccessNoticeAnnoun(response) {
+            //    loadNoticeData(response['d']);
+            //};
+            //function loadNoticeData(data) {
+            ////    var html = '';
+            //    if (data != null) {
+            //        $('#lblAnnouncement').text(data.Announcement);
+            //        $('#lblTaskCount').text(data.Assignment);
+            //        if (data.NoticeList != null) {
+            //            if (data.NoticeList.length > 0) {
+            //                $.each(data.NoticeList, function (row, item) {
+            //                    html += '<article class="media event"><div class="media-body"><a class="title" href=' + item.Link + '>' + item.Title + '</a><p>' + item.NewsDescription + '</p></div></article>';
+            //                });
+            //            } else {
+            //                html = '<div style="text-align:center; font-size:15px; font-weigth:bold" class="info">No records to display..</div>';
+            //            }
+            //        } else {
+            //            html = '<div style="text-align:center; font-size:15px; font-weigth:bold" class="info">No records to display..</div>';
+            //        }
+            //        //$('#noticeDiv').html(html);
+            //    }
+            //};
+            ///************************ Bind Notice ************************/
+
+
+            /************************ Bind Assignment Announcement ************************/
+            $.ajax({
+                type: "POST",
+                //url: "StudeHome.aspx/ShowNAnnAssData",
+                url: '/StudeHome.aspx/ShowNAnnAssData',
+                data: '{}',
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: OnSuccessNoticeAnnoun,
+                failure: function (response) {
+                    var html = '<div style="text-align:center; font-size:15px; font-weigth:bold" class="info">No records to display..</div>';
+                    $('#noticeDiv').html(html);
+                }
+            });
+            function OnSuccessNoticeAnnoun(response) {
+                loadNoticeData(response['d']);
+            };
+            function loadNoticeData(data) {
+                var html = '';
+                if (data != null) {
+                    $('#lblAnnouncement').text(data.Announcement);
+                    $('#lblTaskCount').text(data.Assignment);
+                }
+            };
+            /************************ Bind Assignment Announcement ************************/
+
+            /************************ Quick Access ************************/
+            $.ajax({
+                type: "POST",
+                //url: "StudeHome.aspx/ShowQuickAccessData",
+                url: '/StudeHome.aspx/ShowQuickAccessData',
+                data: '{}',
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: OnSuccessQL,
+                failure: function (response) {
+                }
+            });
+            function OnSuccessQL(response) {
+                loadQLData(response['d']);
+            };
+            function loadQLData(data) {              
+                var html = '';
+                var LinkCount = 1;
+                if (data != null) {
+                    if (data.length > 0) {
+                        $.each(data, function (row, item) {
+                           /* *************************************************************************************************************
+                               Do not give the space in href
+                               Eg. href="'+item.Link+'?pageno='+item.PageNo+'"                --  Working in Both Local & Live
+                               Eg. href="' + item.Link + '?pageno=' + item.PageNo + '"        --  Working in Local but Issue in Live // Gives Error Unexpacted Token %
+                              ************************************************************************************************************* */
+                            html += '<li class="list-group-item"><a href="../'+item.Link+'?pageno='+item.PageNo+'" target="_blank"><i class="fa fa-star"></i>'+item.LinkName+'</a></li>';
+                            LinkCount += 1;
+                        });
+                    } else {
+                        html += '<li class="list-group-item text-center info" style="text-align:center; font-size:15px; font-weigth:bold; background-color: #d9edf7;">No records to display.. </li>';
+                    }
+                } else {
+                    html += '<li class="list-group-item text-center info" style="text-align:center; font-size:15px; font-weigth:bold; background-color: #d9edf7;">No records to display.. </li>';
+                }
+                $('#ulQuickAccess').append(html);
+            }
+            /************************ Quick Access ************************/
+
+            /************************ Tasks ************************/
+            $.ajax({
+                type: "POST",
+                //url: "StudeHome.aspx/ShowStudTasks",
+                url: '/StudeHome.aspx/ShowStudTasks',
+                data: '{}',
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: OnSuccessTask,
+                failure: function (response) {
+                    debugger;
+                    console.log("no data : ", response);
+                }
+            });
+            function OnSuccessTask(response) {
+                debugger;                
+                loadTaskData(response['d']);
+                console.log("On Succ Task : ", response['d']);
+            };
+            function loadTaskData(data) {
+                debugger;
+                console.log("On Load Task : ", data);
+                var html = '';
+                var LinkCount = 1;
+                if (data != null) {
+                    if (data.length > 0) {
+                        $.each(data, function (row, item) {
+                            /* *************************************************************************************************************
+                                Do not give the space in href
+                                Eg. href="'+item.Link+'?pageno='+item.PageNo+'"                --  Working in Both Local & Live
+                                Eg. href="' + item.Link + '?pageno=' + item.PageNo + '"        --  Working in Local but Issue in Live // Gives Error Unexpacted Token %
+                               ************************************************************************************************************* */
+                            html += '<li class="list-group-item"><a href="../'+item.Link+'?pageno='+item.PageNo+'" target="_blank"><i class="fa fa-star"></i>' + item.LinkName + '</a></li>';
+                            LinkCount += 1;
+                        });
+                    } else {
+                        html += '<li class="list-group-item text-center info" style="text-align:center; font-size:15px; font-weigth:bold; background-color: #d9edf7;">No records to display.. </li>';
+                    }
+                } else {
+                    html += '<li class="list-group-item text-center info" style="text-align:center; font-size:15px; font-weigth:bold; background-color: #d9edf7;">No records to display.. </li>';
+                }
+                $('#ulTasks').append(html);
+            }
+            /************************ Tasks ************************/
+
+
+            /************************ Bind Time Table ************************/
+
+            /*********** Comment on 03-04-2020 Bind Only Body ******************/
+            $.ajax({
+                type: "POST",
+                //url: "StudeHome.aspx/ShowStudTimeTableData",
+                url: '/StudeHome.aspx/ShowStudTimeTableData',
+                data: '{}',
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: OnSuccessTT,
+                failure: function (response) {
+                    var html = '';
+                    html += '<tr style="text-align:center; font-size:15px; font-weigth:bold" class="info"><td colspan="7">No records to display..</td></tr>';
+                    $('#tbodyStudTT').html(html);
+                }
+            });
+            function OnSuccessTT(response) {
+                loadTimeTableData(response['d']);
+            };
+            function loadTimeTableData(data) {
+                var html = '';
+                if (data != null) {
+                    if (data.length > 0) {
+                        $.each(data, function (row, item) {
+                            html += '<tr>';
+                            html += '<td class="text-center" style="width:14%">' + item.Slot + '</td>';
+                            if (item.Monday != '-') {
+                                var arrLec1 = item.Monday.split('-');
+                                html += '<td class="text-center" data-container="body"  data-original-title="' + arrLec1[1] + ' - ' + arrLec1[0] + ' (SEC-' + arrLec1[2] + ')" data-toggle="tooltip">' + arrLec1[1] + '</td>';
+                            } else {
+                                html += '<td class="text-center">' + item.Monday + '</td>';
+                            }
+                            if (item.Tuesday != '-') {
+                                var arrLec2 = item.Tuesday.split('-');
+                                html += '<td class="text-center" data-container="body"  data-original-title="' + arrLec2[1] + ' - ' + arrLec2[0] + ' (SEC-' + arrLec2[2] + ')" data-toggle="tooltip">' + arrLec2[1] + '</td>';
+                            } else {
+                                html += '<td class="text-center">' + item.Tuesday + '</td>';
+                            }
+                            if (item.Wednesday != '-') {
+                                var arrLec3 = item.Wednesday.split('-');
+                                html += '<td class="text-center" data-container="body"  data-original-title="' + arrLec3[1] + ' - ' + arrLec3[0] + ' (SEC-' + arrLec3[2] + ')" data-toggle="tooltip">' + arrLec3[1] + '</td>';
+                            } else {
+                                html += '<td class="text-center">' + item.Wednesday + '</td>';
+                            }
+                            if (item.Thursday != '-') {
+                                var arrLec4 = item.Thursday.split('-');
+                                html += '<td class="text-center" data-container="body"  data-original-title="' + arrLec4[1] + ' - ' + arrLec4[0] + ' (SEC-' + arrLec4[2] + ')" data-toggle="tooltip">' + arrLec4[1] + '</td>';
+                            } else {
+                                html += '<td class="text-center">' + item.Thursday + '</td>';
+                            }
+                            if (item.Friday != '-') {
+                                var arrLec5 = item.Friday.split('-');
+                                html += '<td class="text-center" data-container="body"  data-original-title="' + arrLec5[1] + ' - ' + arrLec5[0] + ' (SEC-' + arrLec5[2] + ')" data-toggle="tooltip">' + arrLec5[1] + '</td>';
+                            } else {
+                                html += '<td class="text-center">' + item.Friday + '</td>';
+                            }
+                            if (item.Saturday != '-') {
+                                var arrLec6 = item.Saturday.split('-');
+                                html += '<td class="text-center" data-container="body"  data-original-title="' + arrLec6[1] + ' - ' + arrLec6[0] + ' (SEC-' + arrLec6[2] + ')" data-toggle="tooltip">' + arrLec6[1] + '</td>';
+                            } else {
+                                html += '<td class="text-center">' + item.Saturday + '</td>';
+                            }
+                            if (item.Sunday != '-') {
+                                var arrLec7 = item.Sunday.split('-');
+                                html += '<td class="text-center" data-container="body"  data-original-title="' + arrLec7[1] + ' - ' + arrLec7[0] + ' (SEC-' + arrLec7[2] + ')" data-toggle="tooltip">' + arrLec7[1] + '</td>';
+                            } else {
+                                html += '<td class="text-center">' + item.Sunday + '</td>';
+                            }
+                            html += '</tr>';
+                        });
+                    } else {
+                        html += '<tr style="text-align:center; font-size:15px; font-weigth:bold" class="info"><td colspan="8">No records to display..</td></tr>';
+                    }
+                } else {
+                    html += '<tr style="text-align:center; font-size:15px; font-weigth:bold" class="info"><td colspan="8">No records to display..</td></tr>';
+                }
+                $('#tbodyStudTT').html(html);
+                $('[data-toggle="tooltip"]').tooltip({
+                    placement: "top"
+                });
+            };
+            /*********** Comment on 03-04-2020 Bind Only Body ******************/
+
+            /************************ Bind Time Table ************************/
+        });
+
+
+
+
+    </script>
+
+
+    <div class="container-fluid">
+        <section class="statistics">
+            
+            <div class="row gutters-sm">
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="tile-box">
+                        <i class="fa fa-percent fa-fw bg-primary icon-sm" aria-hidden="true"></i>
+                        <div class="info">
+                            <h3>
+                                <label id="lblAttPer">0.00 %</label>
+                            </h3>
+                            <span> Attendance</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="tile-box">
+
+                        <i class="fa fa-tasks fa-fw danger icon-sm" aria-hidden="true"></i>
+                        <div class="info">
+                           <h3> <label id="lblTaskCount"></label></h3>
+                            
+                            <span>Assignment</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="tile-box">
+
+                        <i class="fa fa-bullhorn fa-fw success icon-sm" aria-hidden="true"></i>
+                        <div class="info">
+                            <h3>
+                                <label id="lblAnnouncement"></label>
+                            </h3>
+                            <span>Announcement</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="tile-box">
+                        <i class="fa fa-gear fa-fw warning icon-sm"></i>
+                        <div class="info">
+                            <h3>
+                                <span id="ctl00_ContentPlaceHolder1_lblLastLoginTime">09:35</span>
+                                <small>
+                                    <span id="ctl00_ContentPlaceHolder1_lblLastLoginForm">PM</span></small></h3>
+                            <span>Last Login</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <div class="row equalHMRWrap flex gutters-sm">
+            <div class="col-md-4 col-sm-6 col-xs-12 flex">
+                <div class="x_panel">
+                    <div class="x_title">
+                        <h2>Attendance</h2>
+
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="x_content height-250 scrollbar">
+
+
+                        <div>
+                            <table class="table table-hover small padd-sm">
+                                <thead class="text-primary">
+                                    <tr>
+                                        <th class="text-center">Subject</th>
+                                        <th class="text-center">Lectures</th>
+                                        <th class="text-center">%</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="tbodyAtten"><tr style="text-align:center; font-size:15px; font-weigth:bold" class="info"><td colspan="3">No records to display..</td></tr></tbody>
+                            </table>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4 col-sm-6 col-xs-12 flex">
+                <div class="x_panel">
+                    <div class="x_title">
+                        <h2>Quick Access</h2>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="x_content height-250 scrollbar small">
+                        <ul class="list-group with-border-bottom fav-list" id="ulQuickAccess">
+                        <li class="list-group-item text-center info" style="text-align:center; font-size:15px; font-weigth:bold; background-color: #d9edf7;">No records to display.. </li></ul>
+                    </div>
+                </div>
+            </div>
+
+
+            
+           
+            
+
+            <div class="col-md-4 col-sm-6 col-xs-12 flex">
+                <div class="x_panel">
+                    <div class="x_title">
+                        <h2>Notice/News</h2>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="x_content height-250 scrollbar small news-jq" id="noticeDiv"><div style="font-size:15px" class="text-center">No records to display..</div></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row equalHMRWrap flex gutters-sm">
+            <div class="col-md-10 col-sm-8 col-xs-12 flex">
+                <div class="x_panel">
+                    <div class="x_title">
+                        <h2>Time Table</h2>
+
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="x_content">
+                        <table class="table table-hover table-bordered small padd-sm">
+                            <thead>
+                                  
+                                <tr>
+                                    <th style="width: 14%" class="text-center">Time/ Day</th>
+                                    <th class="text-center">Monday</th>
+                                    <th class="text-center">Tuesday</th>
+                                    <th class="text-center">Wednesday</th>
+                                    <th class="text-center">Thursday</th>
+                                    <th class="text-center">Friday</th>
+                                    <th class="text-center">Saturday</th>
+                                    <th class="text-center">Sunday</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tbodyStudTT"><tr style="text-align:center; font-size:15px; font-weigth:bold" class="info"><td colspan="8">No records to display..</td></tr></tbody>
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+
+
+             <div class="col-md-2 col-sm-4 col-xs-12 flex">
+                <div class="x_panel">
+                    <div class="x_title">
+                        <h2>Tasks</h2>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="x_content height-250 scrollbar small">
+                        <input type="hidden" name="ctl00$ContentPlaceHolder1$hftot" id="ctl00_ContentPlaceHolder1_hftot">
+                        <ul class="list-group with-border-bottom fav-list" id="ulTasks">
+                           
+                        <li class="list-group-item"><a href="https://mis.geca.ac.in/ACADEMIC/OnlineAdmissionForm.aspx?pageno=1781" target="_blank"><i class="fa fa-star"></i>Admission Payment/Confirmation</a></li></ul>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <script>
+        function openWindowReload(link) {
+            var href = link.href;
+            window.open(href, '_blank');
+            document.location.reload(true)
+        }
+    </script>
+
+    <script type="text/javascript">
+        function RefreshParent() {
+            if (window.opener != null && !window.opener.closed) {
+                window.opener.location.reload();
+            }
+        }
+    </script>
+
+    
+       
+           <script type="text/javascript">
+
+               function ConfirmApproval(objMsg) {
+                   if (confirm(objMsg)) {
+                       window.location.href = "changePassword.aspx"
+                       return true;
+                   }
+                   else {
+                       window.location.href = "default.aspx"
+                       return true;
+                       // return false;
+                   }
+               }
+</script>  
+
+
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <!-- Fix Menu -->
+            <div class="fix-menu">
+                <ul class="list-group">
+                    <li class="list-group-item" title="Dashboard">
+                        <a id="ctl00_LinkButton1" href="javascript:__doPostBack(&#39;ctl00$LinkButton1&#39;,&#39;&#39;)"><i class="fa fa-home"></i></a></li>
+                    <li class="list-group-item" title="Recent Links" data-toggle="modal" data-target="#myModalz"><i class="fa fa-link"></i></li>
+                    <li class="list-group-item" title="Favorite Links" id="Fav_Model"><i class="fa fa-star"></i></li>
+                </ul>
+            </div>
+            <!-- X -->
+            <!--Swayam -->
+            <div class="fix-left-menu rotate">
+                <a href="https://swayam.gov.in/" target="_blank">
+                    <img alt="Swayam" src="./geca-after-login_files/swayam_logo.png">
+                </a>
+            </div>
+            <!-- X -->
+            <div class="modal right fade" id="myModalz" role="dialog">
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">×</button>
+                            <h4 class="modal-title">Recent Links</h4>
+                        </div>
+                        <div class="modal-body">
+                            <ul class="list-group">
+                                <li id="ctl00_li1" class="list-group-item"><span><a href="https://mis.geca.ac.in/ACADEMIC/OnlineAdmissionForm.aspx?pageno=1781" id="ctl00_ql1"><i id="ctl00_iql1">Admission Payment/Confirmation</i></a></span></li>
+                                <li id="ctl00_li2" class="list-group-item"><span><a href="https://mis.geca.ac.in/academic/StudentInfoEntry.aspx?pageno=74" id="ctl00_ql2"><i id="ctl00_iql2">Student Information</i></a></span></li>
+                                <li id="ctl00_li3" class="list-group-item"><span><a href="https://mis.geca.ac.in/Itle/Selectcourse.aspx?pageno=1445" id="ctl00_ql3"><i id="ctl00_iql3">Select Course</i></a></span></li>
+                                <li id="ctl00_li4" class="list-group-item"><span><a href="https://mis.geca.ac.in/ACADEMIC/StudentFeedBackAns.aspx?pageno=1412" id="ctl00_ql4"><i id="ctl00_iql4">Student Feedback Answers</i></a></span></li>
+                                <li id="ctl00_li5" class="list-group-item"><span><a href="https://mis.geca.ac.in/ACADEMIC/CourseRegistration.aspx?pageno=84" id="ctl00_ql5"><i id="ctl00_iql5">Course Registration</i></a></span></li>
+                                <li id="ctl00_li6" class="list-group-item"><span><a href="https://mis.geca.ac.in/Academic/Comprehensive_Stud_Report.aspx?pageno=76" id="ctl00_ql6"><i id="ctl00_iql6">Student Detail search</i></a></span></li>
+                                <li id="ctl00_li7" class="list-group-item"><span><a href="https://mis.geca.ac.in/ACADEMIC/Student_ExamRegistration.aspx?pageno=1746" id="ctl00_ql7"><i id="ctl00_iql7">Exam Registration</i></a></span></li>
+                                <li id="ctl00_li8" class="list-group-item"><span><a href="https://mis.geca.ac.in/Itle/StudTest.aspx?pageno=1476" id="ctl00_ql8"><i id="ctl00_iql8">View Exam</i></a></span></li>
+                                <li id="ctl00_li9" class="list-group-item"><span><a href="https://mis.geca.ac.in/HOSTEL?pageno=1074" id="ctl00_ql9"><i id="ctl00_iql9">Online Apply Hostel</i></a></span></li>
+                                <li id="ctl00_li10" class="list-group-item"><span><a href="https://mis.geca.ac.in/ACADEMIC/EXAMINATION/StudentExamAdmitCardReport.aspx?pageno=1655" id="ctl00_ql10"><i id="ctl00_iql10">Exam Hall Ticket Generation</i></a></span></li>
+                            </ul>
+                        </div>
+                        <div class="modal-footer">
+                            
+                            <button type="button" class="btn btn-danger Close-btn" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Favorites -->
+            
+            <div class="modal right fade" id="myModal_1" role="dialog">
+                <div id="ctl00_updPopUp_Link">
+	
+                        <div class="modal-dialog">
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <div class="pull-right flex">
+
+                                        
+                                        <button type="button" class="close" data-dismiss="modal">×</button>
+                                    </div>
+                                    <div class="pull-left">
+                                        <h4 class="modal-title">Favorites</h4>
+                                    </div>
+                                </div>
+                                <div id="ctl00_divFavorite" class="modal-body with-fav-sticker-links">
+                                
+                                    <input type="text" class="live-search-box-1" placeholder="Search Here">
+                                        <ul class="list-group live-search">
+                                </ul></div>
+                                <div class="modal-footer">
+                                    
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    
+</div>
+            </div>
+            <!-- END -->
+            <div class="content-wrapper">
+                <div class="container">
+                    <section class="content" style="margin-bottom: 25px; padding: 0PX;">
+                        <div class="row" style="margin-top: 3%">
+                            <div class="col-md-12 col-sm-12">
+                                <br>
+                                
+                                
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <footer class="main-footer navbar-fixed-bottom" style="text-align: center">
+                <strong>Designed and Developed By:<a href="http://www.iitms.co.in/" target="_blank"> MasterSoft</a> Copyright © 2016.</strong> All rights reserved.              
+            </footer>
+        </div>
+        <!--Internet Connection Patches Mahesh Dt.09-09-2020-->
+        <div id="ctl00_uplInterNetConnectionCheck" style="display: none">
+	
+                <a id="ctl00_lnkInternetCheckModelPopup" href="javascript:__doPostBack(&#39;ctl00$lnkInternetCheckModelPopup&#39;,&#39;&#39;)"></a>
+
+                
+                <div id="ctl00_pnlmpeInternetCheckModelPopup" class="InternetCheckModelPopup" style="display: none; position: fixed; z-index: 100001;">
+		
+                    <div>
+                        
+                        
+                        <img id="ctl00_Image2" src="./geca-after-login_files/NoInternet.png">
+                    </div>
+                
+	</div>
+
+                <style>
+                    .InternetCheckModelPopups {
+                        background-color: #FFFFFF;
+                        padding: 0;
+                    }
+                </style>
+            
+<div id="mpeInternetCheckModelPopup_backgroundElement" class="modalBackground" style="display: none; position: fixed; left: 0px; top: 0px; z-index: 10000;"></div></div>
+
+
+
+        <script type="text/javascript">
+            function CheckNetConnection() {
+
+                setInterval(NetConnection, 1000);
+            }
+
+            function NetConnection() {
+                var x = navigator.onLine;
+                if (x == true) {
+                    document.getElementById("ctl00_uplInterNetConnectionCheck").style.display = "none";
+                    $find("mpeInternetCheckModelPopup").hide();
+                }
+                else if (x == false) {
+                    document.getElementById("ctl00_uplInterNetConnectionCheck").style.display = "block";
+                          $find("mpeInternetCheckModelPopup").show();
+                      }
+              }
+        </script>
+
+        <footer class="main-footer navbar-fixed-bottom" style="text-align: center">
+            <strong>Designed and Developed By:<a href="http://www.iitms.co.in/" target="_blank"> MasterSoft</a> Copyright © 2016.</strong> All rights reserved.
+               
+        </footer>
+
+
+        
+
+
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $("#myBtn").click(function () {
+                    $("#myModal").modal();
+                });
+            });
+        </script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                var script = document.createElement('script')
+                script.setAttribute("type", "text/javascript")
+
+                document.getElementsByTagName("body")[0].appendChild(script);
+                $('nav ul.navbar-nav li').each(function () {
+                    $(this).find('.popout').append('<span class="caret"></span>');
+                    $(this).find('ul .popout span').addClass("arrow-right");
+                    var $arrow = $(this).find('.popout span:nth-of-type(n+2)');
+                    $($arrow).hide();
+                });
+            });
+
+        </script>
+
+        <script type="text/javascript">
+            function DisableBackButton() {
+                window.history.forward()
+            }
+            DisableBackButton();
+            window.onload = DisableBackButton;
+            window.onpageshow = function (evt) { if (evt.persisted) DisableBackButton() }
+            window.onunload = function () { void (0) }
+        </script>
+        
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('a:not(.popout).dynamic').parent('li').css({ 'display': 'flex' });
+                $('a:not(.popout).dynamic').parent('li').append('<i class="fa fa-star"></i>');
+                var UA_No = '3212';
+                     //-------------------------------------------------------------------
+                     $.ajax({
+                         url: '/WEB_API/Add_Fav_Links.asmx/Get_Active_FavLink',
+                         data: { UA_NO: UA_No },
+                         type: 'POST',
+                         dataType: 'text',
+                         success: function (r) {
+                             var json = "{" + r.split("{")[1].split("}")[0] + "}";
+                             var obj = jQuery.parseJSON(json);
+                             var i, j;
+                             for (i = 0; i < obj.data.split(",").length; i++) {
+
+                                 $('li.dynamic').find('.fa').each(function (z, objz) {
+                                     var link = $(this).prev().attr('href');
+
+                                     var LinkNo = link.match("pageno=(.*)&");
+                                     if (LinkNo == null) {
+                                         LinkNo = link.substring(link.lastIndexOf("=") + 1, link.length);
+                                     }
+                                     else {
+                                         LinkNo = LinkNo[1];
+                                     }
+
+                                     if (obj.data.split(",")[i] == LinkNo) {
+                                         $(this).addClass('active');
+                                     }
+                                 });
+                             }
+                         },
+                         error: function (e) {
+                             alert('Something went Wrong !!!');
+                         }
+                     });
+                     //----------------------------------------------------------------------
+
+                     $('li.dynamic').find('.fa').click(function () {
+                         debugger;
+                         $(this).toggleClass('active');
+                         var link = $(this).prev().attr('href');
+
+                         var LinkNo = link.match("pageno=(.*)&");
+                         if (LinkNo == null) {
+                             LinkNo = link.substring(link.lastIndexOf("=") + 1, link.length);
+                         }
+                         else {
+                             LinkNo = LinkNo[1];
+                         }
+                         var col = $(this).css("color");
+                         var color = '';
+                         //Find Color of Active Element
+                         hexc(col);
+                         //Web Api Call
+                         if (color == '#e47737') {
+                             $.ajax({
+                                 url: '/WEB_API/Add_Fav_Links.asmx/Add_FavLink',
+                                 data: { UA_NO: UA_No, LINK_NO: LinkNo, OTYPE: 1 },
+                                 type: 'POST',
+                                 dataType: 'text',
+                                 success: function (r) {
+                                     var json = "{" + r.split("{")[1].split("}")[0] + "}";
+                                     var obj = jQuery.parseJSON(json);
+                                 },
+                                 error: function (err) {
+                                     alert('Something went Wrong !!!');
+                                 }
+                             });
+                         }
+                         else if (color == '#a6a6a6') {
+                             $.ajax({
+                                 url: '/WEB_API/Add_Fav_Links.asmx/Add_FavLink',
+                                 data: { UA_NO: UA_No, LINK_NO: LinkNo, OTYPE: 2 },
+                                 type: 'POST',
+                                 dataType: 'text',
+                                 success: function (r) {
+                                     var json = "{" + r.split("{")[1].split("}")[0] + "}";
+                                     var obj = jQuery.parseJSON(json);
+                                 },
+                                 error: function (err) {
+                                     alert('Something went Wrong !!!');
+                                 }
+                             });
+                             }
+                         // RGB to HEX Converter
+                         function hexc(colorval) {
+                             var parts = colorval.match(/^rgb\((\d+),\s*(\d+),\s*(\d+)\)$/);
+                             delete (parts[0]);
+                             for (var i = 1; i <= 3; ++i) {
+                                 parts[i] = parseInt(parts[i]).toString(16);
+                                 if (parts[i].length == 1) parts[i] = '0' + parts[i];
+                             }
+                             color = '#' + parts.join('');
+                         }
+                         //end
+                     });
+                 });
+        </script>
+        
+
+        
+        <script>
+            $(document).ready(function () {
+                $("#Fav_Model").click(function () {
+
+                    var UA_No = '3212';
+
+                         $.ajax({
+                             url: '/WEB_API/Add_Fav_Links.asmx/Get_FavLink',
+                             data: { UA_NO: UA_No },
+                             type: 'POST',
+                             dataType: 'text',
+                             success: function (r) {
+                                 if ($("#DynamicDiv").length != 0) {
+                                     $("#DynamicDiv").remove();
+                                 }
+
+                                 var json = "{" + r.split("{")[1].split("}")[0] + "}";
+                                 var obj = jQuery.parseJSON(json);
+                                 var x = "<div id='DynamicDiv'>" + obj.data + "</div>";
+                                 x = x.replace(/&lt;/g, "<");
+                                 x = x.replace(/&gt;/g, ">");
+                                 x = x.replace(/&amp;/g, "&")
+
+                                 if (x == "<div id='DynamicDiv'><ul class='list-group live-search'></div>") {
+                                     $('#ctl00_divFavorite').html('<span><center><h3 style="font-family: ptsans, sans-serif;margin-top: 50%;color:#3498DB"><i class="fa fa-star-half-o" aria-hidden="true"></i><br>No Favorite Links Added !!</h1></center></span>');
+                                 }
+                                 else {
+                                     $('#ctl00_divFavorite').html(x);
+                                 }
+                             },
+                             error: function (e) {
+                                 alert('No Favorite Link Added !!!');
+                             }
+                         });
+
+                         $('#myModal_1').modal('toggle');
+                     });
+                 });
+        </script>
+        
+
+        
+        <script>
+
+            function DeleteFavLinks(ele) {
+                debugger;
+                var UA_No = '3212';
+                     var link = $(ele).prev().attr("href");
+
+                     var LinkNo = link.match("pageno=(.*)&");
+                     if (LinkNo == null) {
+                         LinkNo = link.substring(link.lastIndexOf("=") + 1, link.length);
+                     }
+                     else {
+                         LinkNo = LinkNo[1];
+                     }
+                     //Remove Star from Links
+                     $('li.dynamic').find('.fa').each(function (z, objz) {
+                         var link_d = $(this).prev().attr('href');
+
+                         var LinkNo_d = link_d.match("pageno=(.*)&");
+                         if (LinkNo_d == null) {
+                             LinkNo_d = link_d.substring(link_d.lastIndexOf("=") + 1, link_d.length);
+                         }
+                         else {
+                             LinkNo_d = LinkNo_d[1];
+                         }
+                         //Compairing Page No's
+                         if (LinkNo_d == LinkNo) {
+                             $(this).removeClass('active');
+                         }
+                     });
+                     //End
+
+                     //Delete Links
+                     $.ajax({
+                         url: '/WEB_API/Add_Fav_Links.asmx/Add_FavLink',
+                         data: { UA_NO: UA_No, LINK_NO: LinkNo, OTYPE: 2 },
+                         type: 'POST',
+                         dataType: 'text',
+                         success: function (r) {
+                             var json = "{" + r.split("{")[1].split("}")[0] + "}";
+                             var obj = jQuery.parseJSON(json);
+                         },
+                         error: function (err) {
+                             alert('Something went Wrong !!!');
+                         }
+                     });
+                     //End
+
+                     //Get Links
+                     var UL_Length = $(ele).closest('ul').children().length;
+                     if (UL_Length == 1) {
+                         $(ele).closest('ul').prev().closest('li').remove();
+                         $(ele).closest('ul').prev().remove();
+                         if ($('#DynamicDiv ul').length == 1) {
+                             $('#ctl00_divFavorite').html('<span><center><h3 style="font-family: ptsans, sans-serif;margin-top: 50%;color:#3498DB"><i class="fa fa-star-half-o" aria-hidden="true"></i><br>No Favorite Links Added !!</h1></center></span>');
+                         }
+                     }
+                     else {
+                         $(ele).parent().remove();
+                     }
+                     //End
+                 }
+        </script>
+        
+        
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('.breadcrumb-menu').find('ul').addClass('breadcrumb');
+                $('.breadcrumb-menu').find('li').addClass('element');
+                $('.breadcrumb-menu').find('li:eq(0)').removeClass('element').css({ 'color': 'blue !important' });
+                $('.element').text(function (_, txt) {
+                    return txt.charAt(0).toUpperCase() + txt.slice(1).toLowerCase();
+                });
+            });
+        </script>
+        
+    
+
+<script type="text/javascript">
+//<![CDATA[
+CheckNetConnection();//]]>
+</script>
+<script type="text/javascript">new Sys.WebForms.Menu({ element: 'ctl00_mainMenu', disappearAfter: 500, orientation: 'horizontal', tabIndex: 0, disabled: false });</script>
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.ModalPopupBehavior, {"BackgroundCssClass":"modalBackground","OnOkScript":"ResetSession()","PopupControlID":"ctl00_pnlmpeInternetCheckModelPopup","dynamicServicePath":"/studeHome.aspx","id":"mpeInternetCheckModelPopup"}, null, null, $get("ctl00_lnkInternetCheckModelPopup"));
+});
+//]]>
+</script>
+</form>
+
+    
+    
+    
+    
+    <script>
+
+        $('#example').dataTable({
+            "scrollY": "200px",
+            "scrollCollapse": true,
+            "paging": false
+        });
+
+        $("#btnNo").click(function Cancel() {
+            try {
+                Stop();
+            }
+            catch (e) {
+                alert("Error: " + e.description);
+            }
+            return false;
+        })
+
+        function Stop() {
+            var baseUrl = "/default.aspx";
+            window.location = baseUrl;
+        }
+
+    </script>
+
+
+    <script type="text/javascript">
+        setTimeout(function () { f1.submit(); });
+        $(document).bind("contextmenu", function (e) {
+            e.preventDefault();
+        });
+
+        document.onmousedown = disableclick;
+        status = "Right Click Disabled";
+
+        $(document).keydown(function (e) {
+            if (e.which === 123) {
+                return false;
+            }
+        });
+    </script>
+    <script>
+
+        document.onkeydown = function (e) {
+            if (e.keyCode == 123) {
+                return false;
+            }
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+                return false;
+            }
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+                return false;
+            }
+            if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+                return false;
+            }
+
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+                return false;
+            }
+        }
+        document.body.onclick = disableclick()
+
+    </script>
+
+    
+    <script type="text/javascript">
+        $(document).ready(function ($) {
+            //alert('a');
+            $('.jj #ctl00_mainMenu ul li').css({ 'display': 'none' });
+            $('.live-search-list #ctl00_mainMenu').clone().appendTo('.jj');
+
+            $('.jj #ctl00_mainMenu').find('li').each(function () {
+                $(this).attr('data-search-term', $(this).text().toLowerCase());
+                
+            });
+
+            $('body').on('keyup', '.live-search-box', function () {
+                var searchTerm = $(this).val().toLowerCase();
+                $('.jj').find('li').each(function () {
+
+                    if ($(this).filter('[data-search-term *= ' + searchTerm + ']').length > 0 || searchTerm.length < 1) {
+                        $(this).fadeIn();
+                        $('.not-found-txt').css({ 'display': 'block !important' });
+                    } else {
+                        $(this).fadeOut();
+                        $('.not-found-txt').css({ 'display': 'none !important' });
+                    }
+                    return 0;
+                });
+
+                if ($('.live-search-box').val() == '') {
+                    $('.live-search-area').hide();
+                    $(this).removeClass('width210');
+                    $('.cross-btn').fadeOut();
+
+                } else {
+                    $('.live-search-area').show();
+                    $(this).addClass('width210');
+                    $('.cross-btn').fadeIn();
+                }
+            });
+
+            $(".navbar-toggle").click(function () {
+                $(".live-search-box").fadeToggle();
+                $('.cross-btn, .live-search-area').fadeOut();
+            });
+
+            $('body').on('click', '.cross-btn', function () {
+                $('.search-box .live-search-area').hide();
+                $('.live-search-box').val('');
+                $('.live-search-box').removeClass('width210');
+                $('.cross-btn').fadeOut();
+            });
+        });
+
+    </script>
+    
+
+
+<script type="text/javascript"></script><iframe id="ssIFrame_google" sandbox="allow-scripts allow-same-origin" aria-hidden="true" frame-border="0" style="position: absolute; width: 1px; height: 1px; inset: -9999px; display: none;" src="./geca-after-login_files/iframe.html"></iframe></body></html>
