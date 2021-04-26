@@ -1,0 +1,1563 @@
+<!DOCTYPE html>
+<!-- saved from url=(0174)https://mis.geca.ac.in/ACADEMIC/iitmszu8uZmOGmDmiR0SGCP8xA/+A+IgRCahb0O5D+ztFxvjl59SBRzPKG7mPm99mBzyZI2uViAVAy90WV523mLwheg==?enc=M1EsHDAeRhaekcwzmtddkmx2+8FntJw58ONYLEISEsQ= -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7"><meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport"><title>
+	Government College of Engineering Aurangabad
+</title><link rel="shortcut icon" href="https://mis.geca.ac.in/IMAGES/geca_fevicon.jpg" type="image/x-icon">
+    <meta name="google-signin-client_id" content="756005764126-6b0tt497vp345vfn0nso5reuonq5o11l.apps.googleusercontent.com">
+        <!-- Bootstrap 3.3.6 -->
+        <link href="./geca-payment_files/bootstrap.min.css" rel="stylesheet">
+        
+        <link href="./geca-payment_files/feedback.css" rel="stylesheet">
+        <link href="./geca-payment_files/font-awesome.min.css" rel="stylesheet">
+        <link href="./geca-payment_files/AdminLTE.min.css" rel="stylesheet">
+        <link href="./geca-payment_files/_all-skins.min.css" rel="stylesheet">
+        <link href="./geca-payment_files/animate.min.css" rel="stylesheet">
+        <link href="./geca-payment_files/dataTables.bootstrap.css" rel="stylesheet">
+        
+        <link href="./geca-payment_files/customcss.css" rel="stylesheet">
+    
+        <!-- jQuery 2.2.0 -->
+        <script src="./geca-payment_files/cb=gapi.loaded_0" async=""></script><script src="./geca-payment_files/jQuery-2.2.0.min.js.download"></script>
+        <!-- Bootstrap 3.3.6 -->
+        <script src="./geca-payment_files/bootstrap.min.js.download"></script>
+        <script src="./geca-payment_files/jquery.dataTables.min.js.download"></script>
+         
+        <!-- DataTables -->
+        <script src="./geca-payment_files/jquery.slimscroll.min.js.download"></script>
+        <!-- FastClick -->
+        <script src="./geca-payment_files/fastclick.js.download"></script>
+        <script src="./geca-payment_files/dataTables.bootstrap.min.js.download"></script>
+    
+    
+    <style type="text/css">
+        /*#ctl00_lblShow {
+              -webkit-animation: blink 5s 0s;
+               animation: blink 5s 0s;
+        }*/
+
+        #ctl00_lblShow {
+            -webkit-animation-name: blink;
+            -moz-animation-name: blink;
+            -o-animation-name: blink;
+            animation-name: blink;
+            -webktit-animation-timing-function: linear;
+            -moz-animation-timing-function: linear;
+            -o-animation-timing-function: linear;
+            animation-timing-function: linear;
+            -webkit-animation-duration: 1s;
+            -moz-animation-duration: 1s;
+            -o-animation-duration: 1s;
+            animation-duration: 1s;
+            color: red;
+        }
+
+        #ctl00_lblShow {
+            -webkit-animation-iteration-count: infinite;
+            -moz-animation-iteration-count: infinite;
+            -o-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+            color: Red;
+        }
+
+
+        @-webkit-keyframes blink {
+            50% {
+                opacity: 0;
+            }
+        }
+
+        @-moz-keyframes blink {
+            50% {
+                opacity: 0;
+            }
+        }
+
+        @keyframes blink {
+            100% {
+                opacity: 0;
+            }
+        }
+    </style>
+
+    
+    <style type="text/css">
+        .freshwidget-dialog {
+            position: fixed;
+            margin: auto;
+            right: 0;
+            left: initial;
+            transition: .2s ease;
+        }
+
+        div#minimize-div {
+            right: 20px;
+            position: absolute;
+            left: 452px;
+            top: 10px;
+            z-index: 9999;
+            padding: 2px 10px;
+            cursor: pointer;
+        }
+
+        .modal-widget .modal-header .fa {
+            float: right;
+        }
+
+        #minimized-div {
+            padding: 5px 10px;
+            background-color: #dbdbdb;
+            font-size: 14px;
+            position: fixed;
+            bottom: 30px;
+            right: 5%;
+            display: none;
+            cursor: pointer;
+            border-top-left-radius: 6px;
+            border-top-right-radius: 6px;
+            z-index: 9999;
+        }
+
+        .inactive {
+            pointer-events: none;
+            opacity: .5;
+        }
+
+        a.freshwidget-theme {
+            background-color: #4080bf !important;
+            border-color: #4080bf !important;
+            top: 50%;
+            transform: translateY(-50%);
+            -webkit-transform: translateY(-50%);
+            -moz-transform: translateY(-50%);
+        }
+
+        .frame-container::after {
+            content: '';
+            display: block;
+            position: absolute;
+            height: 46px;
+            width: 200px;
+            background-color: #fff;
+            top: 1px;
+            right: 22px;
+        }
+    </style>
+    
+    
+    <style type="text/css">
+        .UpperCaseFirstLetter {
+            text-transform: capitalize;
+        }
+    </style>
+    
+
+    
+    <script src="./geca-payment_files/freshwidget.js.download"></script>
+    <script>
+        $(document).ready(function () {
+            $('.freshwidget-container').css({ 'display': 'block' });
+            $('body').on('click', '#minimize-div', function () {
+                $('.freshwidget-container').hide();
+                $('#minimized-div').show();
+                $('#freshwidget-button').addClass('inactive');
+            });
+            $('body').on('click', '#minimized-div', function () {
+                $('.freshwidget-container').show();
+            });
+            $('body').on('click', '.widget-close', function () {
+                $('#minimized-div').hide();
+                $('#freshwidget-button').removeClass('inactive');
+            });
+
+        });
+    </script>
+    
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+
+    
+    <script type="text/javascript" language="javascript">
+        function CheckAlphabet(event, obj) {
+
+            var k = (window.event) ? event.keyCode : event.which;
+            if (k == 8 || k == 9 || k == 43 || k == 95 || k == 0 || k == 32 || k == 46) {
+                obj.style.backgroundColor = "White";
+                return true;
+
+            }
+            if (k >= 65 && k <= 90 || k >= 97 && k <= 122) {
+                obj.style.backgroundColor = "White";
+                return true;
+
+            }
+            else {
+                alert('Please Enter Alphabets Only!');
+                obj.focus();
+            }
+            return false;
+        }
+
+
+        function CheckNumeric(event, obj) {
+            var k = (window.event) ? event.keyCode : event.which;
+            //alert(k);
+            if (k == 8 || k == 9 || k == 43 || k == 95 || k == 0) {
+                obj.style.backgroundColor = "White";
+                return true;
+            }
+            if (k > 45 && k < 58) {
+                obj.style.backgroundColor = "White";
+                return true;
+
+            }
+            else {
+                alert('Please Enter numeric Value');
+                obj.focus();
+            }
+            return false;
+        }
+
+        function CheckAlphaNumeric(event, obj) {
+
+            var k = (window.event) ? event.keyCode : event.which;
+
+            // alert(k);
+
+            if (k == 8 || k == 9 || k == 16 || k == 0 || k == 32 || k == 45) {
+                obj.style.backgroundColor = "White";
+                return true;
+
+            }
+            if (k > 45 && k < 58 || k > 95 && k < 106 || k > 64 && k < 91 || k > 96 && k < 123) {
+                obj.style.backgroundColor = "White";
+                return true;
+
+            }
+            else {
+                alert('Please Enter Alphabets & Numbers Only!');
+                obj.focus();
+            }
+            return false;
+        }
+    </script>
+
+
+
+   
+<style type="text/css">
+	/* <![CDATA[ */
+	#ctl00_mainMenu img.icon { border-style:none;vertical-align:middle; }
+	#ctl00_mainMenu img.separator { border-style:none;display:block; }
+	#ctl00_mainMenu img.horizontal-separator { border-style:none;vertical-align:middle; }
+	#ctl00_mainMenu ul { list-style:none;margin:0;padding:0;width:auto; }
+	#ctl00_mainMenu ul.dynamic { z-index:1; }
+	#ctl00_mainMenu a { text-decoration:none;white-space:nowrap;display:block; }
+	#ctl00_mainMenu a.static { padding-left:0.15em;padding-right:0.15em; }
+	#ctl00_mainMenu a.popout { background-image:url("/WebResource.axd?d=Ex-J_UKFJ0e4LygcmAYmEVf_TIZMn4fCRawA50X8yeYTCwijY0V3s5jLGXX1HR0PayGjKHwipwyuvhhjNv109rmUcZF7g-Qon1jHFanK8fs1&t=637454267640000000");background-repeat:no-repeat;background-position:right center;padding-right:14px; }
+	/* ]]> */
+</style><style>.abcRioButton{border-radius:1px;box-shadow:0 2px 4px 0 rgba(0,0,0,.25);-moz-box-sizing:border-box;box-sizing:border-box;-webkit-transition:background-color .218s,border-color .218s,box-shadow .218s;transition:background-color .218s,border-color .218s,box-shadow .218s;-webkit-user-select:none;-webkit-appearance:none;background-color:#fff;background-image:none;color:#262626;cursor:pointer;outline:none;overflow:hidden;position:relative;text-align:center;vertical-align:middle;white-space:nowrap;width:auto}.abcRioButton:hover{box-shadow:0 0 3px 3px rgba(66,133,244,.3)}.abcRioButtonBlue{border:none;color:#fff}.abcRioButtonBlue,.abcRioButtonBlue:hover{background-color:#4285f4}.abcRioButtonBlue:active{background-color:#3367d6}.abcRioButtonLightBlue{background-color:#fff;color:#757575}.abcRioButtonLightBlue:active{background-color:#eee;color:#6d6d6d}.abcRioButtonIcon{float:left}.abcRioButtonBlue .abcRioButtonIcon{background-color:#fff;border-radius:1px}.abcRioButtonSvg{display:block}.abcRioButtonContents{font-family:Roboto,arial,sans-serif;font-size:14px;font-weight:500;letter-spacing:.21px;margin-left:6px;margin-right:6px;vertical-align:top}.abcRioButtonContentWrapper{height:100%;width:100%}.abcRioButtonBlue .abcRioButtonContentWrapper{border:1px solid transparent}.abcRioButtonErrorWrapper,.abcRioButtonWorkingWrapper{display:none;height:100%;width:100%}.abcRioButtonErrorIcon,.abcRioButtonWorkingIcon{margin-left:auto;margin-right:auto}.abcRioButtonErrorState,.abcRioButtonWorkingState{border:1px solid #d5d5d5;border:1px solid rgba(0,0,0,.17);box-shadow:0 1px 0 rgba(0,0,0,.05);color:#262626}.abcRioButtonErrorState:hover,.abcRioButtonWorkingState:hover{border:1px solid #aaa;border:1px solid rgba(0,0,0,.25);box-shadow:0 1px 0 rgba(0,0,0,.1)}.abcRioButtonErrorState:active,.abcRioButtonWorkingState:active{border:1px solid #aaa;border:1px solid rgba(0,0,0,.25);box-shadow:inset 0 1px 0 #ddd;color:#262626}.abcRioButtonWorkingState,.abcRioButtonWorkingState:hover{background-color:#f5f5f5}.abcRioButtonWorkingState:active{background-color:#e5e5e5}.abcRioButtonErrorState,.abcRioButtonErrorState:hover{background-color:#fff}.abcRioButtonErrorState:active{background-color:#e5e5e5}.abcRioButtonErrorState .abcRioButtonErrorWrapper,.abcRioButtonWorkingState .abcRioButtonWorkingWrapper{display:block}.abcRioButtonErrorState .abcRioButtonContentWrapper,.abcRioButtonErrorState .abcRioButtonWorkingWrapper,.abcRioButtonWorkingState .abcRioButtonContentWrapper{display:none} .-webkit-keyframes abcRioButtonWorkingIconPathSpinKeyframes {0% {-webkit-transform: rotate(0deg)}}</style></head>
+<body class="hold-transition skin-blue layout-top-nav">
+
+    
+    <script src="./geca-payment_files/platform.js.download" async="" defer="" gapi_processed="true"></script>
+    <script type="text/javascript">
+
+        function onSocialSignInForAssociatingUser(googleUser) {
+            // Useful data for your client-side scripts:
+            var profile = googleUser.getBasicProfile();
+            console.log("ID: " + profile.getId()); // Don't send this directly to your
+            console.log('Email: ' + profile.getEmail());
+            // server!
+            var id_token = googleUser.getAuthResponse().id_token;
+            // The ID token you need to pass to your backend:
+            var sLoginData = {
+                "id": profile.getId(),
+                "idToken": id_token
+            };
+            var sloginid = profile.getId();
+            var gmail_id = profile.getEmail();
+
+            $(document).ready(function () {
+                var Ua_no = '3212';
+                $.ajax({
+                    url: '/WEB_API/Stud_Info.asmx/Add_UserGoogleInfo',
+                    //  data: { UA_NO: Ua_no, PROFILE: profile, IDTOKEN: id_token, SLOGINDATA: sLoginData},
+                    data: { UA_NO: Ua_no, IDTOKEN: gmail_id, SLOGINDATA: sloginid },//, SLOGINDATA: sloginid },
+                    type: 'POST',
+                    dataType: 'text',
+
+                    success: function (r) {
+                        alert('You have successfully registered Google Sign In...!!');
+                    },
+                    error: function (e) {
+                        alert('Try Again..!!');
+                    }
+
+                })
+            })
+            var auth2 = gapi.auth2.getAuthInstance();
+            auth2.signOut().then(function () {
+                console.log('User signed out.');
+            });
+
+        }
+    </script>
+    
+
+    <form method="post" action="https://mis.geca.ac.in/ACADEMIC/iitmszu8uZmOGmDmiR0SGCP8xA/+A+IgRCahb0O5D+ztFxvjl59SBRzPKG7mPm99mBzyZI2uViAVAy90WV523mLwheg==?pageno=1781" onsubmit="javascript:return WebForm_OnSubmit();" id="aspnetForm">
+<div class="aspNetHidden">
+<input type="hidden" name="ctl00_ToolkitScriptManager1_HiddenField" id="ctl00_ToolkitScriptManager1_HiddenField" value=";;AjaxControlToolkit, Version=3.0.20229.20843, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e:en-US:3b7d1b28-161f-426a-ab77-b345f2c428f5:e2e86ef9:1df13a87:3858419b:9ea3f0e2:96741c43:c4c00916:c7c04611:cd120801:38ec41c0">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE3Njk5NzYwNDQPFgweCHVzZXJ0eXBlBQEyHglzZXNzaW9uTm8CQh4McmVjaWVwdF9jb2RlBQJURh4EaWRubwKFFR4FUkVHTk8FC0JFMThTMDVGMDEwHgpzZW1lc3Rlcm5vBQE3FgJmD2QWBGYPZBYEAggPZBYCZg8VAScuLi8uLi9wbHVnaW5zL2ZlZWRiYWNrL2Nzcy9mZWVkYmFjay5jc3NkAgoPFQEoLi4vLi4vcGx1Z2lucy9mZWVkYmFjay9qcy9mcmVzaHdpZGdldC5qc2QCAQ9kFiICAg88KwANAQwUKwAFBQ8wOjAsMDoxLDA6MiwwOjMUKwACFgQeBFRleHQFCEFDQURFTUlDHgtOYXZpZ2F0ZVVybGUUKwADBQcwOjAsMDoxFCsAAhYEHwYFHVN0dWRlbnQgU2VjdGlvbiAtIFRyYW5zYWN0aW9uHwdlFCsABAULMDowLDA6MSwwOjIUKwACFgQfBgUTQ291cnNlIFJlZ2lzdHJhdGlvbh8HBSpBQ0FERU1JQy9Db3Vyc2VSZWdpc3RyYXRpb24uYXNweD9wYWdlbm89ODRkFCsAAhYEHwYFGFN0dWRlbnQgRmVlZGJhY2sgQW5zd2Vycx8HBSxBQ0FERU1JQy9TdHVkZW50RmVlZEJhY2tBbnMuYXNweD9wYWdlbm89MTQxMmQUKwACFgQfBgUeQWRtaXNzaW9uIFBheW1lbnQvQ29uZmlybWF0aW9uHwcFLUFDQURFTUlDL09ubGluZUFkbWlzc2lvbkZvcm0uYXNweD9wYWdlbm89MTc4MWQUKwACFgQfBgUJQWRtaXNzaW9uHwdlFCsAAwUHMDowLDA6MRQrAAIWBB8GBRNTdHVkZW50IEluZm9ybWF0aW9uHwcFKGFjYWRlbWljL1N0dWRlbnRJbmZvRW50cnkuYXNweD9wYWdlbm89NzRkFCsAAhYEHwYFFVN0dWRlbnQgRGV0YWlsIHNlYXJjaB8HBTFBY2FkZW1pYy9Db21wcmVoZW5zaXZlX1N0dWRfUmVwb3J0LmFzcHg/cGFnZW5vPTc2ZBQrAAIWBB8GBQtFWEFNSU5BVElPTh8HZRQrAAMFBzA6MCwwOjEUKwACFgQfBgUNRXhhbSBBY3Rpdml0eR8HZRQrAAMFBzA6MCwwOjEUKwACFgQfBgURRXhhbSBSZWdpc3RyYXRpb24fBwUyQUNBREVNSUMvU3R1ZGVudF9FeGFtUmVnaXN0cmF0aW9uLmFzcHg/cGFnZW5vPTE3NDZkFCsAAhYEHwYFFFJlLUV4YW0gUmVnaXN0cmF0aW9uHwcFOkFDQURFTUlDL1N0dWRlbnRfQmFja2xvZ19FeGFtUmVnaXN0cmF0aW9uLmFzcHg/cGFnZW5vPTE3NzNkFCsAAhYEHwYFD0V4YW0gVGltZSBUYWJsZR8HZRQrAAIFAzA6MBQrAAIWBB8GBRtFeGFtIEhhbGwgVGlja2V0IEdlbmVyYXRpb24fBwVAQUNBREVNSUMvRVhBTUlOQVRJT04vU3R1ZGVudEV4YW1BZG1pdENhcmRSZXBvcnQuYXNweD9wYWdlbm89MTY1NWQUKwACFgQfBgUKRS1MRUFSTklORx8HZRQrAAMFBzA6MCwwOjEUKwACFgQfBgUMVHJhbnNhY3Rpb25zHwdlFCsAAgUDMDowFCsAAhYEHwYFDVNlbGVjdCBDb3Vyc2UfBwUiSXRsZS9TZWxlY3Rjb3Vyc2UuYXNweD9wYWdlbm89MTQ0NWQUKwACFgQfBgUEVmlldx8HZRQrAAIFAzA6MBQrAAIWBB8GBQlWaWV3IEV4YW0fBwUeSXRsZS9TdHVkVGVzdC5hc3B4P3BhZ2Vubz0xNDc2ZBQrAAIWBB8GBQZIT1NURUwfB2UUKwACBQMwOjAUKwACFgQfBgULVHJhbnNhY3Rpb24fB2UUKwACBQMwOjAUKwACFgQfBgUTT25saW5lIEFwcGx5IEhvc3RlbB8HBRJIT1NURUw/cGFnZW5vPTEwNzRkFixmD2QWAmYPFQEIQUNBREVNSUNkAgEPZBYCZg8VAR1TdHVkZW50IFNlY3Rpb24gLSBUcmFuc2FjdGlvbmQCAg9kFgJmDxUBE0NvdXJzZSBSZWdpc3RyYXRpb25kAgMPZBYCZg8VARhTdHVkZW50IEZlZWRiYWNrIEFuc3dlcnNkAgQPZBYCZg8VAR5BZG1pc3Npb24gUGF5bWVudC9Db25maXJtYXRpb25kAgUPZBYCZg8VAQlBZG1pc3Npb25kAgYPZBYCZg8VARNTdHVkZW50IEluZm9ybWF0aW9uZAIHD2QWAmYPFQEVU3R1ZGVudCBEZXRhaWwgc2VhcmNoZAIID2QWAmYPFQELRVhBTUlOQVRJT05kAgkPZBYCZg8VAQ1FeGFtIEFjdGl2aXR5ZAIKD2QWAmYPFQERRXhhbSBSZWdpc3RyYXRpb25kAgsPZBYCZg8VARRSZS1FeGFtIFJlZ2lzdHJhdGlvbmQCDA9kFgJmDxUBD0V4YW0gVGltZSBUYWJsZWQCDQ9kFgJmDxUBG0V4YW0gSGFsbCBUaWNrZXQgR2VuZXJhdGlvbmQCDg9kFgJmDxUBCkUtTEVBUk5JTkdkAg8PZBYCZg8VAQxUcmFuc2FjdGlvbnNkAhAPZBYCZg8VAQ1TZWxlY3QgQ291cnNlZAIRD2QWAmYPFQEEVmlld2QCEg9kFgJmDxUBCVZpZXcgRXhhbWQCEw9kFgJmDxUBBkhPU1RFTGQCFA9kFgJmDxUBC1RyYW5zYWN0aW9uZAIVD2QWAmYPFQETT25saW5lIEFwcGx5IEhvc3RlbGQCAw8PFgIeCEltYWdlVXJsBSV+L3Nob3dpbWFnZS5hc3B4P2lkPTI2OTMmdHlwZT1TVFVERU5UZGQCBA8PFgIfCAUlfi9zaG93aW1hZ2UuYXNweD9pZD0yNjkzJnR5cGU9U1RVREVOVGRkAgUPDxYCHwYFH1dlbGNvbWUgSkFZQVNIUkVFIEJIQUdXQVQgUEFUSUxkZAIGDxYCHgdWaXNpYmxlaGQCCw8PFgIfBgV4PFNUUk9ORz48dWw+PGxpPkFDQURFTUlDPC9saT48bGk+U3R1ZGVudCBTZWN0aW9uIC0gVHJhbnNhY3Rpb248L2xpPjxsaT5BZG1pc3Npb24gUGF5bWVudC9Db25maXJtYXRpb248L2xpPjwvdWw+PC9TVFJPTkc+ZGQCDA9kFgQCAw9kFgJmD2QWBgIDDw8WAh8JaGRkAgUPFgIfCWcWAgIBDxYCHwlnFi4CAQ9kFgICAQ8PFgIfBgUXSkFZQVNIUkVFIEJIQUdXQVQgUEFUSUxkZAIDD2QWAgIBDw8WAh8GZWRkAgUPZBYCAgEPDxYCHwZlZGQCCw9kFgICAQ8PFgIfBgUgQ09NUFVURVIgU0NJRU5DRSBBTkQgRU5HSU5FRVJJTkdkZAIND2QWAgIBDw8WAh8GBRMzMC8wOS8xOTk4IDAwOjAwOjAwZGQCDw9kFgICAQ8PFgIfBmVkZAITD2QWAgIBDxAPFgYeDkRhdGFWYWx1ZUZpZWxkBQpDQVRFR09SWU5PHg1EYXRhVGV4dEZpZWxkBQhDQVRFR09SWR4LXyFEYXRhQm91bmRnZBAVDg1QbGVhc2UgU2VsZWN0BURUL1ZKA0VCQwNFV1METlQtQgROVC1DBE5ULUQDT0JDBE9QRU4FT1RIRVIDU0JDAlNDBFNFQkMCU1QVDgEwATkCMTMCMTIBMwE0ATUBMgExAjEwATgBNgIxMQE3FCsDDmdnZ2dnZ2dnZ2dnZ2dnFgECB2QCGQ9kFgICAQ8PFgIfBgUXamF5YXBhdGlsOTgzMEBnbWFpbC5jb21kZAIbD2QWAgIBDw8WAh8GBQEwZGQCHQ8QZGQWAWZkAh8PDxYCHwYFATBkZAIlDw8WAh4HRW5hYmxlZGhkZAIxD2QWAgIBDxAPFgYfCgUKQkxPT0RHUlBOTx8LBQxCTE9PREdSUE5BTUUfDGdkEBUIAkEtAkErA0FCLQNBQisCQi0CQisCTy0CTysVCAEyATEBNgE1ATQBMwE4ATcUKwMIZ2dnZ2dnZ2cWAWZkAjMPZBYCAgEPDxYCHwZlZGQCNQ9kFgICAQ8PFgIfBmVkZAI3D2QWAgIBDxAPFgYfCgUHQ0FTVEVOTx8LBQVDQVNURR8MZ2QQFfECDVBsZWFzZSBTZWxlY3QDQURJCkFHQU1VREFZQVIHQUdSQVdBTARBR1JJBEFISVIEQU5ESAxBTkRIIEFESVZBU0kNQVVOREggQURJVkFTSQhCQURHVUpBUgRCQUlMB0JBSVJBR0kNQkFOSVlBIEtBTFdBUgdCQU5KQVJBCEJBUkFOV0FMBEJBUkkGQkVMREFSEEJFUkFEIChOQUlLV0FESSkNQkhBTVRBIFJBSlBVVAlCSEFNVEkgVkoIQkhBTkRBUkkGQkhBTkdJB0JIQVZTQVIRQkhBVlNBUiBLU0hBVFJJWUEJQkhJS1NIVUtJBEJISUwFQkhJTEwEQkhPSQVCSE9QRQZCSE9ZQVIIQkhVTUlIQVIGQk9VRERIB0JPVURESEEGQk9VREhBB0JSQUhNQU4PQlJBSE1BTiBCSElTSFVLB0JSQUhNSU4HQlJBTUhBTghCVURESElTTQhCVURESElTVBFCVURESElTVCBTQyBNQUhBUg1CVURISVNUIE1BSEFSBWJ1cnVkCENBVEhPTElDBkNIQU1BUgdDSEFNQkFSCENIQU1CSEFSC0NIQVBQRVJCQU5EBmNoYXJhaw1DSEhJUEEgTy5CLkMuB0NISVRBUkkJQ0hSSVNUSUFOEURBSVZBRE5ZQSBCUkFITUFOBkRBU0FSSQdESEFOR0FSDkRIQU5HQVItSEFUS0FSD0RoZWxhcmkgRGhhbmdhcgZESElXQVIFREhPQkkEREhPUgpET0RFIEdVSkFSBkVaSEFWQQVGQUtJUgZGVUxBUkkHRlVMTUFMSQpHQURJIExPSEFSBkdBVkFMSQZHQVdBTEkHR0VORVJBTAVHT0xMQQRHT05EC0dPTkQtR09XQVJJCEdPTkRIQUxJBkdPU0FWSQ9HVUpSQVRISSBMT0hBTkEHR1VKUkFUSQ5HVUpSQVRJIExPSEFOQQ9HVUpSQVRJLUJSQUhNSU4OR1VKUkFUSS1MT0hBTkEFR1VSQVYFSEFMQkEFSEFMQkkGSEFUS0FSDkhBVEtBUi1ESEFOR0FSBUhJTkRVDEhJTkRVICBIQUxCQQ5ISU5EVSAtIEtPS0FOSRRISU5EVSAtIE1BSEFERVYgS09MSQ5ISU5EVSAtIFNISU1QSQ5ISU5EVSAtIFRPS0FSRQ1ISU5EVSBBR1JBV0FMCkhJTkRVIEFOREgTSElORFUgQU5ESCBBRElXQVNISQ1ISU5EVSBCQU5KQVJBCkhJTkRVIEJBUkkNSElORFUgQkhBVlNBUgxISU5EVSBCSElMTEEKSElORFUgQkhPSQ1ISU5EVSBCUkFITUFODUhJTkRVIEJSQUhNSU4NSElORFUgQlJBTUhBTg5ISU5EVSBDSEFNQkhBUg1ISU5EVSBESEFOR0FSC0hJTkRVIERIT0JJDEhJTkRVIEZVTEFSSQ1ISU5EVSBGVUxNQUxJEUhJTkRVIEdBREktIExPSEFSDUhJTkRVIEdBVkFOREkOSElORFUgR09OREhBTEkLSElORFUgR1VKQVILSElORFUgR1VMQVILSElORFUgR1VSQVYMSElORFUgSEFUS0FSCkhJTkRVIEpBSU4NSElORFUgS0FJS0FESQtISU5EVSBLQVNBUgxISU5EVSBLT0tBTkELSElORFUgS09NVEkMSElORFUgS09TSFRJDUhJTkRVIEtVTUJIQVILSElORFUgS1VOQkkTSElORFUgS1VOQkkgTUFSQVRIQRFISU5EVSBLVU5CSSBQQVRJTBVISU5EVSBLVU5CSSBQQVRJTCBPQkMXSElORFUgTEFEIFNIQUtISVlBIFdBTkkNSElORFUgTEFEV0FOSQtISU5EVSBMQU1BTgxISU5EVSBMQU1BTkkQSElORFUgTEVWQSBLVU5CSRJISU5EVSBMRVZBIFBBVElEQUUSSElORFUgTEVWQSBQQVRJREFSDkhJTkRVIExJTkdBWUFUDkhJTkRVIExJTkdESEFSC0hJTkRVIExPREhJC0hJTkRVIExPSEFSDEhJTkRVIExPTkFSSRJISU5EVSBNQUhBREVWIEtPTEkLSElORFUgTUFIQVIQSElORFUgTUFIRVNIV0FSSQpISU5EVSBNQUxJCkhJTkRVIE1BTkEKSElORFUgTUFORxFISU5EVSBNQU5ORVJWQVJMVQ5ISU5EVSBNQU5ORVdBUg1ISU5EVSBNQVJBVEhBDUhJTkRVIE1BUldBREkQSElORFUgTkFNT1NIVURSQRBISU5EVSBQQURNQVNIQUxJC0hJTkRVIFBBUklUDEhJTkRVIFBBVEtBUgtISU5EVSBQT1dBUhBISU5EVSBSQUpBU1RIQU5JDEhJTkRVIFJBSlBVVAtIaW5kdSBSZWRkeQpISU5EVSBTQUxJDEhJTkRVIFNISU1QSQtISU5EVSBTT05BUhhISU5EVSBTVCBCQU5KQVJBIExBTUJBREELSElORFUgVEFLVVITSElORFUgVEFMV0FSIEtBTkFESQpISU5EVSBXQU5JC0hJTkRVIFlBTEFNC0hJTkRVLUFBTkRIDUhJTkRVLUJIUkFNQU4NSElORFUtS0FJS0FESQ1ISU5EVS1NQVJBVEhBCkhJTkRVLVRFTEkNSElORFUtVkFOSkFSSQ1JU0xBTSBDSEFQUEFSDElTTEFNIE1VU0xJTRJJU0xBTSBNVVNMSU0gVEFEVkkLSVNMQU0gUEFUTkkLSVNMQU0gU1VOTkkESkFJTgtKQUlOIEtPU0hUSQxKQUlOIFNBSVRXQUwLSkFJTi1CQU5JWUENSkFJTi1HVUpBUkFUSQpKQUlOLUtBU0FSCEpBSU4tTEFEDEpBSU4tTUFSV0FESQxKQUlOLVBBTElXQUwMSkFJTi1TQUlUV0FMC0pBSU4tU0hJTVBJCUpBSU4tV0FOSQZKQU5HQU0JSklSRSBNQUxJBkpVTEFIQQZLQUNIQVIHS0FDSEFSSQVLQUNISQxLQUNISSBNVVNMSU0FS0FIQVIHS0FJS0FESQVLQUxBTAVLQUxBUgZLQU5BREkKS0FOSkFSQkhBVAVLQVNBUg5LQVNISUQtQlJBSE1BTgZLQVRIQVILS0FUSEFSIFdBTkkIS0FZQVNUSEEGS0hBVElLBktIQVRSSQZLT0hBTEkFS09ITEkGS09LQU5BB0tPTEhBVEkES09MSQxLT0xJLU1BSEFERU8LS09MSS1NQUxIQVIGS09NQVRJBUtPTVRJBEtPUkkFS09SS1UGS09TSFRJBUtPU1RBBktPWUFSSQ9LU0hBVFJJWUEgUEFUVkkFS1VDSEkKS1VMRUtBREFHSQdLVU1CSEFSBktVTkJISQVLVU5CSQ1LVU5CSSBNQVJBVEhBC0tVTkJJIFBBVElMBktVUk1BUgVLVVJNSQNsYWQITEFEIFdBTkkLTEFELUJSQUhNQU4FTEFNQU4STEFNQU4gVklNVUtUQSBKQVRJCkxFVkEgS1VOQkkMbGV2YSBwYXRpZGFyCkxFVkUgR1VKQVIKTEVXQS1QQVRJTAhMSU5HQVlBVA1MSU5HQVlBVC1XQU5JB0xJTkdERVIITElOR1dBTlQFTE9ESEkGTE9IQU5BBUxPSEFSBkxPTkFSSQVNQUFORwZNQURJR0EMTUFIQURFTyBLT0xJDE1BSEFERVYgS09MSQVNQUhBUhBNQUhBUiBCT1VEREhBIFNDCk1BSEVTSFdBUkkETUFMSQlNQUxJIEpJUkUETUFOQQRNQU5HC01BTk5FUlZBUkxVBk1BUElMQQVNQVJBUgdNQVJBVEhBDU1BUkFUSEEgS1VOQkkNTUFSQVRIQSBQQVRJTAdNQVJXQURJD01BUldBREktQlJBSE1JTg5NQVJXQURJLUtIQVRSSRJNQVJXQURJLU1BSEVTSFdBUkkNTUFSV0FESS1TT05BUg1NQVJXQURJLVNVVEFSBk1BVEFORwVNZWVuYQZNRUhUQVIFTU9DSEkKTU9NUE5BTlNBUghNVVNBTE1BTgZNdXNsaW0UTVVTTElNIERBV09PREkgQk9IUkENTVVTTElNIE1VTEFOSQ1NVVNMSU0gVEFEQVZJDE1VU0xJTS1CT0hSQQxNVVNMSU0tSVNMQU0NTVVTTElNLUtBQ0NISQxNVVNMSU0tTUVNT04OTVVTTElNLVBJTkpBUkkOTVVTTElNLVFVUkVTSEkETkFJUgpOQU1PU0hVRFJBC05BViBCT1VEREhBDE5BWUktQlJBSE1JTglORVZFIFdBTkkFTkhBVkkMTk9UIFJFQ09SREVEA09CQwtPQkMgTUFOSVlBUgJPQwRPUEVOBW90aGVyClBBRE1BU0hBTEkGUEFOR1VMB1BBTkpBQkkQUEFSQVNIRVItQlJBSE1JTghQQVJERVNISRBQQVJERVNJIEJSQUhBTUlOB1BBUkRIQU4GUEFSREhJBVBBUklUBVBBVEVMCVBBVEhBUlZBVAlQQVRIQVJXQUQJUEFUSEFSV0FUBlBBVEtBUgVQQVdBUgZQQVdBUkEIUEVSS0VXQUQFUEVSS0kJUEhVTCBNQUxJBVBPV0FSD1BVTkpBQkktQkhSQU1BTgZSQUpQVVQNUkFKUFVUIEJIQU1UQQdSQU1PU0hJB1JBTkdBUkkPUkFOR0FSSSBCSEFWU0FSB1JBTkdSRUoGUkFUSEVSClJFVkUgR1VKQVIHU0FJVFdBTApTQUtVTCBTQUxJBFNBTEkIU0FPLlRFTEkHU0FUTkFNSQJTQwZTSEFSTUEGU0hFR0FSBlNISU1QSQRTSUtIBlNJTkRISQVTT05BUgtTVVJZQVdBTlNISQVTVVRBUgZTVVRIQVIIVEFLQU5LQVIGVEFLQVJJCFRBS09OS0FSB1RBTUJPTEkHVEVMQU5HSQ1URUxHVSBGVUxNQUxJBFRFTEkNVEVMSS1MSU5HREhBUgxURUxJLVBBUkRFU0kLVEVMSS1SQVRIT0QGVEhBS0FSBlRIQUtVUgtUSUxXQU4gVEVMSQVVUkJBTgdWQUlTSFlBDFZBSVNIWUEgV0FOSQZWQUlTWUEHVkFOSkFSSQVWQVJMSQVXQURBUgZXQURIQUkEV0FESQRXQU5JB1dBTkpBUkkHV0FTVURFTwVZQURBVgVZYWxhbQZZQUxMQU0V8QIBMAMxNDEDMTE4AjIwAzExMQIzOQI0MwMxODQDMTg2AzIxMQMzNDIDMjY0AzI1MwI4MAIzNwI2MAMxMDUDMjIyAzMxNAMzNDYDMjIzAzI2OQI5NwMyMzQDMzMxAzE2MAMzMzYCOTgDMzQ0AzI1OQIzNgMyNjADMTUyAjU5AzEzMgMyOTABMwMxOTEDMjc0AzM0MwMzNTIDMzAyAjI5AzIxNAIyMwMzMjkCOTEDMjI1AzM3MAMzNTgDMjQ5AjEzAzE0MgMyNzECNTICNTQDMTkzAzExNAI5NQMyMzcDMTE2AjMxAzEzMwMyMjcDMTI2AzEzOAMxODUCOTkDMTU4AzI0MwI5MgMzNjYCOTMDMTA0AzE5NgI2MgMxOTQCNDkCNjEDMTgzATgDMTM3AzEwNwMxNzICMTQDMzE4AzIxMwMyMTcDMjA4AzIxOAMzMDEDMzEwAzMxNQMzNDADMjk4AzMxNgMzMjMDMzMwAzE5NQMxOTcDMTk5AzI4NAMyNjUDMzU3AzI5NgMzMDYDMjA3AzMyNgMzNjUDMjAzAzIwMgMzMTkDMTIzAzI5NQMzNTADMzY0AzMwNQMzMTEDMjkxAzMxNwMyODMDMjg4AzMyMgMzMzMDMjA1AzIwNAMyNzgDMTYxAzMxMwMyODEDMzM3AzE2NwMyNTgDMjc3AzM1NAMyODcDMjk5AzE3MAMzMjQDMjc2AzI5NwMyODYDMzU1AzEyMAMyOTQDMjc5AzEyOAMyNTcDMzYxAzMwMwMzNDkDMzUzAzMwOAMyOTMDMzA0AzI4MgMxNTYDMjA2AzMyOAMzNTkDMTIxAzMwOQMxMjICNDYDMjQxAzE2MgMxMzQDMTQ5AzI4OQMyODADMzYyAzI4NQMzNDgCNzQDMTM5AzMxMgI3MgI2NgI3MAI3MQI2OAI2NQI3MwI2NwI2OQMyMzADMzMyAzIxNgMzNjADMjI2AzE3MwMxNzUDMTgxAzI3MgMxMTMCMTgDMjU0AzEyNQMxMDkCNDgDMzI1AzIzMQMxNDgCMjYDMTY1AzEzNgE5AzIwMAMxNjQDMTg3AzE2OAMyMzkDMjc1AzEwMQIzOAMxMzADMTA4AjI3AzE3OQIzMgMxNjYDMjQ2AjgyATEBNAMyMzIDMTkyAzM1MQIxNwMxNTkDMjEwAjQ3AzIwOQMyMTUDMTkwAjQyAzE3NgMxMTACNjMCNjQCOTQDMjcwAzE1MQMyMjkCMjQDMjIxAzExNwMxNDADMTYzAzMwMAE2AzIxMgMxMDACMTIDMTgwAjk2AzE2OQMyMjgCMzACMTECODEDMzIxAzE5OAI3OQI0NAI3NwI3NgI3NQI3OAMyNTYCMTUDMzM5AzM0MQIyMgMxNTACNDEDMjE5AzMzNQMyNTECODcCODgCOTACODkCODYCODUDMjYzAzE3MQMxODkCNTEDMjQ4AzEyNAMxMTUCMTADMzM4AzM0NwE3AjI4AzIzMwMyNjIDMTI5AjUwAjU4AzI0MAI1MwMxNTUDMjYxAzMyNwMyNjYDMjM1AzI2OAMyNTACMjEDMjQ1AzI3MwMxMTIDMzQ1AzEyNwI0NQIzMwMxNDcDMzY3AzE4MgMxNzQDMTQzAzM2OAMyNDcDMTQ0AzMyMAMxODgDMTQ1AjI1AzI5MgMzNjkDMTMxATUDMjUyAjg0AjE5AjQwAzEwMwMxNTMDMTQ2AzM1NgMzMDcDMjM2AzM2MwMyNDICMTYCNTcCNTUCNTYDMjY3AzE3OAMzMzQDMTM1AzI1NQMyMDECMzQCODMDMjIwAzE3NwMxNTQBMgMxNTcDMTE5AzI0NAIzNQMyMjQDMjM4FCsD8QJnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2cWAWZkAjkPZBYCAgEPEA8WBh8KBQpSRUxJR0lPTk5PHwsFCFJFTElHSU9OHwxnZBAVCg1QbGVhc2UgU2VsZWN0CEJVRERISVNUCUNIUklTVElBTgVISU5EVQVJU0xBTQRKQUlOBk1VU0xJTQVPVEhFUgVQQVJTSQRTSUtIFQoBMAE1ATMBMQE3ATYBMgE5ATgBNBQrAwpnZ2dnZ2dnZ2dnFgFmZAI7D2QWAgIBDw8WAh8GZWRkAj0PZBYCAgEPEA8WBh8KBRFTQ0hPTE9SU0hJUFRZUEVOTx8LBQ9TQ0hPTE9SU0hJUENPREUfDGdkEBUDDVBsZWFzZSBTZWxlY3QDRUJDBEdPVlQVAwEwATEBMhQrAwNnZ2cWAWZkAj8PZBYCAgEPDxYCHwhkZGQCQQ9kFgICAQ8PFgIfBmVkZAJDD2QWAgIBDw8WAh8GZWRkAkkPZBYCAgEPEA8WBh8LBQxET0NVTUVOVE5BTUUfCgUKRE9DVU1FTlROTx8MZ2QQFQYKTWFya3MgTWVtbwRULkMuGkNhc3RlIFZhbGlkaXR5IENlcnRpZmljYXRlE0RlZmVuY2UgQ2VydGlmaWNhdGUHRUJDLVBUQwVPdGhlchUGATEBMgEzATQBNQE2FCsDBmdnZ2dnZxYAZAIHD2QWAgIBDxQrAAIPFgQfDGceC18hSXRlbUNvdW50Av////8PZGRkAgUPFgIeCWlubmVyaHRtbGVkAg4PFgIfCWcWAgIBDxYCHgRocmVmBURodHRwczovL21pcy5nZWNhLmFjLmluL0FDQURFTUlDL09ubGluZUFkbWlzc2lvbkZvcm0uYXNweD9wYWdlbm89MTc4MRYCZg8WAh8PBR5BZG1pc3Npb24gUGF5bWVudC9Db25maXJtYXRpb25kAg8PFgIfCWcWAgIBDxYCHxAFP2h0dHBzOi8vbWlzLmdlY2EuYWMuaW4vYWNhZGVtaWMvU3R1ZGVudEluZm9FbnRyeS5hc3B4P3BhZ2Vubz03NBYCZg8WAh8PBRNTdHVkZW50IEluZm9ybWF0aW9uZAIQDxYCHwlnFgICAQ8WAh8QBTlodHRwczovL21pcy5nZWNhLmFjLmluL0l0bGUvU2VsZWN0Y291cnNlLmFzcHg/cGFnZW5vPTE0NDUWAmYPFgIfDwUNU2VsZWN0IENvdXJzZWQCEQ8WAh8JZxYCAgEPFgIfEAVDaHR0cHM6Ly9taXMuZ2VjYS5hYy5pbi9BQ0FERU1JQy9TdHVkZW50RmVlZEJhY2tBbnMuYXNweD9wYWdlbm89MTQxMhYCZg8WAh8PBRhTdHVkZW50IEZlZWRiYWNrIEFuc3dlcnNkAhIPFgIfCWcWAgIBDxYCHxAFQWh0dHBzOi8vbWlzLmdlY2EuYWMuaW4vQUNBREVNSUMvQ291cnNlUmVnaXN0cmF0aW9uLmFzcHg/cGFnZW5vPTg0FgJmDxYCHw8FE0NvdXJzZSBSZWdpc3RyYXRpb25kAhMPFgIfCWcWAgIBDxYCHxAFSGh0dHBzOi8vbWlzLmdlY2EuYWMuaW4vQWNhZGVtaWMvQ29tcHJlaGVuc2l2ZV9TdHVkX1JlcG9ydC5hc3B4P3BhZ2Vubz03NhYCZg8WAh8PBRVTdHVkZW50IERldGFpbCBzZWFyY2hkAhQPFgIfCWcWAgIBDxYCHxAFSWh0dHBzOi8vbWlzLmdlY2EuYWMuaW4vQUNBREVNSUMvU3R1ZGVudF9FeGFtUmVnaXN0cmF0aW9uLmFzcHg/cGFnZW5vPTE3NDYWAmYPFgIfDwURRXhhbSBSZWdpc3RyYXRpb25kAhUPFgIfCWcWAgIBDxYCHxAFNWh0dHBzOi8vbWlzLmdlY2EuYWMuaW4vSXRsZS9TdHVkVGVzdC5hc3B4P3BhZ2Vubz0xNDc2FgJmDxYCHw8FCVZpZXcgRXhhbWQCFg8WAh8JZxYCAgEPFgIfEAUpaHR0cHM6Ly9taXMuZ2VjYS5hYy5pbi9IT1NURUw/cGFnZW5vPTEwNzQWAmYPFgIfDwUTT25saW5lIEFwcGx5IEhvc3RlbGQCFw8WAh8JZxYCAgEPFgIfEAVXaHR0cHM6Ly9taXMuZ2VjYS5hYy5pbi9BQ0FERU1JQy9FWEFNSU5BVElPTi9TdHVkZW50RXhhbUFkbWl0Q2FyZFJlcG9ydC5hc3B4P3BhZ2Vubz0xNjU1FgJmDxYCHw8FG0V4YW0gSGFsbCBUaWNrZXQgR2VuZXJhdGlvbmQYAQUiY3RsMDAkQ29udGVudFBsYWNlSG9sZGVyMSRsdlJlc3VsdA9nZHD80yiR40dEL0BwrN0n4frUhcdNep2+TUKwynKP6BDe">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="./geca-payment_files/WebResource.axd" type="text/javascript"></script>
+
+
+<script src="./geca-payment_files/ScriptResource.axd" type="text/javascript"></script>
+<script src="./geca-payment_files/ScriptResource(1).axd" type="text/javascript"></script>
+<script src="./geca-payment_files/ScriptResource(2).axd" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="./geca-payment_files/ScriptResource(3).axd" type="text/javascript"></script>
+<script src="./geca-payment_files/OnlineAdmissionForm.aspx" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</script>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="8AA2D7A5">
+</div>
+        <div class="wrapper">
+            <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ToolkitScriptManager1', 'aspnetForm', ['tctl00$ContentPlaceHolder1$updStudentInfo','','tctl00$updPopUp_Link','','tctl00$uplInterNetConnectionCheck',''], [], [], 90, 'ctl00');
+//]]>
+</script>
+
+           
+            <header class="main-header">
+                <!-- Googl Sign in! Deepali-->
+                <div class="fixed-google" hidden="">
+                    <div class="g-signin2" data-onsuccess="onSocialSignInForAssociatingUser" data-theme="dark" title="click here for create google Sign In" data-gapiscan="true" data-onload="true"><div style="height:36px;width:120px;" class="abcRioButton abcRioButtonBlue"><div class="abcRioButtonContentWrapper"><div class="abcRioButtonIcon" style="padding:8px"><div style="width:18px;height:18px;" class="abcRioButtonSvgImageWithFallback abcRioButtonIconImage abcRioButtonIconImage18"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 48 48" class="abcRioButtonSvg"><g><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"></path><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"></path><path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"></path><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"></path><path fill="none" d="M0 0h48v48H0z"></path></g></svg></div></div><span style="font-size:13px;line-height:34px;" class="abcRioButtonContents"><span id="not_signed_inpu3kxray84ju">Sign in</span><span id="connectedpu3kxray84ju" style="display:none">Signed in</span></span></div></div></div>
+                </div>
+                <!--X!-->
+                <div class="row row1" style="padding: 0">
+                    <div class="col-md-12 text-center">
+
+                        <img class="clg-logo" src="./geca-payment_files/nitS_logo.png">
+                        <h2 class="text-center title-mainhead" style="display: inline-grid;">Government College of Engineering, Aurangabad<span class="title-head">(An Autonomous Institute Of Government Of Maharashtra)</span>
+                            <span class="title-subhead">Railway Station Road, Aurangabad, Maharashtra</span>
+                        </h2>
+
+                    </div>
+                </div>
+                <nav class="navbar">
+
+
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse pull-left" id="navbar-collapse">
+                        <div class="live-search-list">
+                            <a href="https://mis.geca.ac.in/ACADEMIC/iitmszu8uZmOGmDmiR0SGCP8xA/+A+IgRCahb0O5D+ztFxvjl59SBRzPKG7mPm99mBzyZI2uViAVAy90WV523mLwheg==?enc=M1EsHDAeRhaekcwzmtddkmx2+8FntJw58ONYLEISEsQ=#ctl00_mainMenu_SkipLink"><img alt="Skip Navigation Links" src="./geca-payment_files/WebResource(1).axd" width="0" height="0" style="border-width:0px;"></a><div id="ctl00_mainMenu" style="float: left;">
+	<ul class="level1 nav navbar-nav static" tabindex="0" role="menubar" style="position: relative; width: auto; float: left;">
+		<li class="has-popup static" aria-haspopup="ctl00_mainMenu:submenu:2" role="menuitem" style="position: relative; float: left;"><a class="popout level1 static" href="https://mis.geca.ac.in/ACADEMIC/iitmszu8uZmOGmDmiR0SGCP8xA/+A+IgRCahb0O5D+ztFxvjl59SBRzPKG7mPm99mBzyZI2uViAVAy90WV523mLwheg==?enc=M1EsHDAeRhaekcwzmtddkmx2+8FntJw58ONYLEISEsQ=#" onclick="__doPostBack(&#39;ctl00$mainMenu&#39;,&#39;ACADEMIC&#39;)" tabindex="-1">
+                                    ACADEMIC
+                                </a><ul class="level2 dropdown-menu dynamic" id="ctl00_mainMenu:submenu:2" style="display: none; position: absolute; top: 100%; left: 0px;">
+			<li class="has-popup dynamic" aria-haspopup="ctl00_mainMenu:submenu:3" role="menuitem" style="position: relative;"><a class="popout level2 dynamic" href="https://mis.geca.ac.in/ACADEMIC/iitmszu8uZmOGmDmiR0SGCP8xA/+A+IgRCahb0O5D+ztFxvjl59SBRzPKG7mPm99mBzyZI2uViAVAy90WV523mLwheg==?enc=M1EsHDAeRhaekcwzmtddkmx2+8FntJw58ONYLEISEsQ=#" onclick="__doPostBack(&#39;ctl00$mainMenu&#39;,&#39;ACADEMIC\\Student Section - Transaction&#39;)" tabindex="-1">
+                                    Student Section - Transaction
+                                </a><ul class="level3 dropdown-menu dynamic" id="ctl00_mainMenu:submenu:3" style="display: none; position: absolute; top: 0px; left: 100%;">
+				<li role="menuitem" class="dynamic" style="position: relative;"><a class="level3 dynamic" href="https://mis.geca.ac.in/ACADEMIC/CourseRegistration.aspx?pageno=84" tabindex="-1">
+                                    Course Registration
+                                </a></li><li role="menuitem" class="dynamic" style="position: relative;"><a class="level3 dynamic" href="https://mis.geca.ac.in/ACADEMIC/StudentFeedBackAns.aspx?pageno=1412" tabindex="-1">
+                                    Student Feedback Answers
+                                </a></li><li role="menuitem" class="dynamic" style="position: relative;"><a class="level3 dynamic" href="https://mis.geca.ac.in/ACADEMIC/OnlineAdmissionForm.aspx?pageno=1781" tabindex="-1">
+                                    Admission Payment/Confirmation
+                                </a></li>
+			</ul></li><li class="has-popup dynamic" aria-haspopup="ctl00_mainMenu:submenu:8" role="menuitem" style="position: relative;"><a class="popout level2 dynamic" href="https://mis.geca.ac.in/ACADEMIC/iitmszu8uZmOGmDmiR0SGCP8xA/+A+IgRCahb0O5D+ztFxvjl59SBRzPKG7mPm99mBzyZI2uViAVAy90WV523mLwheg==?enc=M1EsHDAeRhaekcwzmtddkmx2+8FntJw58ONYLEISEsQ=#" onclick="__doPostBack(&#39;ctl00$mainMenu&#39;,&#39;ACADEMIC\\Admission&#39;)" tabindex="-1">
+                                    Admission
+                                </a><ul class="level3 dropdown-menu dynamic" id="ctl00_mainMenu:submenu:8" style="display: none; position: absolute; top: 0px; left: 100%;">
+				<li role="menuitem" class="dynamic" style="position: relative;"><a class="level3 dynamic" href="https://mis.geca.ac.in/ACADEMIC/StudentInfoEntry.aspx?pageno=74" tabindex="-1">
+                                    Student Information
+                                </a></li><li role="menuitem" class="dynamic" style="position: relative;"><a class="level3 dynamic" href="https://mis.geca.ac.in/ACADEMIC/Comprehensive_Stud_Report.aspx?pageno=76" tabindex="-1">
+                                    Student Detail search
+                                </a></li>
+			</ul></li>
+		</ul></li><li class="has-popup static" aria-haspopup="ctl00_mainMenu:submenu:13" role="menuitem" style="position: relative; float: left;"><a class="popout level1 static" href="https://mis.geca.ac.in/ACADEMIC/iitmszu8uZmOGmDmiR0SGCP8xA/+A+IgRCahb0O5D+ztFxvjl59SBRzPKG7mPm99mBzyZI2uViAVAy90WV523mLwheg==?enc=M1EsHDAeRhaekcwzmtddkmx2+8FntJw58ONYLEISEsQ=#" onclick="__doPostBack(&#39;ctl00$mainMenu&#39;,&#39;EXAMINATION&#39;)" tabindex="-1">
+                                    EXAMINATION
+                                </a><ul class="level2 dropdown-menu dynamic" id="ctl00_mainMenu:submenu:13" style="display: none; position: absolute; top: 100%; left: 0px;">
+			<li class="has-popup dynamic" aria-haspopup="ctl00_mainMenu:submenu:14" role="menuitem" style="position: relative;"><a class="popout level2 dynamic" href="https://mis.geca.ac.in/ACADEMIC/iitmszu8uZmOGmDmiR0SGCP8xA/+A+IgRCahb0O5D+ztFxvjl59SBRzPKG7mPm99mBzyZI2uViAVAy90WV523mLwheg==?enc=M1EsHDAeRhaekcwzmtddkmx2+8FntJw58ONYLEISEsQ=#" onclick="__doPostBack(&#39;ctl00$mainMenu&#39;,&#39;EXAMINATION\\Exam Activity&#39;)" tabindex="-1">
+                                    Exam Activity
+                                </a><ul class="level3 dropdown-menu dynamic" id="ctl00_mainMenu:submenu:14" style="display: none; position: absolute; top: 0px; left: 100%;">
+				<li role="menuitem" class="dynamic" style="position: relative;"><a class="level3 dynamic" href="https://mis.geca.ac.in/ACADEMIC/Student_ExamRegistration.aspx?pageno=1746" tabindex="-1">
+                                    Exam Registration
+                                </a></li><li role="menuitem" class="dynamic" style="position: relative;"><a class="level3 dynamic" href="https://mis.geca.ac.in/ACADEMIC/Student_Backlog_ExamRegistration.aspx?pageno=1773" tabindex="-1">
+                                    Re-Exam Registration
+                                </a></li>
+			</ul></li><li class="has-popup dynamic" aria-haspopup="ctl00_mainMenu:submenu:18" role="menuitem" style="position: relative;"><a class="popout level2 dynamic" href="https://mis.geca.ac.in/ACADEMIC/iitmszu8uZmOGmDmiR0SGCP8xA/+A+IgRCahb0O5D+ztFxvjl59SBRzPKG7mPm99mBzyZI2uViAVAy90WV523mLwheg==?enc=M1EsHDAeRhaekcwzmtddkmx2+8FntJw58ONYLEISEsQ=#" onclick="__doPostBack(&#39;ctl00$mainMenu&#39;,&#39;EXAMINATION\\Exam Time Table&#39;)" tabindex="-1">
+                                    Exam Time Table
+                                </a><ul class="level3 dropdown-menu dynamic" id="ctl00_mainMenu:submenu:18" style="display: none; position: absolute; top: 0px; left: 100%;">
+				<li role="menuitem" class="dynamic" style="position: relative;"><a class="level3 dynamic" href="https://mis.geca.ac.in/ACADEMIC/EXAMINATION/StudentExamAdmitCardReport.aspx?pageno=1655" tabindex="-1">
+                                    Exam Hall Ticket Generation
+                                </a></li>
+			</ul></li>
+		</ul></li><li class="has-popup static" aria-haspopup="ctl00_mainMenu:submenu:22" role="menuitem" style="position: relative; float: left;"><a class="popout level1 static" href="https://mis.geca.ac.in/ACADEMIC/iitmszu8uZmOGmDmiR0SGCP8xA/+A+IgRCahb0O5D+ztFxvjl59SBRzPKG7mPm99mBzyZI2uViAVAy90WV523mLwheg==?enc=M1EsHDAeRhaekcwzmtddkmx2+8FntJw58ONYLEISEsQ=#" onclick="__doPostBack(&#39;ctl00$mainMenu&#39;,&#39;E-LEARNING&#39;)" tabindex="-1">
+                                    E-LEARNING
+                                </a><ul class="level2 dropdown-menu dynamic" id="ctl00_mainMenu:submenu:22" style="display: none; position: absolute; top: 100%; left: 0px;">
+			<li class="has-popup dynamic" aria-haspopup="ctl00_mainMenu:submenu:23" role="menuitem" style="position: relative;"><a class="popout level2 dynamic" href="https://mis.geca.ac.in/ACADEMIC/iitmszu8uZmOGmDmiR0SGCP8xA/+A+IgRCahb0O5D+ztFxvjl59SBRzPKG7mPm99mBzyZI2uViAVAy90WV523mLwheg==?enc=M1EsHDAeRhaekcwzmtddkmx2+8FntJw58ONYLEISEsQ=#" onclick="__doPostBack(&#39;ctl00$mainMenu&#39;,&#39;E-LEARNING\\Transactions&#39;)" tabindex="-1">
+                                    Transactions
+                                </a><ul class="level3 dropdown-menu dynamic" id="ctl00_mainMenu:submenu:23" style="display: none; position: absolute; top: 0px; left: 100%;">
+				<li role="menuitem" class="dynamic" style="position: relative;"><a class="level3 dynamic" href="https://mis.geca.ac.in/Itle/Selectcourse.aspx?pageno=1445" tabindex="-1">
+                                    Select Course
+                                </a></li>
+			</ul></li><li class="has-popup dynamic" aria-haspopup="ctl00_mainMenu:submenu:26" role="menuitem" style="position: relative;"><a class="popout level2 dynamic" href="https://mis.geca.ac.in/ACADEMIC/iitmszu8uZmOGmDmiR0SGCP8xA/+A+IgRCahb0O5D+ztFxvjl59SBRzPKG7mPm99mBzyZI2uViAVAy90WV523mLwheg==?enc=M1EsHDAeRhaekcwzmtddkmx2+8FntJw58ONYLEISEsQ=#" onclick="__doPostBack(&#39;ctl00$mainMenu&#39;,&#39;E-LEARNING\\View&#39;)" tabindex="-1">
+                                    View
+                                </a><ul class="level3 dropdown-menu dynamic" id="ctl00_mainMenu:submenu:26" style="display: none; position: absolute; top: 0px; left: 100%;">
+				<li role="menuitem" class="dynamic" style="position: relative;"><a class="level3 dynamic" href="https://mis.geca.ac.in/Itle/StudTest.aspx?pageno=1476" tabindex="-1">
+                                    View Exam
+                                </a></li>
+			</ul></li>
+		</ul></li><li class="has-popup static" aria-haspopup="ctl00_mainMenu:submenu:30" role="menuitem" style="position: relative; float: left;"><a class="popout level1 static" href="https://mis.geca.ac.in/ACADEMIC/iitmszu8uZmOGmDmiR0SGCP8xA/+A+IgRCahb0O5D+ztFxvjl59SBRzPKG7mPm99mBzyZI2uViAVAy90WV523mLwheg==?enc=M1EsHDAeRhaekcwzmtddkmx2+8FntJw58ONYLEISEsQ=#" onclick="__doPostBack(&#39;ctl00$mainMenu&#39;,&#39;HOSTEL&#39;)" tabindex="-1">
+                                    HOSTEL
+                                </a><ul class="level2 dropdown-menu dynamic" id="ctl00_mainMenu:submenu:30" style="display: none; position: absolute; top: 100%; left: 0px;">
+			<li class="has-popup dynamic" aria-haspopup="ctl00_mainMenu:submenu:31" role="menuitem" style="position: relative;"><a class="popout level2 dynamic" href="https://mis.geca.ac.in/ACADEMIC/iitmszu8uZmOGmDmiR0SGCP8xA/+A+IgRCahb0O5D+ztFxvjl59SBRzPKG7mPm99mBzyZI2uViAVAy90WV523mLwheg==?enc=M1EsHDAeRhaekcwzmtddkmx2+8FntJw58ONYLEISEsQ=#" onclick="__doPostBack(&#39;ctl00$mainMenu&#39;,&#39;HOSTEL\\Transaction&#39;)" tabindex="-1">
+                                    Transaction
+                                </a><ul class="level3 dropdown-menu dynamic" id="ctl00_mainMenu:submenu:31" style="display: none; position: absolute; top: 0px; left: 100%;">
+				<li role="menuitem" class="dynamic" style="position: relative;"><a class="level3 dynamic" href="https://mis.geca.ac.in/HOSTEL?pageno=1074" tabindex="-1">
+                                    Online Apply Hostel
+                                </a></li>
+			</ul></li>
+		</ul></li>
+	</ul>
+</div><div style="clear: left;"></div><a id="ctl00_mainMenu_SkipLink"></a>
+                        </div>
+                    </div>
+
+                    <div class="navbar-custom-menu">
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <div class="search-box">
+                                    <div class="cross-btn">
+                                        
+                                        <i class="fa fa-times-circle" aria-hidden="true"></i>
+                                    </div>
+                                    <input type="search" class="live-search-box" placeholder="search">
+                                    <div class="live-search-area scrollbar">
+                                        <div class="jj"></div>
+                                        
+                                            
+                                          
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="dropdown user user-menu">
+                                <a href="https://mis.geca.ac.in/ACADEMIC/iitmszu8uZmOGmDmiR0SGCP8xA/+A+IgRCahb0O5D+ztFxvjl59SBRzPKG7mPm99mBzyZI2uViAVAy90WV523mLwheg==?enc=M1EsHDAeRhaekcwzmtddkmx2+8FntJw58ONYLEISEsQ=#" class="dropdown-toggle" data-toggle="dropdown">
+                                    
+                                    <img id="ctl00_imgDash" class="user-image" alt="User Image" src="./geca-payment_files/showimage.aspx">
+                                    <span class="hidden-xs"> <i class="fa fa-chevron-circle-down"></i></span>
+                                </a>
+                                <ul class="dropdown-menu" style="background-color: silver; background: #fff;">
+                                    <li class="user-header" style="background-color: #385495; height: 145px; background: #fff; margin-top: -1px">
+                                        <img id="ctl00_imgPhoto" class="img-circle" alt="User Image" src="./geca-payment_files/showimage.aspx">
+                                        <p>
+                                            <span style="color: #000">
+                                                <span id="ctl00_lblLink">Welcome JAYASHREE BHAGWAT PATIL</span></span>
+                                        </p>
+                                        
+                                    </li>
+                                    <!-- Menu Body -->
+                                    <li class="user-body" style="background-color: #f9f9f9;">
+                                        <div class="row">
+
+                                            <div class="col-xs-12 text-center">
+                                                <a href="https://mis.geca.ac.in/changePassword.aspx" id="ctl00_A1" class="btn btn-primary" style="font-style: oblique;">Change Password</a>
+                                            </div>
+
+                                        </div>
+                                        <!-- /.row -->
+                                    </li>
+                                    <li class="user-footer" style="margin-top: -1px; border-top: 1px solid #ddd">
+                                        <p class="text-center">
+                                            <a id="ctl00_btnHome" class="btn btn-success btn-flat" href="javascript:__doPostBack(&#39;ctl00$btnHome&#39;,&#39;&#39;)" style="display:inline-block;width:100px;">Home</a>
+                                            <a id="ctl00_btnLogout" class="btn btn-warning btn-flat" href="javascript:__doPostBack(&#39;ctl00$btnLogout&#39;,&#39;&#39;)" style="display:inline-block;width:100px;">Log Out</a>
+                                        </p>
+                                        
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                </nav>
+            </header>
+            <div class="content-wrapper">
+                <div class="container">
+                    
+                    <div class="breadcrumb-menu">
+                        <ul class="breadcrumb" style="padding-right: 0">
+                            <li>
+                                <a id="ctl00_LinkButton2" href="javascript:__doPostBack(&#39;ctl00$LinkButton2&#39;,&#39;&#39;)"><i class="fa fa-home text-d-green" style="font-size:15px"></i></a></li>
+                        </ul>
+                        <span id="ctl00_lblpath" style="text-transform: capitalize;"><strong><ul><li>ACADEMIC</li><li>Student Section - Transaction</li><li>Admission Payment/Confirmation</li></ul></strong></span>
+                    </div>
+
+                    
+                    
+                    <section class="content" style="margin-bottom: 50px; padding: 0PX;">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12">
+
+                                
+
+
+
+
+    <title>Government College of Engineering, Aurangabad</title>
+    <link rel="shortcut icon" href="https://mis.geca.ac.in/ACADEMIC/IMAGES/nitS_logo.jpg" type="image/x-icon">
+    
+    <link href="./geca-payment_files/bootstrap.min(1).css" rel="stylesheet">
+    <link href="./geca-payment_files/font-awesome.min(1).css" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
+    <link href="./geca-payment_files/AdminLTE.min(1).css" rel="stylesheet">
+    <link href="./geca-payment_files/_all-skins.min(1).css" rel="stylesheet">
+    <link href="./geca-payment_files/customcss(1).css" rel="stylesheet">
+    <link href="./geca-payment_files/animate.min(1).css" rel="stylesheet">
+    <link href="./geca-payment_files/dataTables.bootstrap(1).css" rel="stylesheet">
+     <script src="./geca-payment_files/jquery.js.download" type="text/javascript"></script>
+    <script src="./geca-payment_files/jQuery-2.2.0.min.js(1).download"></script>
+    <script src="./geca-payment_files/bootstrap.min.js(1).download"></script>
+    <script src="./geca-payment_files/jquery.dataTables.min.js(1).download"></script>
+    <script src="./geca-payment_files/dataTables.bootstrap.min.js(1).download"></script>
+    <script src="./geca-payment_files/jquery.slimscroll.min.js(1).download"></script>
+    <script src="./geca-payment_files/fastclick.js(1).download"></script>
+    <script src="./geca-payment_files/jquery.flot.min.js.download"></script>
+    <script src="./geca-payment_files/jquery.flot.resize.min.js.download"></script>
+    <script src="./geca-payment_files/jquery.flot.pie.min.js.download"></script>
+    <script src="./geca-payment_files/jquery.flot.categories.min.js.download"></script>
+    <script src="./geca-payment_files/app.min.js.download"></script>
+
+    <style type="text/css">
+        .form-control
+        {
+            border-radius: 0;
+            box-shadow: none;
+            border-color: #d2d6de;
+        }
+
+        ceDateOfBirth_container{
+           
+                 z-index: 100;
+        }
+        .uppercase
+{
+    text-transform: uppercase;
+}
+  .head-new {
+   background: #ef9847 none repeat scroll 0 0;
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    height: 40px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    padding-left: 15px;
+    padding-top: 10px;
+    position: relative;
+     }
+
+    </style>
+
+
+   
+    
+    
+        
+            
+            <div style="z-index: 1; position: absolute; top: 10%; left: 40%;">
+                <div id="ctl00_ContentPlaceHolder1_UpdateProgress1" style="display:none;" role="status" aria-hidden="true">
+	
+                        <div style="width: 120px; padding-left: 5px">
+                            <i class="fa fa-refresh fa-spin" style="font-size: 50px"></i>
+                            <p class="text-success"><b>Loading..</b></p>
+                        </div>
+                    
+</div>
+            </div>
+
+        <div class="container-fluid" style="margin: 15px">
+            <div class="row bg_row">
+
+                <div class="col-md-12">
+                    <div id="ctl00_ContentPlaceHolder1_updStudentInfo">
+	
+
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="box box-warning"> 
+                                       
+                                        <div class="box-header with-border" style="padding-left: 25px; padding-right: 25px; margin-top: -20px">
+                                            <h3 class="head-new">STUDENT ADMISSION FORM</h3>
+                                            
+                                        </div>
+                                           
+
+                                      
+
+                                        <div style="color: Red; font-weight: bold">
+                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Note : * Marked fields are mandatory
+                                        </div>
+                                        <div class="box-body">
+                                            <div class="form-group col-md-12">
+
+                                                
+
+                                            </div>
+
+                                            <panel id="ctl00_ContentPlaceHolder1_pnlStudInfo">
+                                         <div id="ctl00_ContentPlaceHolder1_studdetails">
+                                    <div class="col-md-12  well well-sm bg-lighten-blue" style="margin-left: 0; border-top-color:orange;">
+                                        <fieldset>
+                                            <legend>Student Information
+                            <div class="box-tools pull-right">
+                                <img id="img1" style="cursor: pointer;" alt="" src="./geca-payment_files/collapse_blue.jpg" onclick="javascript:toggleExpansion(this,&#39;divStudentInfo&#39;)">
+                            </div>
+                                            </legend>
+                                            <div class="col-md-12" id="divStudentInfo" style="display: block;">
+                                                <div style="display: block;" class="col-md-12">
+
+                                                    <div id="ctl00_ContentPlaceHolder1_dvFullName" class="form-group col-md-4">
+
+                                                        <label>Student Name</label>
+                                                        <input name="ctl00$ContentPlaceHolder1$lblName" type="text" value="JAYASHREE BHAGWAT PATIL" id="ctl00_ContentPlaceHolder1_lblName" disabled="disabled" class="aspNetDisabled form-control">
+                                                         <span id="ctl00_ContentPlaceHolder1_RequiredFieldValidator13" style="display:none;"></span>
+                                                    </div>
+
+                                                    
+
+                                                    
+
+                                                    <div class="form-group col-md-4" style="display: none">
+                                                        <label>Enrollment No.<span style="color: red">*</span></label>
+                                                        <input name="ctl00$ContentPlaceHolder1$lblRegNo" type="text" id="ctl00_ContentPlaceHolder1_lblRegNo" class="form-control">
+                                                        <span id="ctl00_ContentPlaceHolder1_RequiredFieldValidator6" style="display:none;"></span>
+                                                    </div>
+
+                                                    <div id="ctl00_ContentPlaceHolder1_dvBranch" class="form-group col-md-4">
+                                                        <label>Branch</label>
+                                                        <input name="ctl00$ContentPlaceHolder1$lblBranch" type="text" value="COMPUTER SCIENCE AND ENGINEERING" id="ctl00_ContentPlaceHolder1_lblBranch" disabled="disabled" class="aspNetDisabled form-control">
+                                                        <span id="ctl00_ContentPlaceHolder1_RequiredFieldValidator12" style="display:none;"></span>
+                                                    </div>
+
+                                                    
+
+                                                    
+
+                                                    
+                                                    <div id="ctl00_ContentPlaceHolder1_dvCategory" class="form-group col-md-4">
+                                                        <label>Category<span style="color: red"></span></label>
+                                                        <select name="ctl00$ContentPlaceHolder1$ddlCategory" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$ContentPlaceHolder1$ddlCategory\&#39;,\&#39;\&#39;)&#39;, 0)" id="ctl00_ContentPlaceHolder1_ddlCategory" disabled="disabled" class="aspNetDisabled form-control">
+		<option value="0">Please Select</option>
+		<option value="9">DT/VJ</option>
+		<option value="13">EBC</option>
+		<option value="12">EWS</option>
+		<option value="3">NT-B</option>
+		<option value="4">NT-C</option>
+		<option value="5">NT-D</option>
+		<option selected="selected" value="2">OBC</option>
+		<option value="1">OPEN</option>
+		<option value="10">OTHER</option>
+		<option value="8">SBC</option>
+		<option value="6">SC</option>
+		<option value="11">SEBC</option>
+		<option value="7">ST</option>
+
+	</select>
+                                                        
+                                                    </div>
+                                                     <div class="form-group col-md-4" style="display:none">
+                                        <label><span style="color:red;">*</span> Student Mobile No.</label>
+                                        <input name="ctl00$ContentPlaceHolder1$txtStudMobile" type="text" value="7743803718" maxlength="10" id="ctl00_ContentPlaceHolder1_txtStudMobile" class="form-control" onkeyup="validateNumeric(this);">
+                                        <span id="ctl00_ContentPlaceHolder1_rfvtxtStudMobile" style="display:none;"></span>
+                                    </div>
+
+                                                     
+                                                    <div id="ctl00_ContentPlaceHolder1_dvPayableAmt" class="form-group  col-md-2">
+                                                        <label>Total Payable Fees</label>
+                                                        <input name="ctl00$ContentPlaceHolder1$txtPayableFees" type="text" value="0" id="ctl00_ContentPlaceHolder1_txtPayableFees" disabled="disabled" class="aspNetDisabled form-control">
+                                                        <span id="ctl00_ContentPlaceHolder1_RequiredFieldValidator11" style="display:none;"></span>
+                                                    </div>
+                                                    <div class="form-group  col-md-4">
+                                                        <label>Select Payment mode</label>
+                                                        <table id="ctl00_ContentPlaceHolder1_rdSelect">
+		<tbody><tr>
+			<td><input id="ctl00_ContentPlaceHolder1_rdSelect_0" type="radio" name="ctl00$ContentPlaceHolder1$rdSelect" value="0" checked="checked"><label for="ctl00_ContentPlaceHolder1_rdSelect_0">Full Paying</label></td><td><input id="ctl00_ContentPlaceHolder1_rdSelect_1" type="radio" name="ctl00$ContentPlaceHolder1$rdSelect" value="1" onclick="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$ContentPlaceHolder1$rdSelect$1\&#39;,\&#39;\&#39;)&#39;, 0)"><label for="ctl00_ContentPlaceHolder1_rdSelect_1">Half Paying</label></td>
+		</tr>
+	</tbody></table>
+                                                    </div>
+                                                     <div class="form-group  col-md-2">
+                                                        <label>Total Fees to paid</label>
+                                                        <input name="ctl00$ContentPlaceHolder1$txtFee" type="text" value="0" id="ctl00_ContentPlaceHolder1_txtFee" disabled="disabled" class="aspNetDisabled form-control">
+                                                        <span id="ctl00_ContentPlaceHolder1_RequiredFieldValidator3" style="display:none;"></span>
+                                                    </div>
+                                                    <div class="col-md-12" style="margin-top:25px">
+                                                     <p class="text-center">
+                                           
+                                                         <input type="submit" name="ctl00$ContentPlaceHolder1$btnOnlinePayment" value="Online Payment" id="ctl00_ContentPlaceHolder1_btnOnlinePayment" disabled="disabled" class="aspNetDisabled btn btn-success">
+                                                         
+                                                         <input type="submit" name="ctl00$ContentPlaceHolder1$btnReport" value="Report" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$btnReport&quot;, &quot;&quot;, true, &quot;SHOW&quot;, &quot;&quot;, false, false))" id="ctl00_ContentPlaceHolder1_btnReport" class="btn btn-success">
+                                                          
+
+                                        
+                                        </p><div id="ctl00_ContentPlaceHolder1_ValidationSummary2" style="display:none;">
+
+	</div>
+                                  </div>  <p></p>
+                                                </div>
+
+
+
+                                                <div class="col-md-12">
+
+                                                    
+
+                                                    
+
+                                                    
+
+                                                    
+                                                    
+
+                                                    
+
+                                                    
+                                                   
+                                                    
+                                                    
+
+
+                                                    
+
+                                                    
+
+                                                    
+
+                                                    
+
+                                                    
+
+                                                    <div class="form-group col-md-4"></div>
+                                                    
+                                                </div>
+                                            </div>
+                                            
+                                    </fieldset></div>
+                                         </div>
+                                         </panel>
+                                        </div>
+
+                                        
+                                        <div class="box-footer">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        
+</div>
+                    
+                </div>
+            </div>
+            
+          
+           
+          
+         
+           
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script type="text/javascript" language="javascript">
+
+            /* To collapse and expand page sections */
+            function toggleExpansion(imageCtl, divId) {
+                if (document.getElementById(divId).style.display == "block") {
+                    document.getElementById(divId).style.display = "none";
+                    imageCtl.src = "../IMAGES/expand_blue.jpg";
+                }
+                else if (document.getElementById(divId).style.display == "none") {
+                    document.getElementById(divId).style.display = "block";
+                    imageCtl.src = "../IMAGES/collapse_blue.jpg";
+                }
+            }
+
+            function validateNumeric(txt) {
+                if (isNaN(txt.value)) {
+                    txt.value = '';
+                    alert('Only Numeric Characters Allowed!');
+                    txt.focus();
+                    return;
+                }
+            }
+
+            function LoadImage() {
+                document.getElementById("ctl00_ContentPlaceHolder1_Image1").src = document.getElementById("ctl00_ContentPlaceHolder1_fuPhotoUpload").value;
+                document.getElementById("ctl00_ContentPlaceHolder1_Image1").height = '96px';
+                document.getElementById("ctl00_ContentPlaceHolder1_Image1").width = '96px';
+            }
+        </script>
+
+
+        <script src="http://localhost:63979/JAVASCRIPTS/jquery-1.10.2.min.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            var jq = $.noConflict();
+
+            function ShowpImagePreview(input) {
+                if (input.files && input.files[0]) {
+                    var reader = new FileReader();
+                    reader.onload = function (e) {
+                        jq('#ctl00_ContentPlaceHolder1_Image1').attr('src', e.target.result);
+                    }
+                    reader.readAsDataURL(input.files[0]);
+                }
+            }
+
+        </script>
+        <script language="javascript">
+
+            function TextToUpper() {
+                txtEnrollmentSearch.value = txtEnrollmentSearch.value.toUpper();
+            }
+        </script>
+
+        <div id="ctl00_ContentPlaceHolder1_divMsg"></div>
+    
+       
+
+  
+
+    
+
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <!-- Fix Menu -->
+            <div class="fix-menu">
+                <ul class="list-group">
+                    <li class="list-group-item" title="Dashboard">
+                        <a id="ctl00_LinkButton1" href="javascript:__doPostBack(&#39;ctl00$LinkButton1&#39;,&#39;&#39;)"><i class="fa fa-home"></i></a></li>
+                    <li class="list-group-item" title="Recent Links" data-toggle="modal" data-target="#myModalz"><i class="fa fa-link"></i></li>
+                    <li class="list-group-item" title="Favorite Links" id="Fav_Model"><i class="fa fa-star"></i></li>
+                </ul>
+            </div>
+            <!-- X -->
+            <!--Swayam -->
+            <div class="fix-left-menu rotate">
+                <a href="https://swayam.gov.in/" target="_blank">
+                    <img alt="Swayam" src="./geca-payment_files/swayam_logo.png">
+                </a>
+            </div>
+            <!-- X -->
+            <div class="modal right fade" id="myModalz" role="dialog">
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">×</button>
+                            <h4 class="modal-title">Recent Links</h4>
+                        </div>
+                        <div class="modal-body">
+                            <ul class="list-group">
+                                <li id="ctl00_li1" class="list-group-item"><span><a href="https://mis.geca.ac.in/ACADEMIC/OnlineAdmissionForm.aspx?pageno=1781" id="ctl00_ql1"><i id="ctl00_iql1">Admission Payment/Confirmation</i></a></span></li>
+                                <li id="ctl00_li2" class="list-group-item"><span><a href="https://mis.geca.ac.in/academic/StudentInfoEntry.aspx?pageno=74" id="ctl00_ql2"><i id="ctl00_iql2">Student Information</i></a></span></li>
+                                <li id="ctl00_li3" class="list-group-item"><span><a href="https://mis.geca.ac.in/Itle/Selectcourse.aspx?pageno=1445" id="ctl00_ql3"><i id="ctl00_iql3">Select Course</i></a></span></li>
+                                <li id="ctl00_li4" class="list-group-item"><span><a href="https://mis.geca.ac.in/ACADEMIC/StudentFeedBackAns.aspx?pageno=1412" id="ctl00_ql4"><i id="ctl00_iql4">Student Feedback Answers</i></a></span></li>
+                                <li id="ctl00_li5" class="list-group-item"><span><a href="https://mis.geca.ac.in/ACADEMIC/CourseRegistration.aspx?pageno=84" id="ctl00_ql5"><i id="ctl00_iql5">Course Registration</i></a></span></li>
+                                <li id="ctl00_li6" class="list-group-item"><span><a href="https://mis.geca.ac.in/Academic/Comprehensive_Stud_Report.aspx?pageno=76" id="ctl00_ql6"><i id="ctl00_iql6">Student Detail search</i></a></span></li>
+                                <li id="ctl00_li7" class="list-group-item"><span><a href="https://mis.geca.ac.in/ACADEMIC/Student_ExamRegistration.aspx?pageno=1746" id="ctl00_ql7"><i id="ctl00_iql7">Exam Registration</i></a></span></li>
+                                <li id="ctl00_li8" class="list-group-item"><span><a href="https://mis.geca.ac.in/Itle/StudTest.aspx?pageno=1476" id="ctl00_ql8"><i id="ctl00_iql8">View Exam</i></a></span></li>
+                                <li id="ctl00_li9" class="list-group-item"><span><a href="https://mis.geca.ac.in/HOSTEL?pageno=1074" id="ctl00_ql9"><i id="ctl00_iql9">Online Apply Hostel</i></a></span></li>
+                                <li id="ctl00_li10" class="list-group-item"><span><a href="https://mis.geca.ac.in/ACADEMIC/EXAMINATION/StudentExamAdmitCardReport.aspx?pageno=1655" id="ctl00_ql10"><i id="ctl00_iql10">Exam Hall Ticket Generation</i></a></span></li>
+                            </ul>
+                        </div>
+                        <div class="modal-footer">
+                            
+                            <button type="button" class="btn btn-danger Close-btn" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Favorites -->
+            
+            <div class="modal right fade" id="myModal_1" role="dialog">
+                <div id="ctl00_updPopUp_Link">
+	
+                        <div class="modal-dialog">
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <div class="pull-right flex">
+
+                                        
+                                        <button type="button" class="close" data-dismiss="modal">×</button>
+                                    </div>
+                                    <div class="pull-left">
+                                        <h4 class="modal-title">Favorites</h4>
+                                    </div>
+                                </div>
+                                <div id="ctl00_divFavorite" class="modal-body with-fav-sticker-links">
+                                
+                                    <input type="text" class="live-search-box-1" placeholder="Search Here">
+                                        <ul class="list-group live-search">
+                                </ul></div>
+                                <div class="modal-footer">
+                                    
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    
+</div>
+            </div>
+            <!-- END -->
+            <div class="content-wrapper">
+                <div class="container">
+                    <section class="content" style="margin-bottom: 25px; padding: 0PX;">
+                        <div class="row" style="margin-top: 3%">
+                            <div class="col-md-12 col-sm-12">
+                                <br>
+                                
+                                
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <footer class="main-footer navbar-fixed-bottom" style="text-align: center">
+                <strong>Designed and Developed By:<a href="http://www.iitms.co.in/" target="_blank"> MasterSoft</a> Copyright © 2016.</strong> All rights reserved.              
+            </footer>
+        </div></form><iframe id="ssIFrame_google" sandbox="allow-scripts allow-same-origin" aria-hidden="true" frame-border="0" style="position: absolute; width: 1px; height: 1px; inset: -9999px; display: none;" src="./geca-payment_files/iframe.html"></iframe>
+        <!--Internet Connection Patches Mahesh Dt.09-09-2020-->
+        <div id="ctl00_uplInterNetConnectionCheck" style="display: none">
+	
+                <a id="ctl00_lnkInternetCheckModelPopup" href="javascript:__doPostBack(&#39;ctl00$lnkInternetCheckModelPopup&#39;,&#39;&#39;)"></a>
+
+                
+                <div id="ctl00_pnlmpeInternetCheckModelPopup" class="InternetCheckModelPopup" style="display: none; position: fixed; z-index: 100001;">
+		
+                    <div>
+                        
+                        
+                        <img id="ctl00_Image2" src="./geca-payment_files/NoInternet.png">
+                    </div>
+                
+	</div>
+
+                <style>
+                    .InternetCheckModelPopups {
+                        background-color: #FFFFFF;
+                        padding: 0;
+                    }
+                </style>
+            
+<div id="mpeInternetCheckModelPopup_backgroundElement" class="modalBackground" style="display: none; position: fixed; left: 0px; top: 0px; z-index: 10000;"></div></div>
+
+
+
+        <script type="text/javascript">
+            function CheckNetConnection() {
+
+                setInterval(NetConnection, 1000);
+            }
+
+            function NetConnection() {
+                var x = navigator.onLine;
+                if (x == true) {
+                    document.getElementById("ctl00_uplInterNetConnectionCheck").style.display = "none";
+                    $find("mpeInternetCheckModelPopup").hide();
+                }
+                else if (x == false) {
+                    document.getElementById("ctl00_uplInterNetConnectionCheck").style.display = "block";
+                          $find("mpeInternetCheckModelPopup").show();
+                      }
+              }
+        </script>
+
+        <footer class="main-footer navbar-fixed-bottom" style="text-align: center">
+            <strong>Designed and Developed By:<a href="http://www.iitms.co.in/" target="_blank"> MasterSoft</a> Copyright © 2016.</strong> All rights reserved.
+               
+        </footer>
+
+
+        
+
+
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $("#myBtn").click(function () {
+                    $("#myModal").modal();
+                });
+            });
+        </script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                var script = document.createElement('script')
+                script.setAttribute("type", "text/javascript")
+
+                document.getElementsByTagName("body")[0].appendChild(script);
+                $('nav ul.navbar-nav li').each(function () {
+                    $(this).find('.popout').append('<span class="caret"></span>');
+                    $(this).find('ul .popout span').addClass("arrow-right");
+                    var $arrow = $(this).find('.popout span:nth-of-type(n+2)');
+                    $($arrow).hide();
+                });
+            });
+
+        </script>
+
+        <script type="text/javascript">
+            function DisableBackButton() {
+                window.history.forward()
+            }
+            DisableBackButton();
+            window.onload = DisableBackButton;
+            window.onpageshow = function (evt) { if (evt.persisted) DisableBackButton() }
+            window.onunload = function () { void (0) }
+        </script>
+        
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('a:not(.popout).dynamic').parent('li').css({ 'display': 'flex' });
+                $('a:not(.popout).dynamic').parent('li').append('<i class="fa fa-star"></i>');
+                var UA_No = '3212';
+                     //-------------------------------------------------------------------
+                     $.ajax({
+                         url: '/WEB_API/Add_Fav_Links.asmx/Get_Active_FavLink',
+                         data: { UA_NO: UA_No },
+                         type: 'POST',
+                         dataType: 'text',
+                         success: function (r) {
+                             var json = "{" + r.split("{")[1].split("}")[0] + "}";
+                             var obj = jQuery.parseJSON(json);
+                             var i, j;
+                             for (i = 0; i < obj.data.split(",").length; i++) {
+
+                                 $('li.dynamic').find('.fa').each(function (z, objz) {
+                                     var link = $(this).prev().attr('href');
+
+                                     var LinkNo = link.match("pageno=(.*)&");
+                                     if (LinkNo == null) {
+                                         LinkNo = link.substring(link.lastIndexOf("=") + 1, link.length);
+                                     }
+                                     else {
+                                         LinkNo = LinkNo[1];
+                                     }
+
+                                     if (obj.data.split(",")[i] == LinkNo) {
+                                         $(this).addClass('active');
+                                     }
+                                 });
+                             }
+                         },
+                         error: function (e) {
+                             alert('Something went Wrong !!!');
+                         }
+                     });
+                     //----------------------------------------------------------------------
+
+                     $('li.dynamic').find('.fa').click(function () {
+                         debugger;
+                         $(this).toggleClass('active');
+                         var link = $(this).prev().attr('href');
+
+                         var LinkNo = link.match("pageno=(.*)&");
+                         if (LinkNo == null) {
+                             LinkNo = link.substring(link.lastIndexOf("=") + 1, link.length);
+                         }
+                         else {
+                             LinkNo = LinkNo[1];
+                         }
+                         var col = $(this).css("color");
+                         var color = '';
+                         //Find Color of Active Element
+                         hexc(col);
+                         //Web Api Call
+                         if (color == '#e47737') {
+                             $.ajax({
+                                 url: '/WEB_API/Add_Fav_Links.asmx/Add_FavLink',
+                                 data: { UA_NO: UA_No, LINK_NO: LinkNo, OTYPE: 1 },
+                                 type: 'POST',
+                                 dataType: 'text',
+                                 success: function (r) {
+                                     var json = "{" + r.split("{")[1].split("}")[0] + "}";
+                                     var obj = jQuery.parseJSON(json);
+                                 },
+                                 error: function (err) {
+                                     alert('Something went Wrong !!!');
+                                 }
+                             });
+                         }
+                         else if (color == '#a6a6a6') {
+                             $.ajax({
+                                 url: '/WEB_API/Add_Fav_Links.asmx/Add_FavLink',
+                                 data: { UA_NO: UA_No, LINK_NO: LinkNo, OTYPE: 2 },
+                                 type: 'POST',
+                                 dataType: 'text',
+                                 success: function (r) {
+                                     var json = "{" + r.split("{")[1].split("}")[0] + "}";
+                                     var obj = jQuery.parseJSON(json);
+                                 },
+                                 error: function (err) {
+                                     alert('Something went Wrong !!!');
+                                 }
+                             });
+                             }
+                         // RGB to HEX Converter
+                         function hexc(colorval) {
+                             var parts = colorval.match(/^rgb\((\d+),\s*(\d+),\s*(\d+)\)$/);
+                             delete (parts[0]);
+                             for (var i = 1; i <= 3; ++i) {
+                                 parts[i] = parseInt(parts[i]).toString(16);
+                                 if (parts[i].length == 1) parts[i] = '0' + parts[i];
+                             }
+                             color = '#' + parts.join('');
+                         }
+                         //end
+                     });
+                 });
+        </script>
+        
+
+        
+        <script>
+            $(document).ready(function () {
+                $("#Fav_Model").click(function () {
+
+                    var UA_No = '3212';
+
+                         $.ajax({
+                             url: '/WEB_API/Add_Fav_Links.asmx/Get_FavLink',
+                             data: { UA_NO: UA_No },
+                             type: 'POST',
+                             dataType: 'text',
+                             success: function (r) {
+                                 if ($("#DynamicDiv").length != 0) {
+                                     $("#DynamicDiv").remove();
+                                 }
+
+                                 var json = "{" + r.split("{")[1].split("}")[0] + "}";
+                                 var obj = jQuery.parseJSON(json);
+                                 var x = "<div id='DynamicDiv'>" + obj.data + "</div>";
+                                 x = x.replace(/&lt;/g, "<");
+                                 x = x.replace(/&gt;/g, ">");
+                                 x = x.replace(/&amp;/g, "&")
+
+                                 if (x == "<div id='DynamicDiv'><ul class='list-group live-search'></div>") {
+                                     $('#ctl00_divFavorite').html('<span><center><h3 style="font-family: ptsans, sans-serif;margin-top: 50%;color:#3498DB"><i class="fa fa-star-half-o" aria-hidden="true"></i><br>No Favorite Links Added !!</h1></center></span>');
+                                 }
+                                 else {
+                                     $('#ctl00_divFavorite').html(x);
+                                 }
+                             },
+                             error: function (e) {
+                                 alert('No Favorite Link Added !!!');
+                             }
+                         });
+
+                         $('#myModal_1').modal('toggle');
+                     });
+                 });
+        </script>
+        
+
+        
+        <script>
+
+            function DeleteFavLinks(ele) {
+                debugger;
+                var UA_No = '3212';
+                     var link = $(ele).prev().attr("href");
+
+                     var LinkNo = link.match("pageno=(.*)&");
+                     if (LinkNo == null) {
+                         LinkNo = link.substring(link.lastIndexOf("=") + 1, link.length);
+                     }
+                     else {
+                         LinkNo = LinkNo[1];
+                     }
+                     //Remove Star from Links
+                     $('li.dynamic').find('.fa').each(function (z, objz) {
+                         var link_d = $(this).prev().attr('href');
+
+                         var LinkNo_d = link_d.match("pageno=(.*)&");
+                         if (LinkNo_d == null) {
+                             LinkNo_d = link_d.substring(link_d.lastIndexOf("=") + 1, link_d.length);
+                         }
+                         else {
+                             LinkNo_d = LinkNo_d[1];
+                         }
+                         //Compairing Page No's
+                         if (LinkNo_d == LinkNo) {
+                             $(this).removeClass('active');
+                         }
+                     });
+                     //End
+
+                     //Delete Links
+                     $.ajax({
+                         url: '/WEB_API/Add_Fav_Links.asmx/Add_FavLink',
+                         data: { UA_NO: UA_No, LINK_NO: LinkNo, OTYPE: 2 },
+                         type: 'POST',
+                         dataType: 'text',
+                         success: function (r) {
+                             var json = "{" + r.split("{")[1].split("}")[0] + "}";
+                             var obj = jQuery.parseJSON(json);
+                         },
+                         error: function (err) {
+                             alert('Something went Wrong !!!');
+                         }
+                     });
+                     //End
+
+                     //Get Links
+                     var UL_Length = $(ele).closest('ul').children().length;
+                     if (UL_Length == 1) {
+                         $(ele).closest('ul').prev().closest('li').remove();
+                         $(ele).closest('ul').prev().remove();
+                         if ($('#DynamicDiv ul').length == 1) {
+                             $('#ctl00_divFavorite').html('<span><center><h3 style="font-family: ptsans, sans-serif;margin-top: 50%;color:#3498DB"><i class="fa fa-star-half-o" aria-hidden="true"></i><br>No Favorite Links Added !!</h1></center></span>');
+                         }
+                     }
+                     else {
+                         $(ele).parent().remove();
+                     }
+                     //End
+                 }
+        </script>
+        
+        
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('.breadcrumb-menu').find('ul').addClass('breadcrumb');
+                $('.breadcrumb-menu').find('li').addClass('element');
+                $('.breadcrumb-menu').find('li:eq(0)').removeClass('element').css({ 'color': 'blue !important' });
+                $('.element').text(function (_, txt) {
+                    return txt.charAt(0).toUpperCase() + txt.slice(1).toLowerCase();
+                });
+            });
+        </script>
+        
+    
+<script type="text/javascript">
+//<![CDATA[
+var Page_ValidationSummaries =  new Array(document.getElementById("ctl00_ContentPlaceHolder1_ValidationSummary2"));
+var Page_Validators =  new Array(document.getElementById("ctl00_ContentPlaceHolder1_RequiredFieldValidator13"), document.getElementById("ctl00_ContentPlaceHolder1_RequiredFieldValidator6"), document.getElementById("ctl00_ContentPlaceHolder1_RequiredFieldValidator12"), document.getElementById("ctl00_ContentPlaceHolder1_rfvtxtStudMobile"), document.getElementById("ctl00_ContentPlaceHolder1_RequiredFieldValidator11"), document.getElementById("ctl00_ContentPlaceHolder1_RequiredFieldValidator3"));
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+var ctl00_ContentPlaceHolder1_RequiredFieldValidator13 = document.all ? document.all["ctl00_ContentPlaceHolder1_RequiredFieldValidator13"] : document.getElementById("ctl00_ContentPlaceHolder1_RequiredFieldValidator13");
+ctl00_ContentPlaceHolder1_RequiredFieldValidator13.controltovalidate = "ctl00_ContentPlaceHolder1_lblName";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator13.focusOnError = "t";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator13.errormessage = "Please Enter Student Full Name";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator13.display = "None";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator13.validationGroup = "SHOW";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator13.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator13.initialvalue = "";
+var ctl00_ContentPlaceHolder1_RequiredFieldValidator6 = document.all ? document.all["ctl00_ContentPlaceHolder1_RequiredFieldValidator6"] : document.getElementById("ctl00_ContentPlaceHolder1_RequiredFieldValidator6");
+ctl00_ContentPlaceHolder1_RequiredFieldValidator6.controltovalidate = "ctl00_ContentPlaceHolder1_lblRegNo";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator6.focusOnError = "t";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator6.errormessage = "Please Enter Valid Enrollment No.";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator6.display = "None";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator6.validationGroup = "Submit";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator6.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator6.initialvalue = "";
+var ctl00_ContentPlaceHolder1_RequiredFieldValidator12 = document.all ? document.all["ctl00_ContentPlaceHolder1_RequiredFieldValidator12"] : document.getElementById("ctl00_ContentPlaceHolder1_RequiredFieldValidator12");
+ctl00_ContentPlaceHolder1_RequiredFieldValidator12.controltovalidate = "ctl00_ContentPlaceHolder1_lblBranch";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator12.focusOnError = "t";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator12.errormessage = "Please Enter Branch Name";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator12.display = "None";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator12.validationGroup = "SHOW";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator12.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator12.initialvalue = "0";
+var ctl00_ContentPlaceHolder1_rfvtxtStudMobile = document.all ? document.all["ctl00_ContentPlaceHolder1_rfvtxtStudMobile"] : document.getElementById("ctl00_ContentPlaceHolder1_rfvtxtStudMobile");
+ctl00_ContentPlaceHolder1_rfvtxtStudMobile.controltovalidate = "ctl00_ContentPlaceHolder1_txtStudMobile";
+ctl00_ContentPlaceHolder1_rfvtxtStudMobile.focusOnError = "t";
+ctl00_ContentPlaceHolder1_rfvtxtStudMobile.errormessage = "Please Enter Mobile No. ";
+ctl00_ContentPlaceHolder1_rfvtxtStudMobile.display = "None";
+ctl00_ContentPlaceHolder1_rfvtxtStudMobile.enabled = "False";
+ctl00_ContentPlaceHolder1_rfvtxtStudMobile.validationGroup = "SHOW";
+ctl00_ContentPlaceHolder1_rfvtxtStudMobile.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+ctl00_ContentPlaceHolder1_rfvtxtStudMobile.initialvalue = "";
+var ctl00_ContentPlaceHolder1_RequiredFieldValidator11 = document.all ? document.all["ctl00_ContentPlaceHolder1_RequiredFieldValidator11"] : document.getElementById("ctl00_ContentPlaceHolder1_RequiredFieldValidator11");
+ctl00_ContentPlaceHolder1_RequiredFieldValidator11.controltovalidate = "ctl00_ContentPlaceHolder1_txtPayableFees";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator11.focusOnError = "t";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator11.errormessage = "Payable Amount Not Found";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator11.display = "None";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator11.validationGroup = "SHOW";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator11.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator11.initialvalue = "";
+var ctl00_ContentPlaceHolder1_RequiredFieldValidator3 = document.all ? document.all["ctl00_ContentPlaceHolder1_RequiredFieldValidator3"] : document.getElementById("ctl00_ContentPlaceHolder1_RequiredFieldValidator3");
+ctl00_ContentPlaceHolder1_RequiredFieldValidator3.controltovalidate = "ctl00_ContentPlaceHolder1_txtFee";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator3.focusOnError = "t";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator3.errormessage = "Payable Amount Not Found";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator3.display = "None";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator3.validationGroup = "SHOW";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator3.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator3.initialvalue = "";
+var ctl00_ContentPlaceHolder1_ValidationSummary2 = document.all ? document.all["ctl00_ContentPlaceHolder1_ValidationSummary2"] : document.getElementById("ctl00_ContentPlaceHolder1_ValidationSummary2");
+ctl00_ContentPlaceHolder1_ValidationSummary2.showmessagebox = "True";
+ctl00_ContentPlaceHolder1_ValidationSummary2.showsummary = "False";
+ctl00_ContentPlaceHolder1_ValidationSummary2.displaymode = "List";
+ctl00_ContentPlaceHolder1_ValidationSummary2.validationGroup = "SHOW";
+//]]>
+</script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+CheckNetConnection();//]]>
+</script>
+<script type="text/javascript">new Sys.WebForms.Menu({ element: 'ctl00_mainMenu', disappearAfter: 500, orientation: 'horizontal', tabIndex: 0, disabled: false });</script>
+<script type="text/javascript">
+//<![CDATA[
+
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        
+(function(id) {
+    var e = document.getElementById(id);
+    if (e) {
+        e.dispose = function() {
+            Array.remove(Page_ValidationSummaries, document.getElementById(id));
+        }
+        e = null;
+    }
+})('ctl00_ContentPlaceHolder1_ValidationSummary2');
+Sys.Application.add_init(function() {
+    $create(Sys.UI._UpdateProgress, {"associatedUpdatePanelId":"ctl00_ContentPlaceHolder1_updStudentInfo","displayAfter":0,"dynamicLayout":true}, null, null, $get("ctl00_ContentPlaceHolder1_UpdateProgress1"));
+});
+
+document.getElementById('ctl00_ContentPlaceHolder1_RequiredFieldValidator13').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('ctl00_ContentPlaceHolder1_RequiredFieldValidator13'));
+}
+
+document.getElementById('ctl00_ContentPlaceHolder1_RequiredFieldValidator6').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('ctl00_ContentPlaceHolder1_RequiredFieldValidator6'));
+}
+
+document.getElementById('ctl00_ContentPlaceHolder1_RequiredFieldValidator12').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('ctl00_ContentPlaceHolder1_RequiredFieldValidator12'));
+}
+
+document.getElementById('ctl00_ContentPlaceHolder1_rfvtxtStudMobile').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('ctl00_ContentPlaceHolder1_rfvtxtStudMobile'));
+}
+
+document.getElementById('ctl00_ContentPlaceHolder1_RequiredFieldValidator11').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('ctl00_ContentPlaceHolder1_RequiredFieldValidator11'));
+}
+
+document.getElementById('ctl00_ContentPlaceHolder1_RequiredFieldValidator3').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('ctl00_ContentPlaceHolder1_RequiredFieldValidator3'));
+}
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.ModalPopupBehavior, {"BackgroundCssClass":"modalBackground","OnOkScript":"ResetSession()","PopupControlID":"ctl00_pnlmpeInternetCheckModelPopup","dynamicServicePath":"/ACADEMIC/OnlineAdmissionForm.aspx","id":"mpeInternetCheckModelPopup"}, null, null, $get("ctl00_lnkInternetCheckModelPopup"));
+});
+//]]>
+</script>
+
+
+    
+    
+    
+    
+    <script>
+
+        $('#example').dataTable({
+            "scrollY": "200px",
+            "scrollCollapse": true,
+            "paging": false
+        });
+
+        $("#btnNo").click(function Cancel() {
+            try {
+                Stop();
+            }
+            catch (e) {
+                alert("Error: " + e.description);
+            }
+            return false;
+        })
+
+        function Stop() {
+            var baseUrl = "/default.aspx";
+            window.location = baseUrl;
+        }
+
+    </script>
+
+
+    <script type="text/javascript">
+        setTimeout(function () { f1.submit(); });
+        $(document).bind("contextmenu", function (e) {
+            e.preventDefault();
+        });
+
+        document.onmousedown = disableclick;
+        status = "Right Click Disabled";
+
+        $(document).keydown(function (e) {
+            if (e.which === 123) {
+                return false;
+            }
+        });
+    </script>
+    <script>
+
+        document.onkeydown = function (e) {
+            if (e.keyCode == 123) {
+                return false;
+            }
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+                return false;
+            }
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+                return false;
+            }
+            if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+                return false;
+            }
+
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+                return false;
+            }
+        }
+        document.body.onclick = disableclick()
+
+    </script>
+
+    
+    <script type="text/javascript">
+        $(document).ready(function ($) {
+            //alert('a');
+            $('.jj #ctl00_mainMenu ul li').css({ 'display': 'none' });
+            $('.live-search-list #ctl00_mainMenu').clone().appendTo('.jj');
+
+            $('.jj #ctl00_mainMenu').find('li').each(function () {
+                $(this).attr('data-search-term', $(this).text().toLowerCase());
+                
+            });
+
+            $('body').on('keyup', '.live-search-box', function () {
+                var searchTerm = $(this).val().toLowerCase();
+                $('.jj').find('li').each(function () {
+
+                    if ($(this).filter('[data-search-term *= ' + searchTerm + ']').length > 0 || searchTerm.length < 1) {
+                        $(this).fadeIn();
+                        $('.not-found-txt').css({ 'display': 'block !important' });
+                    } else {
+                        $(this).fadeOut();
+                        $('.not-found-txt').css({ 'display': 'none !important' });
+                    }
+                    return 0;
+                });
+
+                if ($('.live-search-box').val() == '') {
+                    $('.live-search-area').hide();
+                    $(this).removeClass('width210');
+                    $('.cross-btn').fadeOut();
+
+                } else {
+                    $('.live-search-area').show();
+                    $(this).addClass('width210');
+                    $('.cross-btn').fadeIn();
+                }
+            });
+
+            $(".navbar-toggle").click(function () {
+                $(".live-search-box").fadeToggle();
+                $('.cross-btn, .live-search-area').fadeOut();
+            });
+
+            $('body').on('click', '.cross-btn', function () {
+                $('.search-box .live-search-area').hide();
+                $('.live-search-box').val('');
+                $('.live-search-box').removeClass('width210');
+                $('.cross-btn').fadeOut();
+            });
+        });
+
+    </script>
+    
+
+
+</body></html>
